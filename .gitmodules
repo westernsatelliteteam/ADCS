@@ -1,9 +1,9 @@
 [submodule "005-LIBRARY/MAPLIB"]
 	path = 005-LIBRARY/MAPLIB
 	url = git@gitlab.com:mikealger/MAPLIB.git
-[submodule "005-LIBRARY/SIMULINK"]
-	path = 005-LIBRARY/SIMULINK
-	url = git@gitlab.com:mikealger/SIMULINKLIB.git
 [submodule "005-LIBRARY/SPICELIB"]
 	path = 005-LIBRARY/SPICELIB
 	url = git@gitlab.com:mikealger/SPICELIB.git
+[submodule "005-LIBRARY/SIMULINKLIB"]
+	path = 005-LIBRARY/SIMULINKLIB
+	url = git@gitlab.com:mikealger/SIMULINKLIB.git
