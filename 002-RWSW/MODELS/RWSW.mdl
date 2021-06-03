@@ -1,0 +1,4368 @@
+Library {
+  Name			  "RWSW"
+  Version		  9.2
+  SavedCharacterEncoding  "windows-1252"
+  DiagnosticSuppressor	  "on"
+  WebScopes_FoundationPlugin "on"
+  NotesPlugin		  "on"
+  LogicAnalyzerPlugin	  "on"
+  SLCCPlugin		  "on"
+  LibraryType		  "BlockLibrary"
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  LastSavedArchitecture	  "win64"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [8.0, 8.0, 1933.0, 1053.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[1]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Array {
+	Type			"Simulink.EditorInfo"
+	Dimension		2
+	Object {
+	  $ObjectID		  5
+	  IsActive		  [1]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1"
+	  Extents		  [3046.0, 1564.0]
+	  ZoomFactor		  [0.79999999999999982]
+	  Offset		  [-344.41255113900365, -171.27715393891128]
+	}
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [3046.0, 1564.0]
+	  ZoomFactor		  [1.0701107011070108]
+	  Offset		  [-231.68965517241384, -716.08275862068967]
+	}
+	PropName		"EditorsInfo"
+      }
+      Object {
+	$PropName		"DockComponentsInfo"
+	$ObjectID		7
+	$ClassName		"Simulink.DockComponentInfo"
+	Type			"GLUE2:PropertyInspector"
+	ID			"Property Inspector"
+	Visible			[0]
+	CreateCallback		""
+	UserData		""
+	Floating		[0]
+	DockPosition		"Right"
+	Width			[365]
+	Height			[274]
+      }
+      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAADzAAAGfPwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
+      "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQBAAAAVgAABnwAAACpAP///wAAAAEAAAAAAAAAAPwCA"
+      "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
+      "QBjAHQAbwByAAAAAAD/////AAAAYAD///8AAAwlAAAGfAAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
+      "////wEAAADB/////wAAAAAAAAAA/////wEAAAFY/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAHT/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
+    }
+  }
+  HideAutomaticNames	  on
+  Created		  "Tue Jun 14 10:55:39 2016"
+  Creator		  "alger"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "alger"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Tue Aug 06 16:27:39 2019"
+  RTWModifiedTimeStamp	  487009658
+  ModelVersionFormat	  "1.%<AutoIncrement:41>"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowAllPropagatedSignalLabels	off
+  PortDataTypeDisplayFormat "AliasTypeOnly"
+  ShowEditTimeErrors	  on
+  ShowEditTimeWarnings	  on
+  ShowEditTimeAdvisorChecks off
+  ShowPortUnits		  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  VariantCondition	  off
+  ShowSubsystemDomainSpec off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ShowVisualizeInsertedRTB on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  BlockVariantConditionDataTip off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  FunctionConnectors	  off
+  BrowserLookUnderMasks	  off
+  MultiThreadCoSim	  on
+  SimulationMode	  "normal"
+  VisualizeLoggedSignalsWhenLoggingToFile off
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  OrderedModelArguments	  on
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      8
+      Version		      "1.18.1"
+      DisabledProps	      []
+      Description	      ""
+      Array {
+	Type			"Handle"
+	Dimension		10
+	Simulink.SolverCC {
+	  $ObjectID		  9
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  AutoScaleAbsTol	  on
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  EnableMultiTasking	  on
+	  ConcurrentTasks	  off
+	  Solver		  "ode45"
+	  SolverName		  "ode45"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverInfoToggleStatus  off
+	  IsAutoAppliedInSIP	  off
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	  SampleTimeProperty	  []
+	  DecoupledContinuousIntegration off
+	  MinimalZcImpactIntegration off
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  10
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  StreamToWorkspace	  off
+	  StreamVariableName	  "streamout"
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	  LoggingToFile		  off
+	  DatasetSignalFormat	  "timeseries"
+	  LoggingFileName	  "out.mat"
+	  LoggingIntervals	  "[-inf, inf]"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  11
+	  Version		  "1.18.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    8
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  DefaultParameterBehavior "Tunable"
+	  UseDivisionForNetSlopeComputation "off"
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  AdvancedOptControl	  ""
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
+	  ExpressionDepthLimit	  128
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "off"
+	  AccelVerboseBuild	  off
+	  OptimizeBlockOrder	  "off"
+	  OptimizeDataStoreBuffers on
+	  BusAssignmentInplaceUpdate on
+	  DifferentSizesBufferReuse off
+	  OptimizationLevel	  "level2"
+	  OptimizationPriority	  "Balanced"
+	  OptimizationCustomize	  on
+	  UseRowMajorAlgorithm	  off
+	  LabelGuidedReuse	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  12
+	  Version		  "1.18.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "UseOnlyExistingSharedCode"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  StringTruncationChecking "error"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  ExportedTasksRateTransMsg "none"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "error"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  UseOnlyExistingSharedCode "error"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  AllowSymbolicDim	  on
+	  RowMajorDimensionSupport off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  ChecksumConsistencyForSSReuse	"none"
+	  LibraryContextMissingDiagnostic "warning"
+	  MatchCodeGenerationContextForUpdateDiagram "none"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  SymbolicDimMinMaxWarning "warning"
+	  LossOfSymbolicDimsSimulationWarning "warning"
+	  LossOfSymbolicDimsCodeGenerationWarning "error"
+	  SymbolicDimsDataTypeCodeGenerationDiagnostic "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnreachableExecutionPathDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  SFTemporalDelaySmallerThanSampleTimeDiag "warning"
+	  SFSelfTransitionDiag	  "warning"
+	  SFExecutionAtInitializationDiag "none"
+	  SFMachineParentedDataDiag "warning"
+	  IntegerSaturationMsg	  "warning"
+	  AllowedUnitSystems	  "all"
+	  UnitsInconsistencyMsg	  "warning"
+	  AllowAutomaticUnitConversions	on
+	  RCSCRenamedMsg	  "warning"
+	  RCSCObservableMsg	  "warning"
+	  ForceCombineOutputUpdateInSim	off
+	  UnitDatabase		  ""
+	  UnderSpecifiedDimensionMsg "none"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  13
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdBitPerSizeT	  32
+	  ProdBitPerPtrDiffT	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetBitPerSizeT	  32
+	  TargetBitPerPtrDiffT	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	  UseEmbeddedCoderFeatures on
+	  UseSimulinkCoderFeatures on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  14
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  EnableRefExpFcnMdlSchedulingChecks on
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelDependencies	  ""
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  15
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  SimCustomSourceCode	  ""
+	  SimCustomHeaderCode	  ""
+	  SimCustomInitializer	  ""
+	  SimCustomTerminator	  ""
+	  SimReservedNameArray	  []
+	  SimUserSources	  ""
+	  SimUserIncludeDirs	  ""
+	  SimUserLibraries	  ""
+	  SimUserDefines	  ""
+	  SimCustomCompilerFlags  ""
+	  SimCustomLinkerFlags	  ""
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimAnalyzeCustomCode	  off
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	  ModelFunctionsGlobalVisibility "on"
+	  CompileTimeRecursionLimit 50
+	  EnableRuntimeRecursion  on
+	  MATLABDynamicMemAlloc	  on
+	  MATLABDynamicMemAllocThreshold 65536
+	  CustomCodeFunctionArrayLayout	[]
+	  DefaultCustomCodeFunctionArrayLayout "NotSpecified"
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  16
+	  Version		  "1.18.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    16
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    PropName		    "DisabledProps"
+	  }
+	  SystemTargetFile	  "grt.tlc"
+	  HardwareBoard		  "None"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  Description		  ""
+	  GenerateReport	  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  RTWBuildHooks		  []
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomDefine		  ""
+	  CustomBLASCallback	  ""
+	  CustomLAPACKCallback	  ""
+	  CustomFFTCallback	  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  CustomToolchainOptions  []
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation "off"
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  ObjectivePriorities	  []
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      17
+	      Version		      "1.18.1"
+	      Array {
+		Type			"Cell"
+		Dimension		28
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"ReqsInCode"
+		Cell			"CustomSymbolStrModelFcn"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"CustomUserTokenString"
+		Cell			"CustomSymbolStrEmxType"
+		Cell			"CustomSymbolStrEmxFcn"
+		Cell			"BlockCommentType"
+		PropName		"DisabledProps"
+	      }
+	      Description	      ""
+	      Comment		      ""
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      MangleLength	      1
+	      SharedChecksumLength    8
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrModelFcn "$R$N"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      CustomSymbolStrEmxType  "emxArray_$M$N"
+	      CustomSymbolStrEmxFcn   "emx$M$N"
+	      CustomUserTokenString   ""
+	      CustomCommentsFcn	      ""
+	      DefineNamingRule	      "None"
+	      DefineNamingFcn	      ""
+	      ParamNamingRule	      "None"
+	      ParamNamingFcn	      ""
+	      SignalNamingRule	      "None"
+	      SignalNamingFcn	      ""
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      BlockCommentType	      "BlockPathComment"
+	      StateflowObjectComments on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifierFile  ""
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	      ReservedNameArray	      []
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      18
+	      Version		      "1.18.1"
+	      Array {
+		Type			"Cell"
+		Dimension		18
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"RemoveResetFunc"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"CPPClassGenCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"ExistingSharedCode"
+		Cell			"RemoveDisableFunc"
+		Cell			"PreserveStateflowLocalDataDimensions"
+		PropName		"DisabledProps"
+	      }
+	      Description	      ""
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      MultiwordTypeDef	      "System defined"
+	      MultiwordLength	      2048
+	      DynamicStringBufferSize 256
+	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      ExistingSharedCode      ""
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      GroupInternalDataByFunction off
+	      SuppressErrorStatus     off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      PurelyIntegerCode	      off
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      RemoveDisableFunc	      off
+	      RemoveResetFunc	      off
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      PreserveStateflowLocalDataDimensions off
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      MDXCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      UseToolchainInfoCompliant	on
+	      GenerateSharedConstants on
+	      CoderGroups	      []
+	      AccessMethods	      []
+	      LookupTableObjectStructAxisOrder "1,2,3,4,..."
+	      LUTObjectStructOrderExplicitValues "Size,Breakpoints,Table"
+	      LUTObjectStructOrderEvenSpacing "Size,Breakpoints,Table"
+	      ArrayLayout	      "Column-major"
+	      UnsupportedSFcnMsg      "error"
+	      ERTHeaderFileRootName   "$R$E"
+	      ERTSourceFileRootName   "$R$E"
+	      ERTDataFileRootName     "$R_data"
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeMexArgs	      ""
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	SlCovCC.ConfigComp {
+	  $ObjectID		  19
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  "Simulink Coverage Configuration Component"
+	  Name			  "Simulink Coverage"
+	  CovEnable		  off
+	  CovScope		  "EntireSystem"
+	  CovIncludeTopModel	  on
+	  RecordCoverage	  off
+	  CovPath		  "/"
+	  CovSaveName		  "covdata"
+	  CovCompData		  ""
+	  CovMetricSettings	  "dw"
+	  CovFilter		  ""
+	  CovHTMLOptions	  ""
+	  CovNameIncrementing	  off
+	  CovHtmlReporting	  on
+	  CovForceBlockReductionOff on
+	  CovEnableCumulative	  on
+	  CovSaveCumulativeToWorkspaceVar on
+	  CovSaveSingleToWorkspaceVar on
+	  CovCumulativeVarName	  "covCumulativeData"
+	  CovCumulativeReport	  off
+	  CovSaveOutputData	  on
+	  CovOutputDir		  "slcov_output/$ModelName$"
+	  CovDataFileName	  "$ModelName$_cvdata"
+	  CovShowResultsExplorer  on
+	  CovReportOnPause	  on
+	  CovModelRefEnable	  "off"
+	  CovModelRefExcluded	  ""
+	  CovExternalEMLEnable	  off
+	  CovSFcnEnable		  on
+	  CovBoundaryAbsTol	  1e-05
+	  CovBoundaryRelTol	  0.01
+	  CovUseTimeInterval	  off
+	  CovStartTime		  0
+	  CovStopTime		  0
+	  CovMcdcMode		  "Masking"
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  20
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  "HDL Coder custom configuration component"
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    " "
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      ExtraOptions	      ""
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition    [ 430, 225, 1490, 855 ]
+    }
+    PropName		    "ConfigurationSets"
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    HideAutomaticName	    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    MarkupType		    "model"
+    UseDisplayTextAsClickCallback off
+    AnnotationType	    "note_annotation"
+    FixedHeight		    off
+    FixedWidth		    off
+    Interpreter		    "off"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "opaque"
+    RunInitForIconRedraw    "analyze"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      BusCreator
+      DisplayOption	      "none"
+      OutDataTypeStr	      "Inherit: auto"
+      NonVirtualBus	      off
+    }
+    Block {
+      BlockType		      BusSelector
+    }
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      From
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Goto
+      GotoTag		      "A"
+      IconDisplay	      "Tag"
+      TagVisibility	      "local"
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      Unit		      "inherit"
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      Unit		      "inherit"
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      EnsureOutportIsVirtual  off
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+      MustResolveToSignalObject	off
+      OutputWhenUnConnected   off
+      OutputWhenUnconnectedValue "0"
+      VectorParamsAs1DForOutWhenUnconnected off
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      VariantControlMode      "Expression"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      TreatAsGroupedWhenPropagatingVariantConditions on
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
+      IsObserver	      off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
+      IsWebBlockPanel	      off
+    }
+  }
+  System {
+    Name		    "RWSW"
+    Location		    [8, 8, 1941, 1061]
+    Open		    on
+    PortBlocksUseCompactNotation off
+    SetExecutionDomain	    off
+    ExecutionDomainType	    "Deduce"
+    ModelBrowserVisibility  on
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "107"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "150"
+    Block {
+      BlockType		      SubSystem
+      Name		      "RWSW"
+      SID		      "1"
+      Ports		      [9, 78]
+      Position		      [445, -703, 755, 93]
+      ZOrder		      1
+      RequestExecContextInheritance off
+      System {
+	Name			"RWSW"
+	Location		[8, 8, 1941, 1061]
+	Open			on
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"80"
+	Block {
+	  BlockType		  Inport
+	  Name			  "magmomcmd_MTR"
+	  SID			  "2"
+	  Position		  [-175, 93, -145, 107]
+	  ZOrder		  -1
+	  BackgroundColor	  "magenta"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "10"
+	  Port {
+	    PortNumber		    1
+	    Name		    "magmomcmd_MTR"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "MTRenableflgs"
+	  SID			  "111"
+	  Position		  [-175, 153, -145, 167]
+	  ZOrder		  433
+	  BackgroundColor	  "magenta"
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "10"
+	  Port {
+	    PortNumber		    1
+	    Name		    "MTRenableflgs"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "SSSenableflgs"
+	  SID			  "118"
+	  Position		  [-175, 213, -145, 227]
+	  ZOrder		  441
+	  BackgroundColor	  "magenta"
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "10"
+	  Port {
+	    PortNumber		    1
+	    Name		    "SSSenableflgs"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "SOLenableflgs"
+	  SID			  "145"
+	  Position		  [-175, 273, -145, 287]
+	  ZOrder		  2952
+	  BackgroundColor	  "magenta"
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "10"
+	  Port {
+	    PortNumber		    1
+	    Name		    "SOLenableflgs"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "MTMenableflg"
+	  SID			  "119"
+	  Position		  [-175, 333, -145, 347]
+	  ZOrder		  442
+	  BackgroundColor	  "magenta"
+	  Port			  "5"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "1"
+	  Port {
+	    PortNumber		    1
+	    Name		    "MTMenableflg"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "GYRenableflg"
+	  SID			  "120"
+	  Position		  [-175, 393, -145, 407]
+	  ZOrder		  443
+	  BackgroundColor	  "magenta"
+	  Port			  "6"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "1"
+	  Port {
+	    PortNumber		    1
+	    Name		    "GYRenableflg"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "GPSenableflg"
+	  SID			  "121"
+	  Position		  [-175, 453, -145, 467]
+	  ZOrder		  444
+	  BackgroundColor	  "magenta"
+	  Port			  "7"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "1"
+	  Port {
+	    PortNumber		    1
+	    Name		    "GPSenableflg"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "extor_BOF_sys"
+	  SID			  "33"
+	  Position		  [-175, 513, -145, 527]
+	  ZOrder		  355
+	  BackgroundColor	  "magenta"
+	  Port			  "8"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "3"
+	  Port {
+	    PortNumber		    1
+	    Name		    "exttorcmd_BOF"
+	  }
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "extfor_ECI_sys"
+	  SID			  "34"
+	  Position		  [-175, 573, -145, 587]
+	  ZOrder		  356
+	  BackgroundColor	  "magenta"
+	  Port			  "9"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "3"
+	  Port {
+	    PortNumber		    1
+	    Name		    "extforcmd_ECI"
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "ACT"
+	  SID			  "25"
+	  Ports			  [2, 2]
+	  Position		  [310, 61, 515, 619]
+	  ZOrder		  16
+	  LibraryVersion	  "1.6"
+	  SourceBlock		  "ACT/ACT"
+	  SourceType		  "SubSystem"
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  GeneratePreprocessorConditionals off
+	  AllowZeroVariantControls off
+	  PropagateVariantConditions off
+	  ContentPreviewEnabled	  off
+	}
+	Block {
+	  BlockType		  BusCreator
+	  Name			  "Bus\nCreator"
+	  SID			  "31"
+	  Ports			  [2, 1]
+	  Position		  [540, 60, 550, 620]
+	  ZOrder		  353
+	  ShowName		  off
+	  Inputs		  "2"
+	  DisplayOption		  "bar"
+	  InheritFromInputs	  on
+	}
+	Block {
+	  BlockType		  BusCreator
+	  Name			  "Bus\nCreator1"
+	  SID			  "32"
+	  Ports			  [9, 1]
+	  Position		  [-25, 60, -15, 620]
+	  ZOrder		  2953
+	  ShowName		  off
+	  Inputs		  "9"
+	  DisplayOption		  "bar"
+	  InheritFromInputs	  on
+	}
+	Block {
+	  BlockType		  BusCreator
+	  Name			  "Bus\nCreator2"
+	  SID			  "39"
+	  Ports			  [55, 1]
+	  Position		  [1095, 45, 1105, 605]
+	  ZOrder		  361
+	  ShowName		  off
+	  Inputs		  "55"
+	  DisplayOption		  "bar"
+	  InheritFromInputs	  on
+	}
+	Block {
+	  BlockType		  BusCreator
+	  Name			  "Bus\nCreator3"
+	  SID			  "122"
+	  Ports			  [23, 1]
+	  Position		  [1725, 69, 1735, 631]
+	  ZOrder		  445
+	  ShowName		  off
+	  Inputs		  "23"
+	  DisplayOption		  "bar"
+	  InheritFromInputs	  on
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector"
+	  SID			  "36"
+	  Ports			  [1, 2]
+	  Position		  [205, 61, 210, 619]
+	  ZOrder		  358
+	  ShowName		  off
+	  OutputSignals		  "magmomcmd_MTR,MTRenableflgs"
+	  OutputAsBus		  off
+	  Port {
+	    PortNumber		    1
+	    Name		    "<magmomcmd_MTR>"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<MTRenableflgs>"
+	  }
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector1"
+	  SID			  "42"
+	  Ports			  [1, 1]
+	  Position		  [685, 58, 690, 122]
+	  ZOrder		  364
+	  ShowName		  off
+	  OutputSignals		  "magmomapp_BOF"
+	  OutputAsBus		  off
+	  Port {
+	    PortNumber		    1
+	    Name		    "<magmomapp_BOF>"
+	  }
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector2"
+	  SID			  "44"
+	  Ports			  [1, 2]
+	  Position		  [720, 423, 725, 612]
+	  ZOrder		  366
+	  ShowName		  off
+	  OutputSignals		  "exttorcmd_BOF,extforcmd_ECI"
+	  OutputAsBus		  off
+	  Port {
+	    PortNumber		    1
+	    Name		    "<exttorcmd_BOF>"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<extforcmd_ECI>"
+	  }
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector3"
+	  SID			  "45"
+	  Ports			  [1, 10]
+	  Position		  [1355, 260, 1360, 640]
+	  ZOrder		  367
+	  ShowName		  off
+	  OutputSignals		  "time_relJDepoch_TAI_days,magfld_BOF,SUNpos_ECI,BOFq_ECI,eclipseflg,BOFw_relECI_BOF,pos_ECI,vel_EC"
+	  "I,SCsolarflux,TERq_ECI"
+	  OutputAsBus		  off
+	  Port {
+	    PortNumber		    1
+	    Name		    "<time_relJDepoch_TAI_days>"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<magfld_BOF>"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "<SUNpos_ECI>"
+	  }
+	  Port {
+	    PortNumber		    4
+	    Name		    "<BOFq_ECI>"
+	  }
+	  Port {
+	    PortNumber		    5
+	    Name		    "<eclipseflg>"
+	  }
+	  Port {
+	    PortNumber		    6
+	    Name		    "<BOFw_relECI_BOF>"
+	  }
+	  Port {
+	    PortNumber		    7
+	    Name		    "<pos_ECI>"
+	  }
+	  Port {
+	    PortNumber		    8
+	    Name		    "<vel_ECI>"
+	  }
+	  Port {
+	    PortNumber		    9
+	    Name		    "<SCsolarflux>"
+	  }
+	  Port {
+	    PortNumber		    10
+	    Name		    "<TERq_ECI>"
+	  }
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector4"
+	  SID			  "48"
+	  Ports			  [1, 2]
+	  Position		  [2325, -1020, 2330, -945]
+	  ZOrder		  370
+	  ShowName		  off
+	  OutputSignals		  "magmomapp_BOF,magmomapp_MTR"
+	  OutputAsBus		  off
+	  Port {
+	    PortNumber		    1
+	    Name		    "<magmomapp_BOF>"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<magmomapp_MTR>"
+	  }
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector5"
+	  SID			  "52"
+	  Ports			  [1, 53]
+	  Position		  [2325, -923, 2330, 693]
+	  ZOrder		  374
+	  ShowName		  off
+	  OutputSignals		  "time_relJDepoch_TAI_days,time_relCEepoch_TAI_wholeyears,time_TAI_monthofyear,time_TAI_dayofmonth,"
+	  "time_TAI_hrofday,time_TAI_minofhr,time_TAI_secofmin,time_TAI_dayofyear,time_TAI_secofday,TERq_ECI,TERw_ECI,SUNpos_E"
+	  "CI,MOONpos_ECI,SCinertia_BOF,SCcom_MEC,SCmass,pos_ECI,vel_ECI,acc_ECI,extacc_ECI,pos_TER,ORBq_ECI,BOFq_ECI,BOFw_rel"
+	  "ECI_BOF,hsc_BOF,htot_BOF,eclipseflg,grvacc_pointmass_TER,pos_BOF,grvtor_BOF,grvacc_pert_TER,grvacc_TER,grvacc_ECI,m"
+	  "agtor_BOF,magfld_BOF,magfld_TER_T,magtorcmd_BOF,magtorpert_BOF,drgfor_ECI,drgtor_BOF,drgfor_BOF,drgfor_MEC_array,dr"
+	  "gtor_MEC_array,SCvel_relATM_ECI,SCvel_relATM_BOF,atmdensity,srptor_BOF,srpfor_ECI,SCsolarflux,srpfor_MEC_array,srpt"
+	  "or_MEC_array,extor_BOF,extfor_ECI"
+	  OutputAsBus		  off
+	  Port {
+	    PortNumber		    1
+	    Name		    "<time_relJDepoch_TAI_days>"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<time_relCEepoch_TAI_wholeyears>"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "<time_TAI_monthofyear>"
+	  }
+	  Port {
+	    PortNumber		    4
+	    Name		    "<time_TAI_dayofmonth>"
+	  }
+	  Port {
+	    PortNumber		    5
+	    Name		    "<time_TAI_hrofday>"
+	  }
+	  Port {
+	    PortNumber		    6
+	    Name		    "<time_TAI_minofhr>"
+	  }
+	  Port {
+	    PortNumber		    7
+	    Name		    "<time_TAI_secofmin>"
+	  }
+	  Port {
+	    PortNumber		    8
+	    Name		    "<time_TAI_dayofyear>"
+	  }
+	  Port {
+	    PortNumber		    9
+	    Name		    "<time_TAI_secofday>"
+	  }
+	  Port {
+	    PortNumber		    10
+	    Name		    "<TERq_ECI>"
+	  }
+	  Port {
+	    PortNumber		    11
+	    Name		    "<TERw_ECI>"
+	  }
+	  Port {
+	    PortNumber		    12
+	    Name		    "<SUNpos_ECI>"
+	  }
+	  Port {
+	    PortNumber		    13
+	    Name		    "<MOONpos_ECI>"
+	  }
+	  Port {
+	    PortNumber		    14
+	    Name		    "<SCinertia_BOF>"
+	  }
+	  Port {
+	    PortNumber		    15
+	    Name		    "<SCcom_MEC>"
+	  }
+	  Port {
+	    PortNumber		    16
+	    Name		    "<SCmass>"
+	  }
+	  Port {
+	    PortNumber		    17
+	    Name		    "<pos_ECI>"
+	  }
+	  Port {
+	    PortNumber		    18
+	    Name		    "<vel_ECI>"
+	  }
+	  Port {
+	    PortNumber		    19
+	    Name		    "<acc_ECI>"
+	  }
+	  Port {
+	    PortNumber		    20
+	    Name		    "<extacc_ECI>"
+	  }
+	  Port {
+	    PortNumber		    21
+	    Name		    "<pos_TER>"
+	  }
+	  Port {
+	    PortNumber		    22
+	    Name		    "<ORBq_ECI>"
+	  }
+	  Port {
+	    PortNumber		    23
+	    Name		    "<BOFq_ECI>"
+	  }
+	  Port {
+	    PortNumber		    24
+	    Name		    "<BOFw_relECI_BOF>"
+	  }
+	  Port {
+	    PortNumber		    25
+	    Name		    "<hsc_BOF>"
+	  }
+	  Port {
+	    PortNumber		    26
+	    Name		    "<htot_BOF>"
+	  }
+	  Port {
+	    PortNumber		    27
+	    Name		    "<eclipseflg>"
+	  }
+	  Port {
+	    PortNumber		    28
+	    Name		    "<grvacc_pointmass_TER>"
+	  }
+	  Port {
+	    PortNumber		    29
+	    Name		    "<pos_BOF>"
+	  }
+	  Port {
+	    PortNumber		    30
+	    Name		    "<grvtor_BOF>"
+	  }
+	  Port {
+	    PortNumber		    31
+	    Name		    "<grvacc_pert_TER>"
+	  }
+	  Port {
+	    PortNumber		    32
+	    Name		    "<grvacc_TER>"
+	  }
+	  Port {
+	    PortNumber		    33
+	    Name		    "<grvacc_ECI>"
+	  }
+	  Port {
+	    PortNumber		    34
+	    Name		    "<magtor_BOF>"
+	  }
+	  Port {
+	    PortNumber		    35
+	    Name		    "<magfld_BOF>"
+	  }
+	  Port {
+	    PortNumber		    36
+	    Name		    "<magfld_TER_T>"
+	  }
+	  Port {
+	    PortNumber		    37
+	    Name		    "<magtorcmd_BOF>"
+	  }
+	  Port {
+	    PortNumber		    38
+	    Name		    "<magtorpert_BOF>"
+	  }
+	  Port {
+	    PortNumber		    39
+	    Name		    "<drgfor_ECI>"
+	  }
+	  Port {
+	    PortNumber		    40
+	    Name		    "<drgtor_BOF>"
+	  }
+	  Port {
+	    PortNumber		    41
+	    Name		    "<drgfor_BOF>"
+	  }
+	  Port {
+	    PortNumber		    42
+	    Name		    "<drgfor_MEC_array>"
+	  }
+	  Port {
+	    PortNumber		    43
+	    Name		    "<drgtor_MEC_array>"
+	  }
+	  Port {
+	    PortNumber		    44
+	    Name		    "<SCvel_relATM_ECI>"
+	  }
+	  Port {
+	    PortNumber		    45
+	    Name		    "<SCvel_relATM_BOF>"
+	  }
+	  Port {
+	    PortNumber		    46
+	    Name		    "<atmdensity>"
+	  }
+	  Port {
+	    PortNumber		    47
+	    Name		    "<srptor_BOF>"
+	  }
+	  Port {
+	    PortNumber		    48
+	    Name		    "<srpfor_ECI>"
+	  }
+	  Port {
+	    PortNumber		    49
+	    Name		    "<SCsolarflux>"
+	  }
+	  Port {
+	    PortNumber		    50
+	    Name		    "<srpfor_MEC_array>"
+	  }
+	  Port {
+	    PortNumber		    51
+	    Name		    "<srptor_MEC_array>"
+	  }
+	  Port {
+	    PortNumber		    52
+	    Name		    "<extor_BOF>"
+	  }
+	  Port {
+	    PortNumber		    53
+	    Name		    "<extfor_ECI>"
+	  }
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector6"
+	  SID			  "113"
+	  Ports			  [1, 5]
+	  Position		  [1360, 46, 1365, 244]
+	  ZOrder		  436
+	  ShowName		  off
+	  OutputSignals		  "SSSenableflgs,SOLenableflgs,MTMenableflg,GYRenableflg,GPSenableflg"
+	  OutputAsBus		  off
+	  Port {
+	    PortNumber		    1
+	    Name		    "<SSSenableflgs>"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<SOLenableflgs>"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "<MTMenableflg>"
+	  }
+	  Port {
+	    PortNumber		    4
+	    Name		    "<GYRenableflg>"
+	  }
+	  Port {
+	    PortNumber		    5
+	    Name		    "<GPSenableflg>"
+	  }
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector7"
+	  SID			  "125"
+	  Ports			  [1, 23]
+	  Position		  [2315, 775, 2320, 1565]
+	  ZOrder		  448
+	  ShowName		  off
+	  OutputSignals		  "time_OBT,SSSvisflg_array,SSSsolarflux_mes,SSSsolarflux,SSS_angle_array,SOLvisflg_array,SOLcurrent"
+	  "_mes,SOLcurrent,SOL_angle_array,magfld_MTM_mes,magfld_MTM_corrupted,magfld_MTM,magfld_MTM_saturationflag,GYRw_relEC"
+	  "I_GYR_mes,GYRnoiseandbias,GYRbias,GYRw_relECI_GYR,GPStimetag_OBT,GPStime_GPS,GPSpos_WGS_mes,GPSvel_WGS_mes,GPSpos_E"
+	  "CI_mes,GPSvel_ECI_mes"
+	  OutputAsBus		  off
+	  Port {
+	    PortNumber		    1
+	    Name		    "<time_OBT>"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<SSSvisflg_array>"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "<SSSsolarflux_mes>"
+	  }
+	  Port {
+	    PortNumber		    4
+	    Name		    "<SSSsolarflux>"
+	  }
+	  Port {
+	    PortNumber		    5
+	    Name		    "<SSS_angle_array>"
+	  }
+	  Port {
+	    PortNumber		    6
+	    Name		    "<SOLvisflg_array>"
+	  }
+	  Port {
+	    PortNumber		    7
+	    Name		    "<SOLcurrent_mes>"
+	  }
+	  Port {
+	    PortNumber		    8
+	    Name		    "<SOLcurrent>"
+	  }
+	  Port {
+	    PortNumber		    9
+	    Name		    "<SOL_angle_array>"
+	  }
+	  Port {
+	    PortNumber		    10
+	    Name		    "<magfld_MTM_mes>"
+	  }
+	  Port {
+	    PortNumber		    11
+	    Name		    "<magfld_MTM_corrupted>"
+	  }
+	  Port {
+	    PortNumber		    12
+	    Name		    "<magfld_MTM>"
+	  }
+	  Port {
+	    PortNumber		    13
+	    Name		    "<magfld_MTM_saturationflag>"
+	  }
+	  Port {
+	    PortNumber		    14
+	    Name		    "<GYRw_relECI_GYR_mes>"
+	  }
+	  Port {
+	    PortNumber		    15
+	    Name		    "<GYRnoiseandbias>"
+	  }
+	  Port {
+	    PortNumber		    16
+	    Name		    "<GYRbias>"
+	  }
+	  Port {
+	    PortNumber		    17
+	    Name		    "<GYRw_relECI_GYR>"
+	  }
+	  Port {
+	    PortNumber		    18
+	    Name		    "<GPStimetag_OBT>"
+	  }
+	  Port {
+	    PortNumber		    19
+	    Name		    "<GPStime_GPS>"
+	  }
+	  Port {
+	    PortNumber		    20
+	    Name		    "<GPSpos_WGS_mes>"
+	  }
+	  Port {
+	    PortNumber		    21
+	    Name		    "<GPSvel_WGS_mes>"
+	  }
+	  Port {
+	    PortNumber		    22
+	    Name		    "<GPSpos_ECI_mes>"
+	  }
+	  Port {
+	    PortNumber		    23
+	    Name		    "<GPSvel_ECI_mes>"
+	  }
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant1"
+	  SID			  "15"
+	  Position		  [695, 360, 745, 390]
+	  ZOrder		  7
+	  Value			  "zeros(3,3)"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant2"
+	  SID			  "40"
+	  Position		  [695, 265, 745, 295]
+	  ZOrder		  362
+	  Value			  "0"
+	}
+	Block {
+	  BlockType		  Constant
+	  Name			  "Constant3"
+	  SID			  "41"
+	  Position		  [695, 170, 745, 200]
+	  ZOrder		  363
+	  Value			  "[0;0;0]"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "DYN"
+	  SID			  "30"
+	  Ports			  [6, 55]
+	  Position		  [810, 35, 1045, 615]
+	  ZOrder		  19
+	  LibraryVersion	  "1.61"
+	  SourceBlock		  "DYN/DYN"
+	  SourceType		  "SubSystem"
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  GeneratePreprocessorConditionals off
+	  AllowZeroVariantControls off
+	  PropagateVariantConditions off
+	  ContentPreviewEnabled	  off
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From"
+	  SID			  "43"
+	  Position		  [605, 508, 700, 532]
+	  ZOrder		  365
+	  BackgroundColor	  "magenta"
+	  GotoTag		  "INPUTS"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From1"
+	  SID			  "47"
+	  Position		  [2200, -994, 2240, -966]
+	  ZOrder		  369
+	  GotoTag		  "ACT"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From2"
+	  SID			  "51"
+	  Position		  [2200, -129, 2240, -101]
+	  ZOrder		  373
+	  GotoTag		  "DYN"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From3"
+	  SID			  "114"
+	  Position		  [1210, 133, 1305, 157]
+	  ZOrder		  437
+	  BackgroundColor	  "magenta"
+	  GotoTag		  "INPUTS"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From4"
+	  SID			  "124"
+	  Position		  [2190, 1156, 2230, 1184]
+	  ZOrder		  447
+	  GotoTag		  "SEN"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto"
+	  SID			  "35"
+	  Position		  [50, 395, 160, 425]
+	  ZOrder		  357
+	  BackgroundColor	  "magenta"
+	  GotoTag		  "INPUTS"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto1"
+	  SID			  "37"
+	  Position		  [635, 330, 695, 350]
+	  ZOrder		  359
+	  GotoTag		  "ACT"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto2"
+	  SID			  "38"
+	  Position		  [1155, 315, 1215, 335]
+	  ZOrder		  360
+	  GotoTag		  "DYN"
+	}
+	Block {
+	  BlockType		  Goto
+	  Name			  "Goto3"
+	  SID			  "123"
+	  Position		  [1785, 340, 1845, 360]
+	  ZOrder		  446
+	  GotoTag		  "SEN"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "SEN"
+	  SID			  "112"
+	  Ports			  [15, 23]
+	  Position		  [1455, 58, 1630, 642]
+	  ZOrder		  435
+	  LibraryVersion	  "1.20"
+	  SourceBlock		  "SEN/SEN"
+	  SourceType		  "SubSystem"
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  GeneratePreprocessorConditionals off
+	  AllowZeroVariantControls off
+	  PropagateVariantConditions off
+	  ContentPreviewEnabled	  off
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magmomapp_BOF\n"
+	  SID			  "49"
+	  Position		  [2595, -1007, 2625, -993]
+	  ZOrder		  371
+	  BackgroundColor	  "orange"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magmomapp_MTR"
+	  SID			  "50"
+	  Position		  [2595, -972, 2625, -958]
+	  ZOrder		  372
+	  BackgroundColor	  "orange"
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "time_relJDepoch_TAI_days"
+	  SID			  "54"
+	  Position		  [2595, -902, 2625, -888]
+	  ZOrder		  376
+	  BackgroundColor	  "orange"
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "time_relCEepoch_TAI_wholeyears"
+	  SID			  "55"
+	  Position		  [2595, -872, 2625, -858]
+	  ZOrder		  377
+	  BackgroundColor	  "orange"
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "time_TAI_monthofyear"
+	  SID			  "56"
+	  Position		  [2595, -842, 2625, -828]
+	  ZOrder		  378
+	  BackgroundColor	  "orange"
+	  Port			  "5"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "time_TAI_dayofmonth"
+	  SID			  "57"
+	  Position		  [2595, -812, 2625, -798]
+	  ZOrder		  379
+	  BackgroundColor	  "orange"
+	  Port			  "6"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "time_TAI_hrofday"
+	  SID			  "58"
+	  Position		  [2595, -782, 2625, -768]
+	  ZOrder		  380
+	  BackgroundColor	  "orange"
+	  Port			  "7"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "time_TAI_minofhr"
+	  SID			  "59"
+	  Position		  [2595, -752, 2625, -738]
+	  ZOrder		  381
+	  BackgroundColor	  "orange"
+	  Port			  "8"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "time_TAI_secofmin"
+	  SID			  "60"
+	  Position		  [2595, -722, 2625, -708]
+	  ZOrder		  382
+	  BackgroundColor	  "orange"
+	  Port			  "9"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "time_TAI_dayofyear"
+	  SID			  "61"
+	  Position		  [2595, -692, 2625, -678]
+	  ZOrder		  383
+	  BackgroundColor	  "orange"
+	  Port			  "10"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "time_TAI_secofday"
+	  SID			  "62"
+	  Position		  [2595, -662, 2625, -648]
+	  ZOrder		  384
+	  BackgroundColor	  "orange"
+	  Port			  "11"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "TERq_ECI"
+	  SID			  "63"
+	  Position		  [2595, -632, 2625, -618]
+	  ZOrder		  385
+	  BackgroundColor	  "orange"
+	  Port			  "12"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "TERw_ECI"
+	  SID			  "64"
+	  Position		  [2595, -602, 2625, -588]
+	  ZOrder		  386
+	  BackgroundColor	  "orange"
+	  Port			  "13"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SUNpos_ECI"
+	  SID			  "65"
+	  Position		  [2595, -572, 2625, -558]
+	  ZOrder		  387
+	  BackgroundColor	  "orange"
+	  Port			  "14"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "MOONpos_ECI"
+	  SID			  "66"
+	  Position		  [2595, -542, 2625, -528]
+	  ZOrder		  388
+	  BackgroundColor	  "orange"
+	  Port			  "15"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SCinertia_BOF"
+	  SID			  "67"
+	  Position		  [2595, -512, 2625, -498]
+	  ZOrder		  389
+	  BackgroundColor	  "orange"
+	  Port			  "16"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SCcom_MEC"
+	  SID			  "68"
+	  Position		  [2595, -482, 2625, -468]
+	  ZOrder		  390
+	  BackgroundColor	  "orange"
+	  Port			  "17"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SCmass"
+	  SID			  "69"
+	  Position		  [2595, -452, 2625, -438]
+	  ZOrder		  391
+	  BackgroundColor	  "orange"
+	  Port			  "18"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pos_ECI"
+	  SID			  "70"
+	  Position		  [2595, -422, 2625, -408]
+	  ZOrder		  392
+	  BackgroundColor	  "orange"
+	  Port			  "19"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "vel_ECI"
+	  SID			  "71"
+	  Position		  [2595, -392, 2625, -378]
+	  ZOrder		  393
+	  BackgroundColor	  "orange"
+	  Port			  "20"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "acc_ECI"
+	  SID			  "72"
+	  Position		  [2595, -362, 2625, -348]
+	  ZOrder		  394
+	  BackgroundColor	  "orange"
+	  Port			  "21"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "extacc_ECI"
+	  SID			  "73"
+	  Position		  [2595, -332, 2625, -318]
+	  ZOrder		  395
+	  BackgroundColor	  "orange"
+	  Port			  "22"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pos_TER"
+	  SID			  "74"
+	  Position		  [2595, -302, 2625, -288]
+	  ZOrder		  396
+	  BackgroundColor	  "orange"
+	  Port			  "23"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "ORBq_ECI"
+	  SID			  "75"
+	  Position		  [2595, -272, 2625, -258]
+	  ZOrder		  397
+	  BackgroundColor	  "orange"
+	  Port			  "24"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "BOFq_ECI"
+	  SID			  "76"
+	  Position		  [2595, -242, 2625, -228]
+	  ZOrder		  398
+	  BackgroundColor	  "orange"
+	  Port			  "25"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "BOFw_relECI_BOF"
+	  SID			  "77"
+	  Position		  [2595, -212, 2625, -198]
+	  ZOrder		  399
+	  BackgroundColor	  "orange"
+	  Port			  "26"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "hsc_BOF"
+	  SID			  "78"
+	  Position		  [2595, -182, 2625, -168]
+	  ZOrder		  400
+	  BackgroundColor	  "orange"
+	  Port			  "27"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "htot_BOF"
+	  SID			  "79"
+	  Position		  [2595, -152, 2625, -138]
+	  ZOrder		  401
+	  BackgroundColor	  "orange"
+	  Port			  "28"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "eclipseflg"
+	  SID			  "84"
+	  Position		  [2595, -122, 2625, -108]
+	  ZOrder		  406
+	  BackgroundColor	  "orange"
+	  Port			  "29"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "grvacc_pointmass_TER"
+	  SID			  "85"
+	  Position		  [2595, -92, 2625, -78]
+	  ZOrder		  407
+	  BackgroundColor	  "orange"
+	  Port			  "30"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "pos_BOF"
+	  SID			  "86"
+	  Position		  [2595, -62, 2625, -48]
+	  ZOrder		  408
+	  BackgroundColor	  "orange"
+	  Port			  "31"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "grvtor_BOF"
+	  SID			  "87"
+	  Position		  [2595, -32, 2625, -18]
+	  ZOrder		  409
+	  BackgroundColor	  "orange"
+	  Port			  "32"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "grvacc_pert_TER"
+	  SID			  "88"
+	  Position		  [2595, -2, 2625, 12]
+	  ZOrder		  410
+	  BackgroundColor	  "orange"
+	  Port			  "33"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "grvacc_TER"
+	  SID			  "89"
+	  Position		  [2595, 28, 2625, 42]
+	  ZOrder		  411
+	  BackgroundColor	  "orange"
+	  Port			  "34"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "grvacc_ECI"
+	  SID			  "90"
+	  Position		  [2595, 58, 2625, 72]
+	  ZOrder		  412
+	  BackgroundColor	  "orange"
+	  Port			  "35"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magtor_BOF"
+	  SID			  "91"
+	  Position		  [2595, 88, 2625, 102]
+	  ZOrder		  413
+	  BackgroundColor	  "orange"
+	  Port			  "36"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magfld_BOF"
+	  SID			  "92"
+	  Position		  [2595, 118, 2625, 132]
+	  ZOrder		  414
+	  BackgroundColor	  "orange"
+	  Port			  "37"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magfld_TER_T"
+	  SID			  "93"
+	  Position		  [2595, 148, 2625, 162]
+	  ZOrder		  415
+	  BackgroundColor	  "orange"
+	  Port			  "38"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magtorcmd_BOF"
+	  SID			  "94"
+	  Position		  [2595, 178, 2625, 192]
+	  ZOrder		  426
+	  BackgroundColor	  "orange"
+	  Port			  "39"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magtorpert_BOF"
+	  SID			  "95"
+	  Position		  [2595, 208, 2625, 222]
+	  ZOrder		  427
+	  BackgroundColor	  "orange"
+	  Port			  "40"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "drgfor_ECI"
+	  SID			  "96"
+	  Position		  [2595, 238, 2625, 252]
+	  ZOrder		  416
+	  BackgroundColor	  "orange"
+	  Port			  "41"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "drgtor_BOF"
+	  SID			  "97"
+	  Position		  [2595, 268, 2625, 282]
+	  ZOrder		  417
+	  BackgroundColor	  "orange"
+	  Port			  "42"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "drgfor_BOF"
+	  SID			  "98"
+	  Position		  [2595, 298, 2625, 312]
+	  ZOrder		  418
+	  BackgroundColor	  "orange"
+	  Port			  "43"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "drgfor_MEC_array"
+	  SID			  "99"
+	  Position		  [2595, 328, 2625, 342]
+	  ZOrder		  419
+	  BackgroundColor	  "orange"
+	  Port			  "44"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "drgtor_MEC_array"
+	  SID			  "100"
+	  Position		  [2595, 358, 2625, 372]
+	  ZOrder		  420
+	  BackgroundColor	  "orange"
+	  Port			  "45"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SCvel_relATM_ECI"
+	  SID			  "101"
+	  Position		  [2595, 388, 2625, 402]
+	  ZOrder		  421
+	  BackgroundColor	  "orange"
+	  Port			  "46"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SCvel_relATM_BOF"
+	  SID			  "102"
+	  Position		  [2595, 418, 2625, 432]
+	  ZOrder		  422
+	  BackgroundColor	  "orange"
+	  Port			  "47"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "atmdensity"
+	  SID			  "103"
+	  Position		  [2595, 448, 2625, 462]
+	  ZOrder		  423
+	  BackgroundColor	  "orange"
+	  Port			  "48"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "srptor_BOF"
+	  SID			  "104"
+	  Position		  [2595, 478, 2625, 492]
+	  ZOrder		  428
+	  BackgroundColor	  "orange"
+	  Port			  "49"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "3"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "srpfor_ECI"
+	  SID			  "105"
+	  Position		  [2595, 508, 2625, 522]
+	  ZOrder		  429
+	  BackgroundColor	  "orange"
+	  Port			  "50"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "3"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SCsolarflux"
+	  SID			  "106"
+	  Position		  [2595, 538, 2625, 552]
+	  ZOrder		  430
+	  BackgroundColor	  "orange"
+	  Port			  "51"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "srpfor_MEC_pnlarray"
+	  SID			  "107"
+	  Position		  [2595, 568, 2625, 582]
+	  ZOrder		  431
+	  BackgroundColor	  "orange"
+	  Port			  "52"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "srptor_MEC_pnlarray"
+	  SID			  "108"
+	  Position		  [2595, 598, 2625, 612]
+	  ZOrder		  432
+	  BackgroundColor	  "orange"
+	  Port			  "53"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "extor_BOF"
+	  SID			  "109"
+	  Position		  [2595, 628, 2625, 642]
+	  ZOrder		  424
+	  BackgroundColor	  "orange"
+	  Port			  "54"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "extfor_ECI"
+	  SID			  "110"
+	  Position		  [2595, 658, 2625, 672]
+	  ZOrder		  425
+	  BackgroundColor	  "orange"
+	  Port			  "55"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "time_OBT"
+	  SID			  "144"
+	  Position		  [2510, 778, 2540, 792]
+	  ZOrder		  2951
+	  BackgroundColor	  "orange"
+	  Port			  "56"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SSSvisflg_array"
+	  SID			  "130"
+	  Position		  [2510, 813, 2540, 827]
+	  ZOrder		  453
+	  BackgroundColor	  "orange"
+	  Port			  "57"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SSScurrent_mes"
+	  SID			  "131"
+	  Position		  [2510, 848, 2540, 862]
+	  ZOrder		  454
+	  BackgroundColor	  "orange"
+	  Port			  "58"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SSScurrent"
+	  SID			  "132"
+	  Position		  [2510, 883, 2540, 897]
+	  ZOrder		  455
+	  BackgroundColor	  "orange"
+	  Port			  "59"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SSS_angle_array"
+	  SID			  "133"
+	  Position		  [2510, 918, 2540, 932]
+	  ZOrder		  456
+	  BackgroundColor	  "orange"
+	  Port			  "60"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SOLvisflg_array"
+	  SID			  "146"
+	  Position		  [2510, 953, 2540, 967]
+	  ZOrder		  2954
+	  BackgroundColor	  "orange"
+	  Port			  "61"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SOLcurrent_mes"
+	  SID			  "147"
+	  Position		  [2510, 988, 2540, 1002]
+	  ZOrder		  2955
+	  BackgroundColor	  "orange"
+	  Port			  "62"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SSScurrent1"
+	  SID			  "148"
+	  Position		  [2510, 1023, 2540, 1037]
+	  ZOrder		  2956
+	  BackgroundColor	  "orange"
+	  Port			  "63"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "SSS_angle_array1"
+	  SID			  "149"
+	  Position		  [2510, 1058, 2540, 1072]
+	  ZOrder		  2957
+	  BackgroundColor	  "orange"
+	  Port			  "64"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magfld_MTM_mes"
+	  SID			  "127"
+	  Position		  [2510, 1093, 2540, 1107]
+	  ZOrder		  450
+	  BackgroundColor	  "orange"
+	  Port			  "65"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magfld_MTM_corrupted"
+	  SID			  "128"
+	  Position		  [2510, 1128, 2540, 1142]
+	  ZOrder		  451
+	  BackgroundColor	  "orange"
+	  Port			  "66"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magfld_MTM"
+	  SID			  "129"
+	  Position		  [2510, 1163, 2540, 1177]
+	  ZOrder		  452
+	  BackgroundColor	  "orange"
+	  Port			  "67"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magfld_MTM_saturationflag"
+	  SID			  "150"
+	  Position		  [2510, 1198, 2540, 1212]
+	  ZOrder		  2958
+	  BackgroundColor	  "orange"
+	  Port			  "68"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "GYRw_relECI_GYR_mes"
+	  SID			  "134"
+	  Position		  [2505, 1233, 2535, 1247]
+	  ZOrder		  2935
+	  BackgroundColor	  "orange"
+	  Port			  "69"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "3"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "GYRnoiseandbias"
+	  SID			  "135"
+	  Position		  [2505, 1268, 2535, 1282]
+	  ZOrder		  2936
+	  BackgroundColor	  "orange"
+	  Port			  "70"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "3"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "GYRbias"
+	  SID			  "136"
+	  Position		  [2505, 1303, 2535, 1317]
+	  ZOrder		  2937
+	  BackgroundColor	  "orange"
+	  Port			  "71"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "3"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "GYRw_relECI_GYR"
+	  SID			  "137"
+	  Position		  [2505, 1338, 2535, 1352]
+	  ZOrder		  2944
+	  BackgroundColor	  "orange"
+	  Port			  "72"
+	  IconDisplay		  "Port number"
+	  PortDimensions	  "3"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "GPStimetag_OBT"
+	  SID			  "142"
+	  Position		  [2505, 1373, 2535, 1387]
+	  ZOrder		  2949
+	  BackgroundColor	  "orange"
+	  Port			  "73"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "GPStime_GPS"
+	  SID			  "143"
+	  Position		  [2505, 1408, 2535, 1422]
+	  ZOrder		  2950
+	  BackgroundColor	  "orange"
+	  Port			  "74"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "GPSpos_WGS_mes"
+	  SID			  "140"
+	  Position		  [2505, 1443, 2535, 1457]
+	  ZOrder		  2947
+	  BackgroundColor	  "orange"
+	  Port			  "75"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "GPSvel_WGS_mes"
+	  SID			  "141"
+	  Position		  [2505, 1478, 2535, 1492]
+	  ZOrder		  2948
+	  BackgroundColor	  "orange"
+	  Port			  "76"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "GPSpos_ECI_mes"
+	  SID			  "138"
+	  Position		  [2505, 1513, 2535, 1527]
+	  ZOrder		  2945
+	  BackgroundColor	  "orange"
+	  Port			  "77"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "GPSvel_ECI_mes"
+	  SID			  "139"
+	  Position		  [2505, 1548, 2535, 1562]
+	  ZOrder		  2946
+	  BackgroundColor	  "orange"
+	  Port			  "78"
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  Name			  "magmomcmd_MTR"
+	  ZOrder		  577
+	  Labels		  [-1, 0]
+	  SrcBlock		  "magmomcmd_MTR"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  23
+	  SrcBlock		  "Constant1"
+	  SrcPort		  1
+	  DstBlock		  "DYN"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  10
+	  SrcBlock		  "ACT"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  11
+	  SrcBlock		  "ACT"
+	  SrcPort		  2
+	  DstBlock		  "Bus\nCreator"
+	  DstPort		  2
+	}
+	Line {
+	  Name			  "exttorcmd_BOF"
+	  ZOrder		  569
+	  Labels		  [1, 0]
+	  SrcBlock		  "extor_BOF_sys"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  8
+	}
+	Line {
+	  Name			  "extforcmd_ECI"
+	  ZOrder		  568
+	  Labels		  [1, 0]
+	  SrcBlock		  "extfor_ECI_sys"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  9
+	}
+	Line {
+	  ZOrder		  572
+	  SrcBlock		  "Bus\nCreator1"
+	  SrcPort		  1
+	  Points		  [47, 0]
+	  Branch {
+	    ZOrder		    19
+	    DstBlock		    "Bus\nSelector"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    18
+	    Points		    [0, 70]
+	    DstBlock		    "Goto"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  Name			  "<magmomcmd_MTR>"
+	  ZOrder		  21
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector"
+	  SrcPort		  1
+	  DstBlock		  "ACT"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  22
+	  SrcBlock		  "Bus\nCreator"
+	  SrcPort		  1
+	  Points		  [44, 0]
+	  Branch {
+	    ZOrder		    28
+	    Points		    [0, -250]
+	    DstBlock		    "Bus\nSelector1"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    27
+	    DstBlock		    "Goto1"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  24
+	  SrcBlock		  "Constant2"
+	  SrcPort		  1
+	  DstBlock		  "DYN"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  25
+	  SrcBlock		  "Constant3"
+	  SrcPort		  1
+	  DstBlock		  "DYN"
+	  DstPort		  2
+	}
+	Line {
+	  Name			  "<magmomapp_BOF>"
+	  ZOrder		  26
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector1"
+	  SrcPort		  1
+	  DstBlock		  "DYN"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  29
+	  SrcBlock		  "From"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nSelector2"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<exttorcmd_BOF>"
+	  ZOrder		  30
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  1
+	  DstBlock		  "DYN"
+	  DstPort		  5
+	}
+	Line {
+	  Name			  "<extforcmd_ECI>"
+	  ZOrder		  31
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector2"
+	  SrcPort		  2
+	  DstBlock		  "DYN"
+	  DstPort		  6
+	}
+	Line {
+	  ZOrder		  32
+	  SrcBlock		  "DYN"
+	  SrcPort		  31
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  31
+	}
+	Line {
+	  ZOrder		  33
+	  SrcBlock		  "DYN"
+	  SrcPort		  10
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  10
+	}
+	Line {
+	  ZOrder		  34
+	  SrcBlock		  "DYN"
+	  SrcPort		  23
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  23
+	}
+	Line {
+	  ZOrder		  35
+	  SrcBlock		  "DYN"
+	  SrcPort		  27
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  27
+	}
+	Line {
+	  ZOrder		  36
+	  SrcBlock		  "DYN"
+	  SrcPort		  3
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  37
+	  SrcBlock		  "DYN"
+	  SrcPort		  46
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  46
+	}
+	Line {
+	  ZOrder		  38
+	  SrcBlock		  "DYN"
+	  SrcPort		  47
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  47
+	}
+	Line {
+	  ZOrder		  39
+	  SrcBlock		  "DYN"
+	  SrcPort		  22
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  22
+	}
+	Line {
+	  ZOrder		  40
+	  SrcBlock		  "DYN"
+	  SrcPort		  35
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  35
+	}
+	Line {
+	  ZOrder		  41
+	  SrcBlock		  "DYN"
+	  SrcPort		  37
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  37
+	}
+	Line {
+	  ZOrder		  42
+	  SrcBlock		  "DYN"
+	  SrcPort		  36
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  36
+	}
+	Line {
+	  ZOrder		  43
+	  SrcBlock		  "DYN"
+	  SrcPort		  2
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  44
+	  SrcBlock		  "DYN"
+	  SrcPort		  38
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  38
+	}
+	Line {
+	  ZOrder		  45
+	  SrcBlock		  "DYN"
+	  SrcPort		  40
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  40
+	}
+	Line {
+	  ZOrder		  46
+	  SrcBlock		  "DYN"
+	  SrcPort		  12
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  12
+	}
+	Line {
+	  ZOrder		  47
+	  SrcBlock		  "DYN"
+	  SrcPort		  24
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  24
+	}
+	Line {
+	  ZOrder		  48
+	  SrcBlock		  "DYN"
+	  SrcPort		  11
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  11
+	}
+	Line {
+	  ZOrder		  49
+	  SrcBlock		  "DYN"
+	  SrcPort		  42
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  42
+	}
+	Line {
+	  ZOrder		  50
+	  SrcBlock		  "DYN"
+	  SrcPort		  48
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  48
+	}
+	Line {
+	  ZOrder		  51
+	  SrcBlock		  "DYN"
+	  SrcPort		  26
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  26
+	}
+	Line {
+	  ZOrder		  52
+	  SrcBlock		  "DYN"
+	  SrcPort		  5
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  5
+	}
+	Line {
+	  ZOrder		  53
+	  SrcBlock		  "DYN"
+	  SrcPort		  8
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  8
+	}
+	Line {
+	  ZOrder		  54
+	  SrcBlock		  "DYN"
+	  SrcPort		  7
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  7
+	}
+	Line {
+	  ZOrder		  55
+	  SrcBlock		  "DYN"
+	  SrcPort		  13
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  13
+	}
+	Line {
+	  ZOrder		  56
+	  SrcBlock		  "DYN"
+	  SrcPort		  14
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  14
+	}
+	Line {
+	  ZOrder		  57
+	  SrcBlock		  "DYN"
+	  SrcPort		  16
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  16
+	}
+	Line {
+	  ZOrder		  58
+	  SrcBlock		  "DYN"
+	  SrcPort		  34
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  34
+	}
+	Line {
+	  ZOrder		  59
+	  SrcBlock		  "DYN"
+	  SrcPort		  41
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  41
+	}
+	Line {
+	  ZOrder		  60
+	  SrcBlock		  "DYN"
+	  SrcPort		  43
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  43
+	}
+	Line {
+	  ZOrder		  61
+	  SrcBlock		  "DYN"
+	  SrcPort		  6
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  6
+	}
+	Line {
+	  ZOrder		  62
+	  SrcBlock		  "DYN"
+	  SrcPort		  15
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  15
+	}
+	Line {
+	  ZOrder		  63
+	  SrcBlock		  "DYN"
+	  SrcPort		  49
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  49
+	}
+	Line {
+	  ZOrder		  64
+	  SrcBlock		  "DYN"
+	  SrcPort		  9
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  9
+	}
+	Line {
+	  ZOrder		  65
+	  SrcBlock		  "DYN"
+	  SrcPort		  50
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  50
+	}
+	Line {
+	  ZOrder		  66
+	  SrcBlock		  "DYN"
+	  SrcPort		  19
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  19
+	}
+	Line {
+	  ZOrder		  67
+	  SrcBlock		  "DYN"
+	  SrcPort		  4
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  68
+	  SrcBlock		  "DYN"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  69
+	  SrcBlock		  "DYN"
+	  SrcPort		  18
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  18
+	}
+	Line {
+	  ZOrder		  70
+	  SrcBlock		  "DYN"
+	  SrcPort		  25
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  25
+	}
+	Line {
+	  ZOrder		  71
+	  SrcBlock		  "DYN"
+	  SrcPort		  29
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  29
+	}
+	Line {
+	  ZOrder		  72
+	  SrcBlock		  "DYN"
+	  SrcPort		  30
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  30
+	}
+	Line {
+	  ZOrder		  73
+	  SrcBlock		  "DYN"
+	  SrcPort		  20
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  20
+	}
+	Line {
+	  ZOrder		  74
+	  SrcBlock		  "DYN"
+	  SrcPort		  32
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  32
+	}
+	Line {
+	  ZOrder		  75
+	  SrcBlock		  "DYN"
+	  SrcPort		  28
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  28
+	}
+	Line {
+	  ZOrder		  76
+	  SrcBlock		  "DYN"
+	  SrcPort		  52
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  52
+	}
+	Line {
+	  ZOrder		  77
+	  SrcBlock		  "DYN"
+	  SrcPort		  21
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  21
+	}
+	Line {
+	  ZOrder		  78
+	  SrcBlock		  "DYN"
+	  SrcPort		  33
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  33
+	}
+	Line {
+	  ZOrder		  79
+	  SrcBlock		  "DYN"
+	  SrcPort		  39
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  39
+	}
+	Line {
+	  ZOrder		  80
+	  SrcBlock		  "DYN"
+	  SrcPort		  53
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  53
+	}
+	Line {
+	  ZOrder		  81
+	  SrcBlock		  "DYN"
+	  SrcPort		  17
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  17
+	}
+	Line {
+	  ZOrder		  82
+	  SrcBlock		  "DYN"
+	  SrcPort		  51
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  51
+	}
+	Line {
+	  ZOrder		  83
+	  SrcBlock		  "DYN"
+	  SrcPort		  44
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  44
+	}
+	Line {
+	  ZOrder		  84
+	  SrcBlock		  "DYN"
+	  SrcPort		  45
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  45
+	}
+	Line {
+	  ZOrder		  85
+	  SrcBlock		  "Bus\nCreator2"
+	  SrcPort		  1
+	  Points		  [15, 0]
+	  Branch {
+	    ZOrder		    322
+	    Points		    [0, 125]
+	    DstBlock		    "Bus\nSelector3"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    86
+	    DstBlock		    "Goto2"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  88
+	  SrcBlock		  "From1"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nSelector4"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<magmomapp_BOF>"
+	  ZOrder		  89
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector4"
+	  SrcPort		  1
+	  DstBlock		  "magmomapp_BOF\n"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<magmomapp_MTR>"
+	  ZOrder		  90
+	  Labels		  [1, 1]
+	  SrcBlock		  "Bus\nSelector4"
+	  SrcPort		  2
+	  DstBlock		  "magmomapp_MTR"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  91
+	  SrcBlock		  "From2"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nSelector5"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<TERq_ECI>"
+	  ZOrder		  102
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  10
+	  DstBlock		  "TERq_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<TERw_ECI>"
+	  ZOrder		  103
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  11
+	  DstBlock		  "TERw_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<MOONpos_ECI>"
+	  ZOrder		  104
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  13
+	  DstBlock		  "MOONpos_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SUNpos_ECI>"
+	  ZOrder		  105
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  12
+	  DstBlock		  "SUNpos_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SCmass>"
+	  ZOrder		  106
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  16
+	  DstBlock		  "SCmass"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SCcom_MEC>"
+	  ZOrder		  107
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  15
+	  DstBlock		  "SCcom_MEC"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SCinertia_BOF>"
+	  ZOrder		  108
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  14
+	  DstBlock		  "SCinertia_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<ORBq_ECI>"
+	  ZOrder		  109
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  22
+	  DstBlock		  "ORBq_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<pos_TER>"
+	  ZOrder		  110
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  21
+	  DstBlock		  "pos_TER"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<acc_ECI>"
+	  ZOrder		  111
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  19
+	  DstBlock		  "acc_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<vel_ECI>"
+	  ZOrder		  112
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  18
+	  DstBlock		  "vel_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<pos_ECI>"
+	  ZOrder		  113
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  17
+	  DstBlock		  "pos_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<extacc_ECI>"
+	  ZOrder		  114
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  20
+	  DstBlock		  "extacc_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<time_relCEepoch_TAI_wholeyears>"
+	  ZOrder		  115
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  2
+	  DstBlock		  "time_relCEepoch_TAI_wholeyears"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<time_TAI_monthofyear>"
+	  ZOrder		  116
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  3
+	  DstBlock		  "time_TAI_monthofyear"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<time_TAI_minofhr>"
+	  ZOrder		  117
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  6
+	  DstBlock		  "time_TAI_minofhr"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<time_TAI_secofday>"
+	  ZOrder		  118
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  9
+	  DstBlock		  "time_TAI_secofday"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<time_relJDepoch_TAI_days>"
+	  ZOrder		  119
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  1
+	  DstBlock		  "time_relJDepoch_TAI_days"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<time_TAI_secofmin>"
+	  ZOrder		  120
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  7
+	  DstBlock		  "time_TAI_secofmin"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<time_TAI_dayofmonth>"
+	  ZOrder		  121
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  4
+	  DstBlock		  "time_TAI_dayofmonth"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<time_TAI_hrofday>"
+	  ZOrder		  122
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  5
+	  DstBlock		  "time_TAI_hrofday"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<time_TAI_dayofyear>"
+	  ZOrder		  123
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  8
+	  DstBlock		  "time_TAI_dayofyear"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<BOFq_ECI>"
+	  ZOrder		  124
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  23
+	  DstBlock		  "BOFq_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<BOFw_relECI_BOF>"
+	  ZOrder		  125
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  24
+	  DstBlock		  "BOFw_relECI_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<hsc_BOF>"
+	  ZOrder		  126
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  25
+	  DstBlock		  "hsc_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<htot_BOF>"
+	  ZOrder		  127
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  26
+	  DstBlock		  "htot_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<eclipseflg>"
+	  ZOrder		  128
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  27
+	  DstBlock		  "eclipseflg"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<grvacc_pointmass_TER>"
+	  ZOrder		  129
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  28
+	  DstBlock		  "grvacc_pointmass_TER"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<pos_BOF>"
+	  ZOrder		  130
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  29
+	  DstBlock		  "pos_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<grvtor_BOF>"
+	  ZOrder		  131
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  30
+	  DstBlock		  "grvtor_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<grvacc_pert_TER>"
+	  ZOrder		  132
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  31
+	  DstBlock		  "grvacc_pert_TER"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<grvacc_TER>"
+	  ZOrder		  133
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  32
+	  DstBlock		  "grvacc_TER"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<grvacc_ECI>"
+	  ZOrder		  134
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  33
+	  DstBlock		  "grvacc_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<magtor_BOF>"
+	  ZOrder		  135
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  34
+	  DstBlock		  "magtor_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<magfld_TER_T>"
+	  ZOrder		  136
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  36
+	  DstBlock		  "magfld_TER_T"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<magtorpert_BOF>"
+	  ZOrder		  137
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  38
+	  DstBlock		  "magtorpert_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<magfld_BOF>"
+	  ZOrder		  138
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  35
+	  DstBlock		  "magfld_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<magtorcmd_BOF>"
+	  ZOrder		  139
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  37
+	  DstBlock		  "magtorcmd_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SCvel_relATM_ECI>"
+	  ZOrder		  140
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  44
+	  DstBlock		  "SCvel_relATM_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<drgfor_ECI>"
+	  ZOrder		  141
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  39
+	  DstBlock		  "drgfor_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<drgfor_MEC_array>"
+	  ZOrder		  142
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  42
+	  DstBlock		  "drgfor_MEC_array"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<drgtor_MEC_array>"
+	  ZOrder		  143
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  43
+	  DstBlock		  "drgtor_MEC_array"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SCvel_relATM_BOF>"
+	  ZOrder		  144
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  45
+	  DstBlock		  "SCvel_relATM_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<atmdensity>"
+	  ZOrder		  145
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  46
+	  DstBlock		  "atmdensity"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<drgtor_BOF>"
+	  ZOrder		  146
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  40
+	  DstBlock		  "drgtor_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<drgfor_BOF>"
+	  ZOrder		  147
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  41
+	  DstBlock		  "drgfor_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<srptor_BOF>"
+	  ZOrder		  148
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  47
+	  DstBlock		  "srptor_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<srpfor_ECI>"
+	  ZOrder		  149
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  48
+	  DstBlock		  "srpfor_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SCsolarflux>"
+	  ZOrder		  150
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  49
+	  DstBlock		  "SCsolarflux"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<srpfor_MEC_array>"
+	  ZOrder		  151
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  50
+	  DstBlock		  "srpfor_MEC_pnlarray"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<srptor_MEC_array>"
+	  ZOrder		  152
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  51
+	  DstBlock		  "srptor_MEC_pnlarray"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<extor_BOF>"
+	  ZOrder		  153
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  52
+	  DstBlock		  "extor_BOF"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<extfor_ECI>"
+	  ZOrder		  154
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector5"
+	  SrcPort		  53
+	  DstBlock		  "extfor_ECI"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "MTRenableflgs"
+	  ZOrder		  576
+	  Labels		  [1, 0]
+	  SrcBlock		  "MTRenableflgs"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  2
+	}
+	Line {
+	  Name			  "<MTRenableflgs>"
+	  ZOrder		  160
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector"
+	  SrcPort		  2
+	  DstBlock		  "ACT"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  295
+	  SrcBlock		  "From3"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nSelector6"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "MTMenableflg"
+	  ZOrder		  573
+	  Labels		  [1, 0]
+	  SrcBlock		  "MTMenableflg"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  5
+	}
+	Line {
+	  Name			  "SSSenableflgs"
+	  ZOrder		  574
+	  Labels		  [0, 0]
+	  SrcBlock		  "SSSenableflgs"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  3
+	}
+	Line {
+	  Name			  "GYRenableflg"
+	  ZOrder		  571
+	  Labels		  [1, 0]
+	  SrcBlock		  "GYRenableflg"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  6
+	}
+	Line {
+	  Name			  "GPSenableflg"
+	  ZOrder		  570
+	  Labels		  [1, 0]
+	  SrcBlock		  "GPSenableflg"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  7
+	}
+	Line {
+	  ZOrder		  336
+	  SrcBlock		  "Bus\nCreator3"
+	  SrcPort		  1
+	  DstBlock		  "Goto3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  337
+	  SrcBlock		  "From4"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nSelector7"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "SOLenableflgs"
+	  ZOrder		  575
+	  Labels		  [1, 1]
+	  SrcBlock		  "SOLenableflgs"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  4
+	}
+	Line {
+	  Name			  "<SOLenableflgs>"
+	  ZOrder		  578
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector6"
+	  SrcPort		  2
+	  Points		  [35, 0; 0, 5]
+	  DstBlock		  "SEN"
+	  DstPort		  2
+	}
+	Line {
+	  Name			  "<GYRenableflg>"
+	  ZOrder		  579
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector6"
+	  SrcPort		  4
+	  Points		  [35, 0; 0, 5]
+	  DstBlock		  "SEN"
+	  DstPort		  4
+	}
+	Line {
+	  Name			  "<SSSenableflgs>"
+	  ZOrder		  580
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector6"
+	  SrcPort		  1
+	  Points		  [35, 0; 0, 5]
+	  DstBlock		  "SEN"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<MTMenableflg>"
+	  ZOrder		  581
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector6"
+	  SrcPort		  3
+	  Points		  [35, 0; 0, 5]
+	  DstBlock		  "SEN"
+	  DstPort		  3
+	}
+	Line {
+	  Name			  "<GPSenableflg>"
+	  ZOrder		  582
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector6"
+	  SrcPort		  5
+	  Points		  [35, 0; 0, 5]
+	  DstBlock		  "SEN"
+	  DstPort		  5
+	}
+	Line {
+	  Name			  "<BOFw_relECI_BOF>"
+	  ZOrder		  583
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector3"
+	  SrcPort		  6
+	  DstBlock		  "SEN"
+	  DstPort		  11
+	}
+	Line {
+	  Name			  "<eclipseflg>"
+	  ZOrder		  584
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector3"
+	  SrcPort		  5
+	  DstBlock		  "SEN"
+	  DstPort		  10
+	}
+	Line {
+	  Name			  "<pos_ECI>"
+	  ZOrder		  585
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector3"
+	  SrcPort		  7
+	  DstBlock		  "SEN"
+	  DstPort		  12
+	}
+	Line {
+	  Name			  "<BOFq_ECI>"
+	  ZOrder		  586
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector3"
+	  SrcPort		  4
+	  DstBlock		  "SEN"
+	  DstPort		  9
+	}
+	Line {
+	  Name			  "<vel_ECI>"
+	  ZOrder		  587
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector3"
+	  SrcPort		  8
+	  DstBlock		  "SEN"
+	  DstPort		  13
+	}
+	Line {
+	  Name			  "<SCsolarflux>"
+	  ZOrder		  588
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector3"
+	  SrcPort		  9
+	  DstBlock		  "SEN"
+	  DstPort		  14
+	}
+	Line {
+	  Name			  "<SUNpos_ECI>"
+	  ZOrder		  589
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector3"
+	  SrcPort		  3
+	  DstBlock		  "SEN"
+	  DstPort		  8
+	}
+	Line {
+	  Name			  "<magfld_BOF>"
+	  ZOrder		  590
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector3"
+	  SrcPort		  2
+	  DstBlock		  "SEN"
+	  DstPort		  7
+	}
+	Line {
+	  Name			  "<time_relJDepoch_TAI_days>"
+	  ZOrder		  591
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector3"
+	  SrcPort		  1
+	  DstBlock		  "SEN"
+	  DstPort		  6
+	}
+	Line {
+	  ZOrder		  592
+	  SrcBlock		  "SEN"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  593
+	  SrcBlock		  "SEN"
+	  SrcPort		  5
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  5
+	}
+	Line {
+	  ZOrder		  594
+	  SrcBlock		  "SEN"
+	  SrcPort		  17
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  17
+	}
+	Line {
+	  ZOrder		  595
+	  SrcBlock		  "SEN"
+	  SrcPort		  18
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  18
+	}
+	Line {
+	  ZOrder		  596
+	  SrcBlock		  "SEN"
+	  SrcPort		  20
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  20
+	}
+	Line {
+	  ZOrder		  597
+	  SrcBlock		  "SEN"
+	  SrcPort		  21
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  21
+	}
+	Line {
+	  ZOrder		  598
+	  SrcBlock		  "SEN"
+	  SrcPort		  22
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  22
+	}
+	Line {
+	  ZOrder		  599
+	  SrcBlock		  "SEN"
+	  SrcPort		  4
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  600
+	  SrcBlock		  "SEN"
+	  SrcPort		  8
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  8
+	}
+	Line {
+	  ZOrder		  601
+	  SrcBlock		  "SEN"
+	  SrcPort		  10
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  10
+	}
+	Line {
+	  ZOrder		  602
+	  SrcBlock		  "SEN"
+	  SrcPort		  19
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  19
+	}
+	Line {
+	  ZOrder		  603
+	  SrcBlock		  "SEN"
+	  SrcPort		  9
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  9
+	}
+	Line {
+	  ZOrder		  604
+	  SrcBlock		  "SEN"
+	  SrcPort		  11
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  11
+	}
+	Line {
+	  ZOrder		  605
+	  SrcBlock		  "SEN"
+	  SrcPort		  2
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  606
+	  SrcBlock		  "SEN"
+	  SrcPort		  12
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  12
+	}
+	Line {
+	  ZOrder		  607
+	  SrcBlock		  "SEN"
+	  SrcPort		  6
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  6
+	}
+	Line {
+	  ZOrder		  608
+	  SrcBlock		  "SEN"
+	  SrcPort		  15
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  15
+	}
+	Line {
+	  ZOrder		  609
+	  SrcBlock		  "SEN"
+	  SrcPort		  13
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  13
+	}
+	Line {
+	  ZOrder		  610
+	  SrcBlock		  "SEN"
+	  SrcPort		  7
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  7
+	}
+	Line {
+	  ZOrder		  611
+	  SrcBlock		  "SEN"
+	  SrcPort		  3
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  612
+	  SrcBlock		  "SEN"
+	  SrcPort		  14
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  14
+	}
+	Line {
+	  ZOrder		  613
+	  SrcBlock		  "SEN"
+	  SrcPort		  16
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  16
+	}
+	Line {
+	  Name			  "<time_OBT>"
+	  ZOrder		  614
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  1
+	  DstBlock		  "time_OBT"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SSSvisflg_array>"
+	  ZOrder		  617
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  2
+	  DstBlock		  "SSSvisflg_array"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SSSsolarflux_mes>"
+	  ZOrder		  618
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  3
+	  DstBlock		  "SSScurrent_mes"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SSSsolarflux>"
+	  ZOrder		  619
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  4
+	  DstBlock		  "SSScurrent"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SSS_angle_array>"
+	  ZOrder		  620
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  5
+	  DstBlock		  "SSS_angle_array"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SOLvisflg_array>"
+	  ZOrder		  621
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  6
+	  DstBlock		  "SOLvisflg_array"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SOLcurrent_mes>"
+	  ZOrder		  622
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  7
+	  DstBlock		  "SOLcurrent_mes"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SOLcurrent>"
+	  ZOrder		  623
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  8
+	  DstBlock		  "SSScurrent1"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<SOL_angle_array>"
+	  ZOrder		  624
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  9
+	  DstBlock		  "SSS_angle_array1"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<magfld_MTM_mes>"
+	  ZOrder		  625
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  10
+	  DstBlock		  "magfld_MTM_mes"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<magfld_MTM_corrupted>"
+	  ZOrder		  626
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  11
+	  DstBlock		  "magfld_MTM_corrupted"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<magfld_MTM>"
+	  ZOrder		  627
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  12
+	  DstBlock		  "magfld_MTM"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<GPStimetag_OBT>"
+	  ZOrder		  628
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  18
+	  DstBlock		  "GPStimetag_OBT"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<GYRnoiseandbias>"
+	  ZOrder		  629
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  15
+	  DstBlock		  "GYRnoiseandbias"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<GPStime_GPS>"
+	  ZOrder		  630
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  19
+	  DstBlock		  "GPStime_GPS"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<GYRw_relECI_GYR>"
+	  ZOrder		  631
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  17
+	  DstBlock		  "GYRw_relECI_GYR"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<GYRw_relECI_GYR_mes>"
+	  ZOrder		  632
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  14
+	  DstBlock		  "GYRw_relECI_GYR_mes"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<GYRbias>"
+	  ZOrder		  633
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  16
+	  DstBlock		  "GYRbias"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<GPSvel_WGS_mes>"
+	  ZOrder		  634
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  21
+	  DstBlock		  "GPSvel_WGS_mes"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<GPSpos_ECI_mes>"
+	  ZOrder		  635
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  22
+	  DstBlock		  "GPSpos_ECI_mes"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<GPSvel_ECI_mes>"
+	  ZOrder		  636
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  23
+	  DstBlock		  "GPSvel_ECI_mes"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<GPSpos_WGS_mes>"
+	  ZOrder		  637
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  20
+	  DstBlock		  "GPSpos_WGS_mes"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  777
+	  SrcBlock		  "SEN"
+	  SrcPort		  23
+	  DstBlock		  "Bus\nCreator3"
+	  DstPort		  23
+	}
+	Line {
+	  Name			  "<magfld_MTM_saturationflag>"
+	  ZOrder		  778
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  13
+	  DstBlock		  "magfld_MTM_saturationflag"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  779
+	  SrcBlock		  "DYN"
+	  SrcPort		  54
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  54
+	}
+	Line {
+	  ZOrder		  780
+	  SrcBlock		  "DYN"
+	  SrcPort		  55
+	  DstBlock		  "Bus\nCreator2"
+	  DstPort		  55
+	}
+	Line {
+	  Name			  "<TERq_ECI>"
+	  ZOrder		  781
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector3"
+	  SrcPort		  10
+	  DstBlock		  "SEN"
+	  DstPort		  15
+	}
+      }
+    }
+  }
+}

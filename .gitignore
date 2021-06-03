@@ -1,0 +1,52 @@
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix default autosave extension
+*.m~
+
+# Compiled MEX binaries (all platforms)
+#*.mex*
+*.slxc
+
+
+# Packaged app and toolbox files 
+*.mlappinstall 
+*.mltbx 
+
+# Generated helpsearch folders 
+helpsearch*/ 
+
+# Simulink code generation folders
+slprj/
+sccprj/
+
+# Simulink autosave extension
+*.autosave
+
+# Octave session info
+octave-workspace
+
+# ignore autocoded test results
+*_ert_*
+*_grt_*
+*_sfcn_*
+
+# ignore test runs that begin with a date folder or name
+001-SHELL/TESTS/**/[0-9]*
+002-RWSW/**/[0-9]*
+002-OBSW/**/[0-9]*
+
+
+# ingnore some test results in general from shell folder
+001-SHELL/TESTS/**/*.fig
+001-SHELL/TESTS/**/*.eps
+001-SHELL/TESTS/**/*.epsc
+
+
+
+# ignore results of SIT_RWSW (has a dated folder)
+# 002-RWSW/TESTS/SIT_RWSW/[0-9]*
+
+# ignore results of TST_NAV_*  (that have a dated folder)
+# 003-OBSW/MODELS/NAV/TESTS/TST_NAV_ATT/[0-9]*
+# 003-OBSW/MODELS/NAV/TESTS/TST_NAV_TIME/[0-9]*

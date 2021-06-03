@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info Type="StartUp" Visible="0" Icon="" File="001-SHELL/MODELS/SHELL.mdl" Name="SHELL">
+    <Extension Value="96fa954e-beca-4d77-9566-a872327b8e72" Name="StartUpPrev" />
+</Info>
