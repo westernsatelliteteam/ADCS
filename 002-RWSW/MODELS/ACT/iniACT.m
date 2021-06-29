@@ -17,7 +17,7 @@ addpath(fullfile(ACTrootdir,'PARAMETERS'))
 
 % Intialize parameters at this level  
 % run(fullfile(ACTrootdir, 'PARAMETERS', 'ACT_init.m'))
-% run(fullfile(ACTrootdir, 'PARAMETERS', 'ACT_MTR_init.m'))
+run(fullfile(ACTrootdir, 'PARAMETERS', 'ACT_MTR_init.m'))
 % run(fullfile(ACTrootdir, 'PARAMETERS', 'ACT_RWL_init.m'))
 % run(fullfile(ACTrootdir, 'PARAMETERS', 'ACT_RWLsimple_init.m'))
 % run(fullfile(ACTrootdir, 'PARAMETERS', 'ACT_RWLmd_init.m'))

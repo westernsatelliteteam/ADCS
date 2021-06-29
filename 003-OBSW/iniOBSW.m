@@ -16,7 +16,7 @@ addpath(fullfile(OBSWrootdir,'MODELS'))
 addpath(fullfile(OBSWrootdir,'PARAMETERS'))
 
 % Intialize parameters at this level  
-% run(fullfile(OBSWrootdir,'PARAMETERS','OBSW_init.m'))
+run(fullfile(OBSWrootdir,'PARAMETERS','OBSW_init.m'))
 % run(fullfile(OBSWrootdir,'PARAMETERS','OBSW_CONSTANTS_init.m'))
 % run(fullfile(OBSWrootdir,'PARAMETERS','OBSW_SC_init.m'))
 % 

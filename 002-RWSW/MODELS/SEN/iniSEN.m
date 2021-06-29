@@ -18,15 +18,10 @@ addpath(fullfile(SENrootdir,'PARAMETERS'))
 % Intialize parameters at this level  
 % run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_init.m'))
 % run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_OBT_init.m'))
-% run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_SSS_init.m'))
-% run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_TSS_init.m'))
+run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_SSS_init.m'))
 % run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_SOL_init.m'))
-% run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_MTM_init.m'))
-% run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_GYR_init.m'))
-% run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_FOG_init.m'))
-% run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_STAR_init.m'))
-% run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_GPS_init.m'))
-% run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_RWL_init.m'))
+run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_MTM_init.m'))
+run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_GYR_init.m'))
 
 clear SENrootdir
 

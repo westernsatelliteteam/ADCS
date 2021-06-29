@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.38"
+    ComputedModelVersion    "1.45"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -73,7 +73,7 @@ Model {
       $ObjectID		      3
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [0.0, 25.0, 974.0, 1047.0]
+      Location		      [332.0, 45.0, 1457.0, 1031.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		4
@@ -93,17 +93,17 @@ Model {
       }
       Array {
 	Type			"Simulink.EditorInfo"
-	Dimension		2
+	Dimension		17
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [1]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [936.0, 842.0]
-	  ZoomFactor		  [1.1734298268286381]
-	  Offset		  [589.2691629955948, -36.677312775330336]
-	  SceneRectInView	  [589.2691629955948, -36.677312775330336, 797.66167400881045, 717.55462555066072]
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [1.6291215383250497]
+	  Offset		  [552.39416332186806, 68.571871160182241]
+	  SceneRectInView	  [552.39416332186806, 68.571871160182241, 871.0215699799279, 507.02171726809047]
 	}
 	Object {
 	  $ObjectID		  7
@@ -111,10 +111,175 @@ Model {
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "18"
-	  Extents		  [936.0, 842.0]
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [0.51841004184100414]
+	  Offset		  [-683.202825380591, 18.828304597700935]
+	  SceneRectInView	  [-683.202825380591, 18.828304597700935, 2737.2154963680391, 1593.3333333333335]
+	}
+	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "155"
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [258.52229383278734, 40.491860133884018]
+	  SceneRectInView	  [258.52229383278734, 40.491860133884018, 1135.2, 660.8]
+	}
+	Object {
+	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "155:22"
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [1.1]
+	  Offset		  [-661.42826704545462, -136.95454545454544]
+	  SceneRectInView	  [-661.42826704545462, -136.95454545454544, 1290.0, 750.90909090909088]
+	}
+	Object {
+	  $ObjectID		  10
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "155:10"
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [0.82]
+	  Offset		  [-59.101086128048792, -375.21138211382117]
+	  SceneRectInView	  [-59.101086128048792, -375.21138211382117, 1730.4878048780488, 1007.3170731707318]
+	}
+	Object {
+	  $ObjectID		  11
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "47"
+	  Extents		  [831.0, 826.0]
+	  ZoomFactor		  [0.35585222217221357]
+	  Offset		  [-248.61561137920307, -813.09412943648817]
+	  SceneRectInView	  [-248.61561137920307, -813.09412943648817, 2335.2390352584061, 2321.1882588729763]
+	}
+	Object {
+	  $ObjectID		  12
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "8"
+	  Extents		  [831.0, 826.0]
 	  ZoomFactor		  [0.8]
-	  Offset		  [-51.5023216942634, 409.14375133352678]
-	  SceneRectInView	  [-51.5023216942634, 409.14375133352678, 1170.0, 1052.5]
+	  Offset		  [-139.93279071296786, 16.666666666665947]
+	  SceneRectInView	  [-139.93279071296786, 16.666666666665947, 1038.75, 1032.5]
+	}
+	Object {
+	  $ObjectID		  13
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "13"
+	  Extents		  [867.0, 956.0]
+	  ZoomFactor		  [0.70500961746768465]
+	  Offset		  [-85.170385131108446, -468.00493519070324]
+	  SceneRectInView	  [-85.170385131108446, -468.00493519070324, 1229.7704577622169, 1356.0098703814065]
+	}
+	Object {
+	  $ObjectID		  14
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "116"
+	  Extents		  [867.0, 956.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-63.96875, -436.0]
+	  SceneRectInView	  [-63.96875, -436.0, 867.0, 956.0]
+	}
+	Object {
+	  $ObjectID		  15
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "148"
+	  Extents		  [867.0, 956.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-88.209226190476386, -545.41428571428548]
+	  SceneRectInView	  [-88.209226190476386, -545.41428571428548, 867.0, 956.0]
+	}
+	Object {
+	  $ObjectID		  16
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "119"
+	  Extents		  [867.0, 956.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-63.96875, -418.5]
+	  SceneRectInView	  [-63.96875, -418.5, 867.0, 956.0]
+	}
+	Object {
+	  $ObjectID		  17
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "151"
+	  Extents		  [867.0, 956.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-49.868749999999977, -330.4]
+	  SceneRectInView	  [-49.868749999999977, -330.4, 693.6, 764.8]
+	}
+	Object {
+	  $ObjectID		  18
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "132"
+	  Extents		  [867.0, 956.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-63.96875, -234.0]
+	  SceneRectInView	  [-63.96875, -234.0, 867.0, 956.0]
+	}
+	Object {
+	  $ObjectID		  19
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "28"
+	  Extents		  [571.0, 956.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-92.877343750000023, -278.79999999999995]
+	  SceneRectInView	  [-92.877343750000023, -278.79999999999995, 456.8, 764.8]
+	}
+	Object {
+	  $ObjectID		  20
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "85"
+	  Extents		  [1368.0, 842.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-267.5, -117.0]
+	  SceneRectInView	  [-267.5, -117.0, 1368.0, 842.0]
+	}
+	Object {
+	  $ObjectID		  21
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "47:30"
+	  Extents		  [867.0, 956.0]
+	  ZoomFactor		  [1.7499999999999998]
+	  Offset		  [2288.7820613577687, 745.085227949934]
+	  SceneRectInView	  [2288.7820613577687, 745.085227949934, 495.4285714285715, 546.28571428571433]
+	}
+	Object {
+	  $ObjectID		  22
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "47:151"
+	  Extents		  [1620.0, 956.0]
+	  ZoomFactor		  [0.8]
+	  Offset		  [-421.4140625, -155.5]
+	  SceneRectInView	  [-421.4140625, -155.5, 2025.0, 1195.0]
 	}
 	PropName		"EditorsInfo"
       }
@@ -122,7 +287,7 @@ Model {
 	Type			"Simulink.DockComponentInfo"
 	Dimension		2
 	Object {
-	  $ObjectID		  8
+	  $ObjectID		  23
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
 	  Visible		  [0]
@@ -135,7 +300,7 @@ Model {
 	  Minimized		  "Unset"
 	}
 	Object {
-	  $ObjectID		  9
+	  $ObjectID		  24
 	  Type			  "Simulink:Editor:ReferencedFiles"
 	  ID			  "Referenced Files"
 	  Visible		  [0]
@@ -154,8 +319,8 @@ Model {
       "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABqAP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
       "QBzAAAAAAD/////AAAAjgD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAADzgAAA2kAAAABAAAAAgAAAAEAAAAC/"
-      "AAAAAEAAAACAAAAAA=="
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAFsQAAA1kAAAABAAAAAgAAAAEAAAAC/"
+      "AAAAAA="
       Array {
 	Type			"Cell"
 	Dimension		0
@@ -174,9 +339,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "dbell44"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu May 27 10:08:16 2021"
-  RTWModifiedTimeStamp	  417963709
-  ModelVersionFormat	  "1.%<AutoIncrement:38>"
+  LastModifiedDate	  "Tue Jun 29 00:10:08 2021"
+  RTWModifiedTimeStamp	  546823785
+  ModelVersionFormat	  "%<AutoIncrement:1.45>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -233,7 +398,7 @@ Model {
   TryForcingSFcnDF	  off
   Object {
     $PropName		    "DataLoggingOverride"
-    $ObjectID		    10
+    $ObjectID		    25
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "SHELL"
     overrideMode_	    [0.0]
@@ -280,7 +445,7 @@ Model {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      11
+      $ObjectID		      26
       Version		      "20.1.0"
       DisabledProps	      []
       Description	      ""
@@ -288,7 +453,7 @@ Model {
 	Type			"Handle"
 	Dimension		10
 	Simulink.SolverCC {
-	  $ObjectID		  12
+	  $ObjectID		  27
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -330,7 +495,7 @@ Model {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  13
+	  $ObjectID		  28
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -372,7 +537,7 @@ Model {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  14
+	  $ObjectID		  29
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -446,7 +611,7 @@ Model {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  15
+	  $ObjectID		  30
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -569,7 +734,7 @@ Model {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  16
+	  $ObjectID		  31
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -619,7 +784,7 @@ Model {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  17
+	  $ObjectID		  32
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -639,7 +804,7 @@ Model {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  18
+	  $ObjectID		  33
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -683,7 +848,7 @@ Model {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  19
+	  $ObjectID		  34
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -789,7 +954,7 @@ Model {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      20
+	      $ObjectID		      35
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
@@ -879,7 +1044,7 @@ Model {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      21
+	      $ObjectID		      36
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
@@ -985,7 +1150,7 @@ Model {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  22
+	  $ObjectID		  37
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -1024,7 +1189,7 @@ Model {
 	  CovMcdcMode		  "Masking"
 	}
 	hdlcoderui.hdlcc {
-	  $ObjectID		  23
+	  $ObjectID		  38
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  "HDL Coder custom configuration component"
@@ -1049,11 +1214,11 @@ Model {
   }
   Simulink.ConfigSet {
     $PropName		    "ActiveConfigurationSet"
-    $ObjectID		    11
+    $ObjectID		    26
   }
   Object {
     $PropName		    "DataTransfer"
-    $ObjectID		    24
+    $ObjectID		    39
     $ClassName		    "Simulink.GlobalDataTransfer"
     DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
     DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
@@ -1261,7 +1426,7 @@ Model {
   }
   System {
     Name		    "SHELL"
-    Location		    [0, 25, 974, 1072]
+    Location		    [332, 45, 1789, 1076]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
     Open		    on
     PortBlocksUseCompactNotation off
@@ -1277,9 +1442,9 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "117"
+    ZoomFactor		    "163"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "158"
+    SIDHighWatermark	    "160"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      From
@@ -1342,7 +1507,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"OBSW"
-	Location		[0, 25, 974, 1072]
+	Location		[332, 45, 1789, 1076]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -1358,738 +1523,121 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"80"
+	ZoomFactor		"52"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
 	  Name			  "From SYSTEM"
 	  SID			  "19"
-	  Position		  [-345, 533, -315, 547]
+	  Position		  [-260, 773, -230, 787]
 	  ZOrder		  6
 	}
 	Block {
-	  BlockType		  BusCreator
-	  Name			  "Bus\nCreator1"
-	  SID			  "156"
-	  Ports			  [96, 1]
-	  Position		  [750, 37, 760, 1518]
-	  ZOrder		  362
-	  ShowName		  off
-	  Inputs		  "96"
-	  DisplayOption		  "bar"
-	  InheritFromInputs	  on
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector"
+	  SID			  "160"
+	  Ports			  [1, 4]
+	  Position		  [-145, 38, -140, 1522]
+	  ZOrder		  370
+	  OutputSignals		  "SYSSEN.magfld_MTM_sys,SYSSEN.SUNvisflg_array_sys,SYSSEN.SSScurrent_array_sys,SYSSEN.BOFw_relECI_G"
+	  "YR_sys"
+	  Port {
+	    PortNumber		    1
+	    Name		    "<magfld_MTM_sys>"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<SUNvisflg_array_sys>"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "<SSScurrent_array_sys>"
+	  }
+	  Port {
+	    PortNumber		    4
+	    Name		    "<BOFw_relECI_GYR_sys>"
+	  }
 	}
 	Block {
 	  BlockType		  Reference
 	  Name			  "OBSW"
 	  SID			  "155"
-	  Ports			  [28, 96]
-	  Position		  [180, 35, 570, 1520]
+	  Ports			  [4, 1]
+	  Position		  [0, 37, 390, 1523]
 	  ZOrder		  12
-	  LibraryVersion	  "1.2"
+	  LibraryVersion	  "1.8"
 	  SourceBlock		  "OBSW/OBSW"
 	  SourceType		  "SubSystem"
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  VariantActivationTime	  "update diagram"
+	  AllowZeroVariantControls off
+	  PropagateVariantConditions off
 	  ContentPreviewEnabled	  off
-	}
-	Block {
-	  BlockType		  Terminator
-	  Name			  "Terminator2"
-	  SID			  "158"
-	  Position		  [-210, 530, -190, 550]
-	  ZOrder		  369
+	  Latency		  "0"
+	  AutoFrameSizeCalculation off
 	}
 	Block {
 	  BlockType		  Outport
 	  Name			  "OBSW OUT"
 	  SID			  "21"
-	  Position		  [825, 773, 855, 787]
+	  Position		  [590, 773, 620, 787]
 	  ZOrder		  8
 	}
 	Line {
-	  ZOrder		  99
-	  SrcBlock		  "Bus\nCreator1"
+	  ZOrder		  199
+	  SrcBlock		  "OBSW"
 	  SrcPort		  1
 	  DstBlock		  "OBSW OUT"
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  102
+	  ZOrder		  200
 	  SrcBlock		  "From SYSTEM"
 	  SrcPort		  1
-	  DstBlock		  "Terminator2"
+	  DstBlock		  "Bus\nSelector"
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  3
-	  SrcBlock		  "OBSW"
-	  SrcPort		  17
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  17
+	  Name			  "<magfld_MTM_sys>"
+	  ZOrder		  202
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector"
+	  SrcPort		  1
+	  DstBlock		  "OBSW"
+	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  4
-	  SrcBlock		  "OBSW"
-	  SrcPort		  16
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  16
-	}
-	Line {
-	  ZOrder		  5
-	  SrcBlock		  "OBSW"
-	  SrcPort		  15
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  15
-	}
-	Line {
-	  ZOrder		  6
-	  SrcBlock		  "OBSW"
-	  SrcPort		  18
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  18
-	}
-	Line {
-	  ZOrder		  7
-	  SrcBlock		  "OBSW"
-	  SrcPort		  14
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  14
-	}
-	Line {
-	  ZOrder		  8
-	  SrcBlock		  "OBSW"
-	  SrcPort		  19
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  19
-	}
-	Line {
-	  ZOrder		  9
-	  SrcBlock		  "OBSW"
-	  SrcPort		  13
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  13
-	}
-	Line {
-	  ZOrder		  10
-	  SrcBlock		  "OBSW"
-	  SrcPort		  20
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  20
-	}
-	Line {
-	  ZOrder		  11
-	  SrcBlock		  "OBSW"
-	  SrcPort		  21
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  21
-	}
-	Line {
-	  ZOrder		  12
-	  SrcBlock		  "OBSW"
-	  SrcPort		  12
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  12
-	}
-	Line {
-	  ZOrder		  13
-	  SrcBlock		  "OBSW"
-	  SrcPort		  22
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  22
-	}
-	Line {
-	  ZOrder		  14
-	  SrcBlock		  "OBSW"
-	  SrcPort		  11
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  11
-	}
-	Line {
-	  ZOrder		  15
-	  SrcBlock		  "OBSW"
-	  SrcPort		  10
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  10
-	}
-	Line {
-	  ZOrder		  16
-	  SrcBlock		  "OBSW"
-	  SrcPort		  23
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  23
-	}
-	Line {
-	  ZOrder		  17
-	  SrcBlock		  "OBSW"
-	  SrcPort		  9
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  9
-	}
-	Line {
-	  ZOrder		  18
-	  SrcBlock		  "OBSW"
-	  SrcPort		  24
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  24
-	}
-	Line {
-	  ZOrder		  19
-	  SrcBlock		  "OBSW"
-	  SrcPort		  8
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  8
-	}
-	Line {
-	  ZOrder		  20
-	  SrcBlock		  "OBSW"
-	  SrcPort		  25
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  25
-	}
-	Line {
-	  ZOrder		  21
-	  SrcBlock		  "OBSW"
-	  SrcPort		  7
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  7
-	}
-	Line {
-	  ZOrder		  22
-	  SrcBlock		  "OBSW"
-	  SrcPort		  26
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  26
-	}
-	Line {
-	  ZOrder		  23
-	  SrcBlock		  "OBSW"
-	  SrcPort		  6
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  6
-	}
-	Line {
-	  ZOrder		  24
-	  SrcBlock		  "OBSW"
-	  SrcPort		  27
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  27
-	}
-	Line {
-	  ZOrder		  25
-	  SrcBlock		  "OBSW"
-	  SrcPort		  5
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  5
-	}
-	Line {
-	  ZOrder		  26
-	  SrcBlock		  "OBSW"
-	  SrcPort		  28
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  28
-	}
-	Line {
-	  ZOrder		  27
-	  SrcBlock		  "OBSW"
-	  SrcPort		  29
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  29
-	}
-	Line {
-	  ZOrder		  28
-	  SrcBlock		  "OBSW"
-	  SrcPort		  4
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  4
-	}
-	Line {
-	  ZOrder		  29
-	  SrcBlock		  "OBSW"
-	  SrcPort		  3
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  3
-	}
-	Line {
-	  ZOrder		  30
-	  SrcBlock		  "OBSW"
-	  SrcPort		  30
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  30
-	}
-	Line {
-	  ZOrder		  31
-	  SrcBlock		  "OBSW"
-	  SrcPort		  31
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  31
-	}
-	Line {
-	  ZOrder		  32
-	  SrcBlock		  "OBSW"
+	  Name			  "<SUNvisflg_array_sys>"
+	  ZOrder		  203
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  2
-	  DstBlock		  "Bus\nCreator1"
+	  DstBlock		  "OBSW"
 	  DstPort		  2
 	}
 	Line {
-	  ZOrder		  33
-	  SrcBlock		  "OBSW"
-	  SrcPort		  32
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  32
-	}
-	Line {
-	  ZOrder		  34
-	  SrcBlock		  "OBSW"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  35
-	  SrcBlock		  "OBSW"
-	  SrcPort		  33
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  33
-	}
-	Line {
-	  ZOrder		  36
-	  SrcBlock		  "OBSW"
-	  SrcPort		  34
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  34
-	}
-	Line {
-	  ZOrder		  37
-	  SrcBlock		  "OBSW"
-	  SrcPort		  35
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  35
-	}
-	Line {
-	  ZOrder		  38
-	  SrcBlock		  "OBSW"
-	  SrcPort		  36
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  36
-	}
-	Line {
-	  ZOrder		  39
-	  SrcBlock		  "OBSW"
-	  SrcPort		  37
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  37
-	}
-	Line {
-	  ZOrder		  40
-	  SrcBlock		  "OBSW"
-	  SrcPort		  38
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  38
-	}
-	Line {
-	  ZOrder		  41
-	  SrcBlock		  "OBSW"
-	  SrcPort		  39
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  39
-	}
-	Line {
-	  ZOrder		  42
-	  SrcBlock		  "OBSW"
-	  SrcPort		  40
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  40
-	}
-	Line {
-	  ZOrder		  43
-	  SrcBlock		  "OBSW"
-	  SrcPort		  41
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  41
-	}
-	Line {
-	  ZOrder		  44
-	  SrcBlock		  "OBSW"
-	  SrcPort		  42
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  42
-	}
-	Line {
-	  ZOrder		  45
-	  SrcBlock		  "OBSW"
-	  SrcPort		  43
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  43
-	}
-	Line {
-	  ZOrder		  46
-	  SrcBlock		  "OBSW"
-	  SrcPort		  44
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  44
-	}
-	Line {
-	  ZOrder		  47
-	  SrcBlock		  "OBSW"
-	  SrcPort		  45
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  45
-	}
-	Line {
-	  ZOrder		  48
-	  SrcBlock		  "OBSW"
-	  SrcPort		  46
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  46
-	}
-	Line {
-	  ZOrder		  49
-	  SrcBlock		  "OBSW"
-	  SrcPort		  47
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  47
-	}
-	Line {
-	  ZOrder		  50
-	  SrcBlock		  "OBSW"
-	  SrcPort		  48
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  48
-	}
-	Line {
-	  ZOrder		  51
-	  SrcBlock		  "OBSW"
-	  SrcPort		  49
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  49
-	}
-	Line {
-	  ZOrder		  52
-	  SrcBlock		  "OBSW"
-	  SrcPort		  50
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  50
-	}
-	Line {
-	  ZOrder		  53
-	  SrcBlock		  "OBSW"
-	  SrcPort		  51
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  51
-	}
-	Line {
-	  ZOrder		  54
-	  SrcBlock		  "OBSW"
-	  SrcPort		  52
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  52
-	}
-	Line {
-	  ZOrder		  55
-	  SrcBlock		  "OBSW"
-	  SrcPort		  53
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  53
-	}
-	Line {
-	  ZOrder		  56
-	  SrcBlock		  "OBSW"
-	  SrcPort		  54
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  54
-	}
-	Line {
-	  ZOrder		  57
-	  SrcBlock		  "OBSW"
-	  SrcPort		  55
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  55
-	}
-	Line {
-	  ZOrder		  58
-	  SrcBlock		  "OBSW"
-	  SrcPort		  56
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  56
-	}
-	Line {
-	  ZOrder		  59
-	  SrcBlock		  "OBSW"
-	  SrcPort		  57
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  57
-	}
-	Line {
-	  ZOrder		  60
-	  SrcBlock		  "OBSW"
-	  SrcPort		  58
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  58
-	}
-	Line {
-	  ZOrder		  61
-	  SrcBlock		  "OBSW"
-	  SrcPort		  59
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  59
-	}
-	Line {
-	  ZOrder		  62
-	  SrcBlock		  "OBSW"
-	  SrcPort		  60
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  60
-	}
-	Line {
-	  ZOrder		  63
-	  SrcBlock		  "OBSW"
-	  SrcPort		  61
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  61
-	}
-	Line {
-	  ZOrder		  64
-	  SrcBlock		  "OBSW"
-	  SrcPort		  62
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  62
-	}
-	Line {
-	  ZOrder		  65
-	  SrcBlock		  "OBSW"
-	  SrcPort		  63
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  63
-	}
-	Line {
-	  ZOrder		  66
-	  SrcBlock		  "OBSW"
-	  SrcPort		  64
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  64
-	}
-	Line {
-	  ZOrder		  67
-	  SrcBlock		  "OBSW"
-	  SrcPort		  65
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  65
-	}
-	Line {
-	  ZOrder		  68
-	  SrcBlock		  "OBSW"
-	  SrcPort		  66
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  66
-	}
-	Line {
-	  ZOrder		  69
-	  SrcBlock		  "OBSW"
-	  SrcPort		  67
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  67
-	}
-	Line {
-	  ZOrder		  70
-	  SrcBlock		  "OBSW"
-	  SrcPort		  68
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  68
-	}
-	Line {
-	  ZOrder		  71
-	  SrcBlock		  "OBSW"
-	  SrcPort		  69
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  69
-	}
-	Line {
-	  ZOrder		  72
-	  SrcBlock		  "OBSW"
-	  SrcPort		  70
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  70
-	}
-	Line {
-	  ZOrder		  73
-	  SrcBlock		  "OBSW"
-	  SrcPort		  71
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  71
-	}
-	Line {
-	  ZOrder		  74
-	  SrcBlock		  "OBSW"
-	  SrcPort		  72
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  72
-	}
-	Line {
-	  ZOrder		  75
-	  SrcBlock		  "OBSW"
-	  SrcPort		  73
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  73
-	}
-	Line {
-	  ZOrder		  76
-	  SrcBlock		  "OBSW"
-	  SrcPort		  74
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  74
-	}
-	Line {
-	  ZOrder		  77
-	  SrcBlock		  "OBSW"
-	  SrcPort		  75
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  75
-	}
-	Line {
-	  ZOrder		  78
-	  SrcBlock		  "OBSW"
-	  SrcPort		  76
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  76
-	}
-	Line {
-	  ZOrder		  79
-	  SrcBlock		  "OBSW"
-	  SrcPort		  77
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  77
-	}
-	Line {
-	  ZOrder		  80
-	  SrcBlock		  "OBSW"
-	  SrcPort		  78
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  78
-	}
-	Line {
-	  ZOrder		  81
-	  SrcBlock		  "OBSW"
-	  SrcPort		  79
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  79
-	}
-	Line {
-	  ZOrder		  82
-	  SrcBlock		  "OBSW"
-	  SrcPort		  80
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  80
-	}
-	Line {
-	  ZOrder		  83
-	  SrcBlock		  "OBSW"
-	  SrcPort		  81
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  81
-	}
-	Line {
-	  ZOrder		  84
-	  SrcBlock		  "OBSW"
-	  SrcPort		  82
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  82
-	}
-	Line {
-	  ZOrder		  85
-	  SrcBlock		  "OBSW"
-	  SrcPort		  83
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  83
-	}
-	Line {
-	  ZOrder		  86
-	  SrcBlock		  "OBSW"
-	  SrcPort		  84
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  84
-	}
-	Line {
-	  ZOrder		  87
-	  SrcBlock		  "OBSW"
-	  SrcPort		  85
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  85
-	}
-	Line {
-	  ZOrder		  88
-	  SrcBlock		  "OBSW"
-	  SrcPort		  86
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  86
-	}
-	Line {
-	  ZOrder		  89
-	  SrcBlock		  "OBSW"
-	  SrcPort		  87
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  87
-	}
-	Line {
-	  ZOrder		  90
-	  SrcBlock		  "OBSW"
-	  SrcPort		  88
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  88
-	}
-	Line {
-	  ZOrder		  91
-	  SrcBlock		  "OBSW"
-	  SrcPort		  89
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  89
-	}
-	Line {
-	  ZOrder		  92
-	  SrcBlock		  "OBSW"
-	  SrcPort		  90
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  90
-	}
-	Line {
-	  ZOrder		  93
-	  SrcBlock		  "OBSW"
-	  SrcPort		  91
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  91
-	}
-	Line {
-	  ZOrder		  94
-	  SrcBlock		  "OBSW"
-	  SrcPort		  92
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  92
-	}
-	Line {
-	  ZOrder		  95
-	  SrcBlock		  "OBSW"
-	  SrcPort		  93
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  93
-	}
-	Line {
-	  ZOrder		  96
-	  SrcBlock		  "OBSW"
-	  SrcPort		  94
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  94
-	}
-	Line {
-	  ZOrder		  97
-	  SrcBlock		  "OBSW"
-	  SrcPort		  95
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  95
-	}
-	Line {
-	  ZOrder		  98
-	  SrcBlock		  "OBSW"
-	  SrcPort		  96
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  96
+	  Name			  "<SSScurrent_array_sys>"
+	  ZOrder		  204
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector"
+	  SrcPort		  3
+	  DstBlock		  "OBSW"
+	  DstPort		  3
+	}
+	Line {
+	  Name			  "<BOFw_relECI_GYR_sys>"
+	  ZOrder		  205
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector"
+	  SrcPort		  4
+	  DstBlock		  "OBSW"
+	  DstPort		  4
 	}
       }
     }
@@ -2103,7 +1651,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"Postprocessing"
-	Location		[58, 133, 1032, 1180]
+	Location		[1311, 25, 1920, 1186]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -2119,7 +1667,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"125"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -2198,7 +1746,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"RWSW"
-	Location		[953, 0, 1927, 1047]
+	Location		[920, 45, 1789, 1076]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -2214,44 +1762,28 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"80"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
 	  Name			  "From  SYSTEM"
 	  SID			  "10"
-	  Position		  [-195, 388, -165, 402]
+	  Position		  [-110, 383, -80, 397]
 	  ZOrder		  5
-	}
-	Block {
-	  BlockType		  BusCreator
-	  Name			  "Bus\nCreator"
-	  SID			  "49"
-	  Ports			  [68, 1]
-	  Position		  [565, 50, 570, 740]
-	  ZOrder		  12
-	  ShowName		  off
-	  Inputs		  "68"
-	  DisplayOption		  "bar"
-	  InheritFromInputs	  on
-	  Port {
-	    PortNumber		    1
-	    Name		    "RWSW"
-	  }
 	}
 	Block {
 	  BlockType		  BusSelector
 	  Name			  "Bus\nSelector"
 	  SID			  "145"
 	  Ports			  [1, 8]
-	  Position		  [85, 32, 90, 758]
+	  Position		  [85, -48, 90, 828]
 	  ZOrder		  23
 	  ShowName		  off
-	  OutputSignals		  "SYSACT.magmomcmd_MTR_sys,SYSCMD.MTRenableflgs,SYSCMD.MTMenableflg,SYSCMD.SSSenableflgs,SYSCMD.GYR"
-	  "enableflg,SYSCMD.GPSenableflg,SYSCMD.exttor_BOF_sys,SYSCMD.extfor_ECI_sys"
+	  OutputSignals		  "SYSACT.magcurrentcmd_MTR_sys,SYSCMD.MTRenableflgs,SYSCMD.MTMenableflg,SYSCMD.SSSenableflgs,SYSCMD"
+	  ".GYRenableflg,SYSCMD.GPSenableflg,SYSCMD.exttor_BOF_sys,SYSCMD.extfor_ECI_sys"
 	  Port {
 	    PortNumber		    1
-	    Name		    "<magmomcmd_MTR_sys>"
+	    Name		    "<magcurrentcmd_MTR_sys>"
 	  }
 	  Port {
 	    PortNumber		    2
@@ -2286,29 +1818,32 @@ Model {
 	  BlockType		  Reference
 	  Name			  "RWSW"
 	  SID			  "47"
-	  Ports			  [8, 68]
-	  Position		  [255, 41, 510, 749]
+	  Ports			  [9, 1]
+	  Position		  [270, -55, 415, 945]
 	  ZOrder		  10
-	  LibraryVersion	  "1.28"
+	  LibraryVersion	  "5.4"
 	  SourceBlock		  "RWSW/RWSW"
 	  SourceType		  "SubSystem"
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  VariantActivationTime	  "update diagram"
+	  AllowZeroVariantControls off
+	  PropagateVariantConditions off
 	  ContentPreviewEnabled	  off
+	  Latency		  "0"
+	  AutoFrameSizeCalculation off
 	}
 	Block {
 	  BlockType		  Outport
 	  Name			  "RWSW OUT"
 	  SID			  "11"
-	  Position		  [760, 388, 790, 402]
+	  Position		  [475, 438, 505, 452]
 	  ZOrder		  6
-	}
-	Line {
-	  Name			  "RWSW"
-	  ZOrder		  71
-	  Labels		  [1, 1]
-	  SrcBlock		  "Bus\nCreator"
-	  SrcPort		  1
-	  DstBlock		  "RWSW OUT"
-	  DstPort		  1
 	}
 	Line {
 	  ZOrder		  2
@@ -2316,482 +1851,6 @@ Model {
 	  SrcPort		  1
 	  DstBlock		  "Bus\nSelector"
 	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  3
-	  SrcBlock		  "RWSW"
-	  SrcPort		  14
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  14
-	}
-	Line {
-	  ZOrder		  4
-	  SrcBlock		  "RWSW"
-	  SrcPort		  15
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  15
-	}
-	Line {
-	  ZOrder		  5
-	  SrcBlock		  "RWSW"
-	  SrcPort		  13
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  13
-	}
-	Line {
-	  ZOrder		  6
-	  SrcBlock		  "RWSW"
-	  SrcPort		  12
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  12
-	}
-	Line {
-	  ZOrder		  7
-	  SrcBlock		  "RWSW"
-	  SrcPort		  16
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  16
-	}
-	Line {
-	  ZOrder		  8
-	  SrcBlock		  "RWSW"
-	  SrcPort		  17
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  17
-	}
-	Line {
-	  ZOrder		  9
-	  SrcBlock		  "RWSW"
-	  SrcPort		  11
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  11
-	}
-	Line {
-	  ZOrder		  10
-	  SrcBlock		  "RWSW"
-	  SrcPort		  10
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  10
-	}
-	Line {
-	  ZOrder		  11
-	  SrcBlock		  "RWSW"
-	  SrcPort		  18
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  18
-	}
-	Line {
-	  ZOrder		  12
-	  SrcBlock		  "RWSW"
-	  SrcPort		  9
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  9
-	}
-	Line {
-	  ZOrder		  13
-	  SrcBlock		  "RWSW"
-	  SrcPort		  19
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  19
-	}
-	Line {
-	  ZOrder		  14
-	  SrcBlock		  "RWSW"
-	  SrcPort		  8
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  8
-	}
-	Line {
-	  ZOrder		  15
-	  SrcBlock		  "RWSW"
-	  SrcPort		  20
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  20
-	}
-	Line {
-	  ZOrder		  16
-	  SrcBlock		  "RWSW"
-	  SrcPort		  21
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  21
-	}
-	Line {
-	  ZOrder		  17
-	  SrcBlock		  "RWSW"
-	  SrcPort		  7
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  7
-	}
-	Line {
-	  ZOrder		  18
-	  SrcBlock		  "RWSW"
-	  SrcPort		  22
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  22
-	}
-	Line {
-	  ZOrder		  19
-	  SrcBlock		  "RWSW"
-	  SrcPort		  6
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  6
-	}
-	Line {
-	  ZOrder		  20
-	  SrcBlock		  "RWSW"
-	  SrcPort		  23
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  23
-	}
-	Line {
-	  ZOrder		  21
-	  SrcBlock		  "RWSW"
-	  SrcPort		  5
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  5
-	}
-	Line {
-	  ZOrder		  22
-	  SrcBlock		  "RWSW"
-	  SrcPort		  4
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  4
-	}
-	Line {
-	  ZOrder		  23
-	  SrcBlock		  "RWSW"
-	  SrcPort		  24
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  24
-	}
-	Line {
-	  ZOrder		  24
-	  SrcBlock		  "RWSW"
-	  SrcPort		  3
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  3
-	}
-	Line {
-	  ZOrder		  25
-	  SrcBlock		  "RWSW"
-	  SrcPort		  25
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  25
-	}
-	Line {
-	  ZOrder		  26
-	  SrcBlock		  "RWSW"
-	  SrcPort		  2
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  2
-	}
-	Line {
-	  ZOrder		  27
-	  SrcBlock		  "RWSW"
-	  SrcPort		  26
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  26
-	}
-	Line {
-	  ZOrder		  28
-	  SrcBlock		  "RWSW"
-	  SrcPort		  27
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  27
-	}
-	Line {
-	  ZOrder		  29
-	  SrcBlock		  "RWSW"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  30
-	  SrcBlock		  "RWSW"
-	  SrcPort		  28
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  28
-	}
-	Line {
-	  ZOrder		  31
-	  SrcBlock		  "RWSW"
-	  SrcPort		  29
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  29
-	}
-	Line {
-	  ZOrder		  32
-	  SrcBlock		  "RWSW"
-	  SrcPort		  30
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  30
-	}
-	Line {
-	  ZOrder		  33
-	  SrcBlock		  "RWSW"
-	  SrcPort		  31
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  31
-	}
-	Line {
-	  ZOrder		  34
-	  SrcBlock		  "RWSW"
-	  SrcPort		  32
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  32
-	}
-	Line {
-	  ZOrder		  35
-	  SrcBlock		  "RWSW"
-	  SrcPort		  33
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  33
-	}
-	Line {
-	  ZOrder		  36
-	  SrcBlock		  "RWSW"
-	  SrcPort		  34
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  34
-	}
-	Line {
-	  ZOrder		  37
-	  SrcBlock		  "RWSW"
-	  SrcPort		  35
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  35
-	}
-	Line {
-	  ZOrder		  38
-	  SrcBlock		  "RWSW"
-	  SrcPort		  36
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  36
-	}
-	Line {
-	  ZOrder		  39
-	  SrcBlock		  "RWSW"
-	  SrcPort		  37
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  37
-	}
-	Line {
-	  ZOrder		  40
-	  SrcBlock		  "RWSW"
-	  SrcPort		  38
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  38
-	}
-	Line {
-	  ZOrder		  41
-	  SrcBlock		  "RWSW"
-	  SrcPort		  39
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  39
-	}
-	Line {
-	  ZOrder		  42
-	  SrcBlock		  "RWSW"
-	  SrcPort		  40
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  40
-	}
-	Line {
-	  ZOrder		  43
-	  SrcBlock		  "RWSW"
-	  SrcPort		  41
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  41
-	}
-	Line {
-	  ZOrder		  44
-	  SrcBlock		  "RWSW"
-	  SrcPort		  42
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  42
-	}
-	Line {
-	  ZOrder		  45
-	  SrcBlock		  "RWSW"
-	  SrcPort		  43
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  43
-	}
-	Line {
-	  ZOrder		  46
-	  SrcBlock		  "RWSW"
-	  SrcPort		  44
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  44
-	}
-	Line {
-	  ZOrder		  47
-	  SrcBlock		  "RWSW"
-	  SrcPort		  45
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  45
-	}
-	Line {
-	  ZOrder		  48
-	  SrcBlock		  "RWSW"
-	  SrcPort		  46
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  46
-	}
-	Line {
-	  ZOrder		  49
-	  SrcBlock		  "RWSW"
-	  SrcPort		  47
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  47
-	}
-	Line {
-	  ZOrder		  50
-	  SrcBlock		  "RWSW"
-	  SrcPort		  48
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  48
-	}
-	Line {
-	  ZOrder		  51
-	  SrcBlock		  "RWSW"
-	  SrcPort		  49
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  49
-	}
-	Line {
-	  ZOrder		  52
-	  SrcBlock		  "RWSW"
-	  SrcPort		  50
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  50
-	}
-	Line {
-	  ZOrder		  53
-	  SrcBlock		  "RWSW"
-	  SrcPort		  51
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  51
-	}
-	Line {
-	  ZOrder		  54
-	  SrcBlock		  "RWSW"
-	  SrcPort		  52
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  52
-	}
-	Line {
-	  ZOrder		  55
-	  SrcBlock		  "RWSW"
-	  SrcPort		  53
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  53
-	}
-	Line {
-	  ZOrder		  56
-	  SrcBlock		  "RWSW"
-	  SrcPort		  54
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  54
-	}
-	Line {
-	  ZOrder		  57
-	  SrcBlock		  "RWSW"
-	  SrcPort		  55
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  55
-	}
-	Line {
-	  ZOrder		  58
-	  SrcBlock		  "RWSW"
-	  SrcPort		  56
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  56
-	}
-	Line {
-	  ZOrder		  59
-	  SrcBlock		  "RWSW"
-	  SrcPort		  57
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  57
-	}
-	Line {
-	  ZOrder		  60
-	  SrcBlock		  "RWSW"
-	  SrcPort		  58
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  58
-	}
-	Line {
-	  ZOrder		  61
-	  SrcBlock		  "RWSW"
-	  SrcPort		  59
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  59
-	}
-	Line {
-	  ZOrder		  62
-	  SrcBlock		  "RWSW"
-	  SrcPort		  60
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  60
-	}
-	Line {
-	  ZOrder		  63
-	  SrcBlock		  "RWSW"
-	  SrcPort		  61
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  61
-	}
-	Line {
-	  ZOrder		  64
-	  SrcBlock		  "RWSW"
-	  SrcPort		  62
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  62
-	}
-	Line {
-	  ZOrder		  65
-	  SrcBlock		  "RWSW"
-	  SrcPort		  63
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  63
-	}
-	Line {
-	  ZOrder		  66
-	  SrcBlock		  "RWSW"
-	  SrcPort		  64
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  64
-	}
-	Line {
-	  ZOrder		  67
-	  SrcBlock		  "RWSW"
-	  SrcPort		  65
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  65
-	}
-	Line {
-	  ZOrder		  68
-	  SrcBlock		  "RWSW"
-	  SrcPort		  66
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  66
-	}
-	Line {
-	  ZOrder		  69
-	  SrcBlock		  "RWSW"
-	  SrcPort		  67
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  67
-	}
-	Line {
-	  ZOrder		  70
-	  SrcBlock		  "RWSW"
-	  SrcPort		  68
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  68
 	}
 	Line {
 	  Name			  "<MTRenableflgs>"
@@ -2803,7 +1862,7 @@ Model {
 	  DstPort		  2
 	}
 	Line {
-	  Name			  "<magmomcmd_MTR_sys>"
+	  Name			  "<magcurrentcmd_MTR_sys>"
 	  ZOrder		  152
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
@@ -2813,57 +1872,70 @@ Model {
 	}
 	Line {
 	  Name			  "<MTMenableflg>"
-	  ZOrder		  153
+	  ZOrder		  164
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  3
-	  DstBlock		  "RWSW"
-	  DstPort		  3
-	}
-	Line {
-	  Name			  "<SSSenableflgs>"
-	  ZOrder		  154
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  4
-	  DstBlock		  "RWSW"
-	  DstPort		  4
-	}
-	Line {
-	  Name			  "<GYRenableflg>"
-	  ZOrder		  155
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  5
+	  Points		  [114, 0; 0, 220]
 	  DstBlock		  "RWSW"
 	  DstPort		  5
 	}
 	Line {
-	  Name			  "<GPSenableflg>"
-	  ZOrder		  156
+	  Name			  "<SSSenableflgs>"
+	  ZOrder		  165
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  6
+	  SrcPort		  4
+	  Points		  [130, 0; 0, -110]
+	  DstBlock		  "RWSW"
+	  DstPort		  3
+	}
+	Line {
+	  Name			  "<GYRenableflg>"
+	  ZOrder		  163
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector"
+	  SrcPort		  5
+	  Points		  [105, 0; 0, 110]
 	  DstBlock		  "RWSW"
 	  DstPort		  6
 	}
 	Line {
-	  Name			  "<exttor_BOF_sys>"
-	  ZOrder		  157
+	  Name			  "<GPSenableflg>"
+	  ZOrder		  162
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  7
+	  SrcPort		  6
+	  Points		  [92, 0; 0, 110]
 	  DstBlock		  "RWSW"
 	  DstPort		  7
 	}
 	Line {
+	  Name			  "<exttor_BOF_sys>"
+	  ZOrder		  161
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector"
+	  SrcPort		  7
+	  Points		  [67, 0; 0, 110]
+	  DstBlock		  "RWSW"
+	  DstPort		  8
+	}
+	Line {
 	  Name			  "<extfor_ECI_sys>"
-	  ZOrder		  158
+	  ZOrder		  160
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  8
+	  Points		  [30, 0; 0, 110]
 	  DstBlock		  "RWSW"
-	  DstPort		  8
+	  DstPort		  9
+	}
+	Line {
+	  ZOrder		  159
+	  SrcBlock		  "RWSW"
+	  SrcPort		  1
+	  DstBlock		  "RWSW OUT"
+	  DstPort		  1
 	}
       }
     }
@@ -2877,7 +1949,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"SYSTEM"
-	Location		[-7, 0, 967, 1047]
+	Location		[853, 25, 1758, 1186]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -2893,7 +1965,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"50"
+	ZoomFactor		"71"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -2960,11 +2032,11 @@ Model {
 	  BlockType		  BusCreator
 	  Name			  "Bus\nCreator3"
 	  SID			  "103"
-	  Ports			  [6, 1]
-	  Position		  [640, 566, 645, 789]
+	  Ports			  [4, 1]
+	  Position		  [640, 565, 645, 790]
 	  ZOrder		  43
 	  ShowName		  off
-	  Inputs		  "6"
+	  Inputs		  "4"
 	  DisplayOption		  "bar"
 	  InheritFromInputs	  on
 	  Port {
@@ -2976,18 +2048,19 @@ Model {
 	  BlockType		  BusSelector
 	  Name			  "Bus\nSelector"
 	  SID			  "96"
-	  Ports			  [1, 6]
-	  Position		  [75, 565, 90, 790]
+	  Ports			  [1, 4]
+	  Position		  [75, 565, 80, 790]
 	  ZOrder		  36
 	  ShowName		  off
-	  OutputSignals		  "magfld_MAG_mes,SUNvisflg_array,SSScurrent_mes,BOFw_relECI_GYR_mes,GPSpos_ECI_mes,GPSvel_ECI_mes"
+	  OutputSignals		  "SEN.SEN_MTM.magfld_MTM_mes,SEN.SEN_SSS.SSSvisflg_array,SEN.SEN_SSS.SSScurrent_mes,SEN.SEN_GYR.GYR"
+	  "w_relECI_GYR_mes"
 	  Port {
 	    PortNumber		    1
-	    Name		    "<magfld_MAG_mes>"
+	    Name		    "<magfld_MTM_mes>"
 	  }
 	  Port {
 	    PortNumber		    2
-	    Name		    "<SUNvisflg_array>"
+	    Name		    "<SSSvisflg_array>"
 	  }
 	  Port {
 	    PortNumber		    3
@@ -2995,27 +2068,20 @@ Model {
 	  }
 	  Port {
 	    PortNumber		    4
-	    Name		    "<BOFw_relECI_GYR_mes>"
-	  }
-	  Port {
-	    PortNumber		    5
-	    Name		    "<GPSpos_ECI_mes>"
-	  }
-	  Port {
-	    PortNumber		    6
-	    Name		    "<GPSvel_ECI_mes>"
+	    Name		    "<GYRw_relECI_GYR_mes>"
 	  }
 	}
 	Block {
-	  BlockType		  Constant
-	  Name			  "Constant7"
-	  SID			  "74"
-	  Position		  [-60, -208, 30, -182]
-	  ZOrder		  30
-	  Value			  "zeros(10,1)"
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector1"
+	  SID			  "159"
+	  Ports			  [1, 1]
+	  Position		  [55, -289, 60, -251]
+	  ZOrder		  44
+	  OutputSignals		  "magcurrentcmd_MTRcmd"
 	  Port {
 	    PortNumber		    1
-	    Name		    "magmomcmd_MTRcmd"
+	    Name		    "<magcurrentcmd_MTRcmd>"
 	  }
 	}
 	Block {
@@ -3028,7 +2094,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "SYSACT"
-	    Location		    [-8, -8, 1928, 1048]
+	    Location		    [1013, 25, 1918, 1186]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -3048,7 +2114,7 @@ Model {
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
-	      Name		      "magmomcmd_MTR_cmd"
+	      Name		      "magcurrentcmd_MTR_cmd"
 	      SID		      "152"
 	      Position		      [20, 38, 50, 52]
 	      ZOrder		      1
@@ -3063,7 +2129,7 @@ Model {
 	      RequestExecContextInheritance off
 	      System {
 		Name			"SYSACT_MTR"
-		Location		[-8, -8, 1928, 1048]
+		Location		[1013, 25, 1918, 1186]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -3079,11 +2145,11 @@ Model {
 		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 		TiledPageScale		1
 		ShowPageBoundaries	off
-		ZoomFactor		"125"
+		ZoomFactor		"100"
 		SimulinkSubDomain	"Simulink"
 		Block {
 		  BlockType		  Inport
-		  Name			  "magmomcmd_MTR_cmd"
+		  Name			  "magcurrentcmd_MTR_cmd"
 		  SID			  "149"
 		  Position		  [20, 28, 50, 42]
 		  ZOrder		  62
@@ -3099,44 +2165,44 @@ Model {
 		  DelayLength		  "1"
 		  Port {
 		    PortNumber		    1
-		    Name		    "magmomcmd_MTR_sys"
+		    Name		    "magcurrentcmd_MTR_sys"
 		  }
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "magmomcmd_MTR_sys"
+		  Name			  "magcurrentcmd_MTR_sys"
 		  SID			  "150"
 		  Position		  [545, 28, 575, 42]
 		  ZOrder		  63
 		}
 		Line {
 		  ZOrder		  108
-		  SrcBlock		  "magmomcmd_MTR_cmd"
+		  SrcBlock		  "magcurrentcmd_MTR_cmd"
 		  SrcPort		  1
 		  DstBlock		  "Delay1"
 		  DstPort		  1
 		}
 		Line {
-		  Name			  "magmomcmd_MTR_sys"
+		  Name			  "magcurrentcmd_MTR_sys"
 		  ZOrder		  109
 		  Labels		  [1, 1]
 		  SrcBlock		  "Delay1"
 		  SrcPort		  1
-		  DstBlock		  "magmomcmd_MTR_sys"
+		  DstBlock		  "magcurrentcmd_MTR_sys"
 		  DstPort		  1
 		}
 	      }
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "magmomcmd_MTR_sys"
+	      Name		      "magcurrentcmd_MTR_sys"
 	      SID		      "153"
 	      Position		      [545, 38, 575, 52]
 	      ZOrder		      2
 	    }
 	    Line {
 	      ZOrder		      110
-	      SrcBlock		      "magmomcmd_MTR_cmd"
+	      SrcBlock		      "magcurrentcmd_MTR_cmd"
 	      SrcPort		      1
 	      DstBlock		      "SYSACT_MTR"
 	      DstPort		      1
@@ -3145,7 +2211,7 @@ Model {
 	      ZOrder		      111
 	      SrcBlock		      "SYSACT_MTR"
 	      SrcPort		      1
-	      DstBlock		      "magmomcmd_MTR_sys"
+	      DstBlock		      "magcurrentcmd_MTR_sys"
 	      DstPort		      1
 	    }
 	  }
@@ -3160,7 +2226,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "SYSCMD"
-	    Location		    [953, 0, 1927, 1047]
+	    Location		    [305, 94, 1711, 1141]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -3404,13 +2470,29 @@ Model {
 	  BlockType		  SubSystem
 	  Name			  "SYSSEN"
 	  SID			  "132"
-	  Ports			  [6, 6]
+	  Ports			  [4, 4]
 	  Position		  [230, 568, 500, 787]
 	  ZOrder		  -29
 	  RequestExecContextInheritance	off
+	  Port {
+	    PortNumber		    1
+	    Name		    "magfld_MTM_sys"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "SUNvisflg_array_sys"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "SSScurrent_array_sys"
+	  }
+	  Port {
+	    PortNumber		    4
+	    Name		    "BOFw_relECI_GYR_sys"
+	  }
 	  System {
 	    Name		    "SYSSEN"
-	    Location		    [-8, -8, 1928, 1048]
+	    Location		    [1013, 25, 1918, 1186]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -3436,7 +2518,7 @@ Model {
 	      ZOrder		      1
 	      Port {
 		PortNumber		1
-		PropagatedSignals	"magfld_MAG_mes"
+		PropagatedSignals	"SSSvisflg_array"
 		ShowPropagatedSignals	"on"
 	      }
 	    }
@@ -3449,7 +2531,7 @@ Model {
 	      Port		      "2"
 	      Port {
 		PortNumber		1
-		PropagatedSignals	"SUNvisflg_array"
+		PropagatedSignals	"SSScurrent_mes"
 		ShowPropagatedSignals	"on"
 	      }
 	    }
@@ -3462,7 +2544,7 @@ Model {
 	      Port		      "3"
 	      Port {
 		PortNumber		1
-		PropagatedSignals	"SSScurrent_mes"
+		PropagatedSignals	"magfld_MTM_mes"
 		ShowPropagatedSignals	"on"
 	      }
 	    }
@@ -3475,33 +2557,7 @@ Model {
 	      Port		      "4"
 	      Port {
 		PortNumber		1
-		PropagatedSignals	"BOFw_relECI_GYR_mes"
-		ShowPropagatedSignals	"on"
-	      }
-	    }
-	    Block {
-	      BlockType		      Inport
-	      Name		      "GPSpos_ECI_mes"
-	      SID		      "137"
-	      Position		      [10, 398, 40, 412]
-	      ZOrder		      5
-	      Port		      "5"
-	      Port {
-		PortNumber		1
-		PropagatedSignals	"GPSpos_ECI_mes"
-		ShowPropagatedSignals	"on"
-	      }
-	    }
-	    Block {
-	      BlockType		      Inport
-	      Name		      "GPSvel_ECI_mes"
-	      SID		      "138"
-	      Position		      [10, 433, 40, 447]
-	      ZOrder		      6
-	      Port		      "6"
-	      Port {
-		PortNumber		1
-		PropagatedSignals	"GPSvel_ECI_mes"
+		PropagatedSignals	"GYRw_relECI_GYR_mes"
 		ShowPropagatedSignals	"on"
 	      }
 	    }
@@ -3541,7 +2597,7 @@ Model {
 		  ZOrder		  50
 		  Port {
 		    PortNumber		    1
-		    PropagatedSignals	    "BOFw_relECI_GYR_mes"
+		    PropagatedSignals	    "GYRw_relECI_GYR_mes"
 		    ShowPropagatedSignals   "on"
 		  }
 		}
@@ -3586,136 +2642,6 @@ Model {
 	    }
 	    Block {
 	      BlockType		      SubSystem
-	      Name		      "SYSSEN_GPS"
-	      SID		      "127"
-	      Ports		      [2, 2]
-	      Position		      [165, 385, 450, 460]
-	      ZOrder		      -27
-	      RequestExecContextInheritance off
-	      System {
-		Name			"SYSSEN_GPS"
-		Location		[-8, -8, 1928, 1048]
-		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-		Open			off
-		PortBlocksUseCompactNotation off
-		SetExecutionDomain	off
-		ExecutionDomainType	"Deduce"
-		ModelBrowserVisibility	off
-		ModelBrowserWidth	200
-		ScreenColor		"white"
-		PaperOrientation	"landscape"
-		PaperPositionMode	"auto"
-		PaperType		"usletter"
-		PaperUnits		"inches"
-		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
-		TiledPageScale		1
-		ShowPageBoundaries	off
-		ZoomFactor		"100"
-		SimulinkSubDomain	"Simulink"
-		Block {
-		  BlockType		  Inport
-		  Name			  "GPSpos_ECI_mes"
-		  SID			  "128"
-		  Position		  [20, 33, 50, 47]
-		  ZOrder		  55
-		  Port {
-		    PortNumber		    1
-		    PropagatedSignals	    "GPSpos_ECI_mes"
-		    ShowPropagatedSignals   "on"
-		  }
-		}
-		Block {
-		  BlockType		  Inport
-		  Name			  "GPSvel_ECI_mes"
-		  SID			  "129"
-		  Position		  [20, 68, 50, 82]
-		  ZOrder		  56
-		  Port			  "2"
-		  Port {
-		    PortNumber		    1
-		    PropagatedSignals	    "GPSvel_ECI_mes"
-		    ShowPropagatedSignals   "on"
-		  }
-		}
-		Block {
-		  BlockType		  Delay
-		  Name			  "Delay3"
-		  SID			  "110"
-		  Ports			  [1, 1]
-		  Position		  [255, 23, 290, 57]
-		  ZOrder		  50
-		  InputPortMap		  "u0"
-		  DelayLength		  "1"
-		  Port {
-		    PortNumber		    1
-		    Name		    "GPSpos_ECI_sys"
-		  }
-		}
-		Block {
-		  BlockType		  Delay
-		  Name			  "Delay4"
-		  SID			  "114"
-		  Ports			  [1, 1]
-		  Position		  [310, 58, 345, 92]
-		  ZOrder		  54
-		  InputPortMap		  "u0"
-		  DelayLength		  "1"
-		  Port {
-		    PortNumber		    1
-		    Name		    "GPSvel_ECI_sys"
-		  }
-		}
-		Block {
-		  BlockType		  Outport
-		  Name			  "GPSpos_ECI_sys"
-		  SID			  "130"
-		  Position		  [690, 33, 720, 47]
-		  ZOrder		  57
-		}
-		Block {
-		  BlockType		  Outport
-		  Name			  "GPSvel_ECI_sys"
-		  SID			  "131"
-		  Position		  [690, 68, 720, 82]
-		  ZOrder		  58
-		  Port			  "2"
-		}
-		Line {
-		  ZOrder		  80
-		  SrcBlock		  "GPSvel_ECI_mes"
-		  SrcPort		  1
-		  DstBlock		  "Delay4"
-		  DstPort		  1
-		}
-		Line {
-		  ZOrder		  79
-		  SrcBlock		  "GPSpos_ECI_mes"
-		  SrcPort		  1
-		  DstBlock		  "Delay3"
-		  DstPort		  1
-		}
-		Line {
-		  Name			  "GPSvel_ECI_sys"
-		  ZOrder		  82
-		  Labels		  [1, 0]
-		  SrcBlock		  "Delay4"
-		  SrcPort		  1
-		  DstBlock		  "GPSvel_ECI_sys"
-		  DstPort		  1
-		}
-		Line {
-		  Name			  "GPSpos_ECI_sys"
-		  ZOrder		  81
-		  Labels		  [1, 0]
-		  SrcBlock		  "Delay3"
-		  SrcPort		  1
-		  DstBlock		  "GPSpos_ECI_sys"
-		  DstPort		  1
-		}
-	      }
-	    }
-	    Block {
-	      BlockType		      SubSystem
 	      Name		      "SYSSEN_MTM"
 	      SID		      "116"
 	      Ports		      [1, 1]
@@ -3724,7 +2650,7 @@ Model {
 	      RequestExecContextInheritance off
 	      System {
 		Name			"SYSSEN_MTM"
-		Location		[-8, -8, 1928, 1048]
+		Location		[1013, 25, 1918, 1186]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -3750,7 +2676,7 @@ Model {
 		  ZOrder		  46
 		  Port {
 		    PortNumber		    1
-		    PropagatedSignals	    "magfld_MAG_mes"
+		    PropagatedSignals	    "SSSvisflg_array"
 		    ShowPropagatedSignals   "on"
 		  }
 		}
@@ -3803,7 +2729,7 @@ Model {
 	      RequestExecContextInheritance off
 	      System {
 		Name			"SYSSEN_SSS"
-		Location		[-8, -8, 1928, 1048]
+		Location		[1013, 25, 1918, 1186]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -3829,7 +2755,7 @@ Model {
 		  ZOrder		  56
 		  Port {
 		    PortNumber		    1
-		    PropagatedSignals	    "SUNvisflg_array"
+		    PropagatedSignals	    "SSScurrent_mes"
 		    ShowPropagatedSignals   "on"
 		  }
 		}
@@ -3842,7 +2768,7 @@ Model {
 		  Port			  "2"
 		  Port {
 		    PortNumber		    1
-		    PropagatedSignals	    "SSScurrent_mes"
+		    PropagatedSignals	    "magfld_MTM_mes"
 		    ShowPropagatedSignals   "on"
 		  }
 		}
@@ -3954,22 +2880,6 @@ Model {
 	      ZOrder		      10
 	      Port		      "4"
 	    }
-	    Block {
-	      BlockType		      Outport
-	      Name		      "GPSpos_ECI_sys"
-	      SID		      "143"
-	      Position		      [680, 398, 710, 412]
-	      ZOrder		      11
-	      Port		      "5"
-	    }
-	    Block {
-	      BlockType		      Outport
-	      Name		      "GPSvel_ECI_sys"
-	      SID		      "144"
-	      Position		      [680, 433, 710, 447]
-	      ZOrder		      12
-	      Port		      "6"
-	    }
 	    Line {
 	      ZOrder		      97
 	      SrcBlock		      "SSScurrent_array_mes"
@@ -4013,27 +2923,6 @@ Model {
 	      DstPort		      1
 	    }
 	    Line {
-	      ZOrder		      99
-	      SrcBlock		      "GPSpos_ECI_mes"
-	      SrcPort		      1
-	      DstBlock		      "SYSSEN_GPS"
-	      DstPort		      1
-	    }
-	    Line {
-	      ZOrder		      100
-	      SrcBlock		      "GPSvel_ECI_mes"
-	      SrcPort		      1
-	      DstBlock		      "SYSSEN_GPS"
-	      DstPort		      2
-	    }
-	    Line {
-	      ZOrder		      106
-	      SrcBlock		      "SYSSEN_GPS"
-	      SrcPort		      2
-	      DstBlock		      "GPSvel_ECI_sys"
-	      DstPort		      1
-	    }
-	    Line {
 	      ZOrder		      98
 	      SrcBlock		      "BOFw_relECI_GYR_mes"
 	      SrcPort		      1
@@ -4047,21 +2936,7 @@ Model {
 	      DstBlock		      "BOFw_relECI_GYR_sys"
 	      DstPort		      1
 	    }
-	    Line {
-	      ZOrder		      105
-	      SrcBlock		      "SYSSEN_GPS"
-	      SrcPort		      1
-	      DstBlock		      "GPSpos_ECI_sys"
-	      DstPort		      1
-	    }
 	  }
-	}
-	Block {
-	  BlockType		  Terminator
-	  Name			  "Terminator1"
-	  SID			  "44"
-	  Position		  [50, -280, 70, -260]
-	  ZOrder		  13
 	}
 	Block {
 	  BlockType		  Outport
@@ -4088,10 +2963,10 @@ Model {
 	  DstPort		  2
 	}
 	Line {
-	  ZOrder		  3
+	  ZOrder		  134
 	  SrcBlock		  "From OBSW"
 	  SrcPort		  1
-	  DstBlock		  "Terminator1"
+	  DstBlock		  "Bus\nSelector1"
 	  DstPort		  1
 	}
 	Line {
@@ -4166,22 +3041,13 @@ Model {
 	  Labels		  [-1, 0]
 	  SrcBlock		  "Bus\nCreator3"
 	  SrcPort		  1
-	  Points		  [91, 0; 0, -400]
+	  Points		  [120, 0; 0, -400]
 	  DstBlock		  "Bus\nCreator2"
 	  DstPort		  3
 	}
 	Line {
-	  Name			  "<magfld_MAG_mes>"
-	  ZOrder		  95
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  1
-	  DstBlock		  "SYSSEN"
-	  DstPort		  1
-	}
-	Line {
-	  Name			  "<SUNvisflg_array>"
-	  ZOrder		  96
+	  Name			  "<SSSvisflg_array>"
+	  ZOrder		  115
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  2
@@ -4190,7 +3056,7 @@ Model {
 	}
 	Line {
 	  Name			  "<SSScurrent_mes>"
-	  ZOrder		  97
+	  ZOrder		  117
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  3
@@ -4198,7 +3064,16 @@ Model {
 	  DstPort		  3
 	}
 	Line {
-	  Name			  "<BOFw_relECI_GYR_mes>"
+	  Name			  "<magfld_MTM_mes>"
+	  ZOrder		  114
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector"
+	  SrcPort		  1
+	  DstBlock		  "SYSSEN"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<GYRw_relECI_GYR_mes>"
 	  ZOrder		  98
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
@@ -4207,80 +3082,55 @@ Model {
 	  DstPort		  4
 	}
 	Line {
-	  Name			  "<GPSpos_ECI_mes>"
-	  ZOrder		  99
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  5
-	  DstBlock		  "SYSSEN"
-	  DstPort		  5
-	}
-	Line {
-	  Name			  "<GPSvel_ECI_mes>"
-	  ZOrder		  100
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  6
-	  DstBlock		  "SYSSEN"
-	  DstPort		  6
-	}
-	Line {
-	  ZOrder		  101
+	  Name			  "magfld_MTM_sys"
+	  ZOrder		  128
+	  Labels		  [1, 1]
 	  SrcBlock		  "SYSSEN"
 	  SrcPort		  1
 	  DstBlock		  "Bus\nCreator3"
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  102
+	  Name			  "SUNvisflg_array_sys"
+	  ZOrder		  129
+	  Labels		  [1, 1]
 	  SrcBlock		  "SYSSEN"
 	  SrcPort		  2
 	  DstBlock		  "Bus\nCreator3"
 	  DstPort		  2
 	}
 	Line {
-	  ZOrder		  103
+	  Name			  "SSScurrent_array_sys"
+	  ZOrder		  130
+	  Labels		  [1, 1]
 	  SrcBlock		  "SYSSEN"
 	  SrcPort		  3
 	  DstBlock		  "Bus\nCreator3"
 	  DstPort		  3
 	}
 	Line {
-	  ZOrder		  104
+	  Name			  "BOFw_relECI_GYR_sys"
+	  ZOrder		  131
+	  Labels		  [1, 1]
 	  SrcBlock		  "SYSSEN"
 	  SrcPort		  4
 	  DstBlock		  "Bus\nCreator3"
 	  DstPort		  4
 	}
 	Line {
-	  ZOrder		  105
-	  SrcBlock		  "SYSSEN"
-	  SrcPort		  5
-	  DstBlock		  "Bus\nCreator3"
-	  DstPort		  5
-	}
-	Line {
-	  ZOrder		  106
-	  SrcBlock		  "SYSSEN"
-	  SrcPort		  6
-	  DstBlock		  "Bus\nCreator3"
-	  DstPort		  6
-	}
-	Line {
-	  Name			  "magmomcmd_MTRcmd"
-	  ZOrder		  110
-	  Labels		  [0, 0]
-	  SrcBlock		  "Constant7"
-	  SrcPort		  1
-	  Points		  [120, 0; 0, -75]
-	  DstBlock		  "SYSACT"
-	  DstPort		  1
-	}
-	Line {
 	  ZOrder		  111
 	  SrcBlock		  "SYSACT"
 	  SrcPort		  1
 	  DstBlock		  "Bus\nCreator1"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<magcurrentcmd_MTRcmd>"
+	  ZOrder		  135
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector1"
+	  SrcPort		  1
+	  DstBlock		  "SYSACT"
 	  DstPort		  1
 	}
       }
