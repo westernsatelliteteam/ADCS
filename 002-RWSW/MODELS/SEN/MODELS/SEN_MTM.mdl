@@ -1,8 +1,8 @@
 Library {
-  Name			  "RWSW"
+  Name			  "SEN_MTM"
   Version		  10.2
   SavedCharacterEncoding  "UTF-8"
-  ModelUUID		  "8b029927-c0a6-432f-bcf0-5d82d47a2f43"
+  ModelUUID		  "402e0e7b-a8b7-4c02-8f79-d569c8fedfce"
   SLCCPlugin		  "on"
   slcheck_filter_plugin	  "on"
   DiagnosticSuppressor	  "on"
@@ -27,7 +27,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [697.0, 25.0, 1218.0, 1161.0]
+      Location		      [-1344.0, 312.0, 994.0, 753.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -37,7 +37,7 @@ Library {
 	Width			[50]
 	Height			[50]
 	Filter			[9]
-	Minimized		"Off"
+	Minimized		"On"
       }
       Object {
 	$PropName		"ExplorerBarInfo"
@@ -47,17 +47,17 @@ Library {
       }
       Array {
 	Type			"Simulink.EditorInfo"
-	Dimension		5
+	Dimension		2
 	Object {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "1"
-	  Extents		  [936.0, 956.0]
-	  ZoomFactor		  [0.40238333466048554]
-	  Offset		  [-244.06613091960367, -840.421961040749]
-	  SceneRectInView	  [-244.06613091960367, -840.421961040749, 2326.1400743392073, 2375.843922081498]
+	  Extents		  [880.0, 548.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-157.93691524144879, 31.584630176895644]
+	  SceneRectInView	  [-157.93691524144879, 31.584630176895644, 880.0, 548.0]
 	}
 	Object {
 	  $ObjectID		  6
@@ -65,43 +65,10 @@ Library {
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [936.0, 956.0]
-	  ZoomFactor		  [1.5]
-	  Offset		  [340.27701149425332, -663.43333333333339]
-	  SceneRectInView	  [340.27701149425332, -663.43333333333339, 624.0, 637.33333333333337]
-	}
-	Object {
-	  $ObjectID		  7
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "30"
-	  Extents		  [936.0, 956.0]
-	  ZoomFactor		  [0.15]
-	  Offset		  [-235.60260416666461, -2020.3666666666704]
-	  SceneRectInView	  [-235.60260416666461, -2020.3666666666704, 6240.0, 6373.3333333333339]
-	}
-	Object {
-	  $ObjectID		  8
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "151"
-	  Extents		  [936.0, 956.0]
-	  ZoomFactor		  [0.4]
-	  Offset		  [-684.76893478260877, -750.62697826086969]
-	  SceneRectInView	  [-684.76893478260877, -750.62697826086969, 2340.0, 2390.0]
-	}
-	Object {
-	  $ObjectID		  9
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "112"
-	  Extents		  [936.0, 956.0]
+	  Extents		  [880.0, 548.0]
 	  ZoomFactor		  [1.0]
 	  Offset		  [0.0, 0.0]
-	  SceneRectInView	  [0.0, 0.0, 0.0, 0.0]
+	  SceneRectInView	  [0.0, 0.0, 880.0, 548.0]
 	}
 	PropName		"EditorsInfo"
       }
@@ -109,20 +76,20 @@ Library {
 	Type			"Simulink.DockComponentInfo"
 	Dimension		2
 	Object {
-	  $ObjectID		  10
+	  $ObjectID		  7
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
-	  Visible		  [0]
+	  Visible		  [1]
 	  CreateCallback	  ""
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Right"
 	  Width			  [640]
 	  Height		  [480]
-	  Minimized		  "Unset"
+	  Minimized		  "On"
 	}
 	Object {
-	  $ObjectID		  11
+	  $ObjectID		  8
 	  Type			  "Simulink:Editor:ReferencedFiles"
 	  ID			  "Referenced Files"
 	  Visible		  [0]
@@ -136,34 +103,37 @@ Library {
 	}
 	PropName		"DockComponentsInfo"
       }
-      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAADzAAAD2/wCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
+      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQBAAAAeQAAA9sAAABqAP////sAAABgAFMAaQBtAHUAb"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABqAP////sAAABgAFMAaQBtAHUAb"
       "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
       "QBzAAAAAAD/////AAAAjgD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
-      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAADzgAAA9sAAAABAAAAAgAAAAEAAAAC/"
-      "AAAAAEAAAACAAAAAA=="
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAADlgAAAkMAAAABAAAAAgAAAAEAAAAC/"
+      "AAAAAMAAAAAAAAAAQAAADYAYwBvAGwAbABhAHAAcwBpAGIAbABlAFAAYQBuAGUAbABUAG8AbwBsAEIAYQByAEwAZQBmAHQDAAAAAP////8AAAAAA"
+      "AAAAAAAAAEAAAABAAAAOABjAG8AbABsAGEAcABzAGkAYgBsAGUAUABhAG4AZQBsAFQAbwBvAGwAQgBhAHIAUgBpAGcAaAB0AwAAAAD/////AAAAA"
+      "AAAAAAAAAADAAAAAQAAADoAYwBvAGwAbABhAHAAcwBpAGIAbABlAFAAYQBuAGUAbABUAG8AbwBsAEIAYQByAEIAbwB0AHQAbwBtAAAAAAD/////A"
+      "AAAAAAAAAA="
       Array {
 	Type			"Cell"
 	Dimension		0
 	PropName		"PersistedApps"
       }
-      WindowUuid	      "45a7ff24-d491-4c63-a22f-b09fb4500aae"
+      WindowUuid	      "660b5ccd-9dfc-4b34-a1cd-a4a238d68a7d"
     }
-    BDUuid		    "32e1fdaa-0008-40a0-be1a-4c888ba2e09b"
+    BDUuid		    "e09f79fb-82eb-4543-bd3f-e00d9e6c4a82"
   }
   HideAutomaticNames	  on
   SequenceViewerTimePrecision 3
   SequenceViewerHistory	  1000
-  Created		  "Tue Jun 14 10:55:39 2016"
-  Creator		  "alger"
+  Created		  "Tue Jun 22 14:10:19 2021"
+  Creator		  "dbell44"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "dbell44"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Jun 28 22:59:39 2021"
-  RTWModifiedTimeStamp	  546821951
-  ModelVersionFormat	  "%<AutoIncrement:5.4>"
+  LastModifiedDate	  "Mon Jun 28 21:45:14 2021"
+  RTWModifiedTimeStamp	  546817419
+  ModelVersionFormat	  "%<AutoIncrement:1.3>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -236,15 +206,15 @@ Library {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      12
+      $ObjectID		      9
       Version		      "20.1.0"
       DisabledProps	      []
       Description	      ""
       Array {
 	Type			"Handle"
-	Dimension		10
+	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  13
+	  $ObjectID		  10
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -265,9 +235,9 @@ Library {
 	  MinStep		  "auto"
 	  MaxConsecutiveMinStep	  "1"
 	  RelTol		  "1e-3"
-	  EnableMultiTasking	  on
+	  EnableMultiTasking	  off
 	  ConcurrentTasks	  off
-	  SolverName		  "ode45"
+	  SolverName		  "VariableStepAuto"
 	  SolverJacobianMethodControl "auto"
 	  ShapePreserveControl	  "DisableAll"
 	  ZeroCrossControl	  "UseLocalSettings"
@@ -286,7 +256,7 @@ Library {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  14
+	  $ObjectID		  11
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -295,13 +265,13 @@ Library {
 	  ExternalInput		  "[t, u]"
 	  FinalStateName	  "xFinal"
 	  InitialState		  "xInitial"
-	  LimitDataPoints	  on
+	  LimitDataPoints	  off
 	  MaxDataPoints		  "1000"
 	  LoadExternalInput	  off
 	  LoadInitialState	  off
 	  SaveFinalState	  off
 	  SaveOperatingPoint	  off
-	  SaveFormat		  "Array"
+	  SaveFormat		  "Dataset"
 	  SignalLoggingSaveFormat "Dataset"
 	  SaveOutput		  on
 	  SaveState		  off
@@ -312,7 +282,7 @@ Library {
 	  StreamToWorkspace	  off
 	  StreamVariableName	  "streamout"
 	  SaveTime		  on
-	  ReturnWorkspaceOutputs  off
+	  ReturnWorkspaceOutputs  on
 	  StateSaveName		  "xout"
 	  TimeSaveName		  "tout"
 	  OutputSaveName	  "yout"
@@ -328,7 +298,7 @@ Library {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  15
+	  $ObjectID		  12
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -383,7 +353,7 @@ Library {
 	  NoFixptDivByZeroProtection off
 	  EfficientFloat2IntCast  off
 	  EfficientMapNaN2IntZero on
-	  LifeSpan		  "inf"
+	  LifeSpan		  "auto"
 	  MaxStackSize		  "Inherit from target"
 	  BufferReusableBoundary  on
 	  SimCompilerOptimization "off"
@@ -402,7 +372,7 @@ Library {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  16
+	  $ObjectID		  13
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -426,8 +396,8 @@ Library {
 	  SaveWithDisabledLinksMsg "warning"
 	  SaveWithParameterizedLinksMsg	"warning"
 	  CheckSSInitialOutputMsg on
-	  UnderspecifiedInitializationDetection	"Classic"
-	  MergeDetectMultiDrivingBlocksExec "none"
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "error"
 	  CheckExecutionContextPreStartOutputMsg off
 	  CheckExecutionContextRuntimeOutputMsg	off
 	  SignalResolutionControl "UseLocalSettings"
@@ -437,7 +407,7 @@ Library {
 	  MaxConsecutiveZCsMsg	  "error"
 	  MaskedZcDiagnostic	  "warning"
 	  IgnoredZcDiagnostic	  "warning"
-	  SolverPrmCheckMsg	  "warning"
+	  SolverPrmCheckMsg	  "none"
 	  InheritedTsInSrcMsg	  "warning"
 	  MultiTaskDSMMsg	  "error"
 	  MultiTaskCondExecSysMsg "error"
@@ -483,7 +453,7 @@ Library {
 	  ModelReferenceNoExplicitFinalValueMsg	"none"
 	  ModelReferenceSymbolNameMessage "warning"
 	  ModelReferenceExtraNoncontSigs "error"
-	  StateNameClashWarn	  "warning"
+	  StateNameClashWarn	  "none"
 	  OperatingPointInterfaceChecksumMismatchMsg "warning"
 	  NonCurrentReleaseOperatingPointMsg "error"
 	  ChecksumConsistencyForSSReuse	"none"
@@ -499,9 +469,9 @@ Library {
 	  SymbolicDimsDataTypeCodeGenerationDiagnostic "error"
 	  BlockIODiagnostic	  "none"
 	  SFUnusedDataAndEventsDiag "warning"
-	  SFUnexpectedBacktrackingDiag "warning"
+	  SFUnexpectedBacktrackingDiag "error"
 	  SFInvalidInputDataAccessInChartInitDiag "warning"
-	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "error"
 	  SFTransitionOutsideNaturalParentDiag "warning"
 	  SFUnreachableExecutionPathDiag "warning"
 	  SFUndirectedBroadcastEventsDiag "warning"
@@ -509,7 +479,7 @@ Library {
 	  SFOutputUsedAsStateInMooreChartDiag "error"
 	  SFTemporalDelaySmallerThanSampleTimeDiag "warning"
 	  SFSelfTransitionDiag	  "warning"
-	  SFExecutionAtInitializationDiag "none"
+	  SFExecutionAtInitializationDiag "warning"
 	  SFMachineParentedDataDiag "warning"
 	  IntegerSaturationMsg	  "warning"
 	  AllowedUnitSystems	  "all"
@@ -521,11 +491,11 @@ Library {
 	  UnitDatabase		  ""
 	  UnderSpecifiedDimensionMsg "none"
 	  DebugExecutionForFMUViaOutOfProcess off
-	  ArithmeticOperatorsInVariantConditions "warning"
+	  ArithmeticOperatorsInVariantConditions "error"
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  17
+	  $ObjectID		  14
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -537,17 +507,17 @@ Library {
 	  ProdBitPerLongLong	  64
 	  ProdBitPerFloat	  32
 	  ProdBitPerDouble	  64
-	  ProdBitPerPointer	  32
-	  ProdBitPerSizeT	  32
-	  ProdBitPerPtrDiffT	  32
+	  ProdBitPerPointer	  64
+	  ProdBitPerSizeT	  64
+	  ProdBitPerPtrDiffT	  64
 	  ProdLargestAtomicInteger "Char"
-	  ProdLargestAtomicFloat  "None"
-	  ProdIntDivRoundTo	  "Undefined"
-	  ProdEndianess		  "Unspecified"
-	  ProdWordSize		  32
+	  ProdLargestAtomicFloat  "Float"
+	  ProdIntDivRoundTo	  "Zero"
+	  ProdEndianess		  "LittleEndian"
+	  ProdWordSize		  64
 	  ProdShiftRightIntArith  on
 	  ProdLongLongMode	  off
-	  ProdHWDeviceType	  "32-bit Generic"
+	  ProdHWDeviceType	  "Intel->x86-64 (Windows64)"
 	  TargetBitPerChar	  8
 	  TargetBitPerShort	  16
 	  TargetBitPerInt	  32
@@ -575,7 +545,7 @@ Library {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  18
+	  $ObjectID		  15
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -591,11 +561,11 @@ Library {
 	  ModelDependencies	  ""
 	  ModelReferencePassRootInputsByReference on
 	  ModelReferenceMinAlgLoopOccurrences off
-	  PropagateSignalLabelsOutOfModel off
+	  PropagateSignalLabelsOutOfModel on
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  19
+	  $ObjectID		  16
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -614,7 +584,7 @@ Library {
 	  SFSimEcho		  on
 	  SimCtrlC		  on
 	  SimIntegrity		  on
-	  SimUseLocalCustomCode	  off
+	  SimUseLocalCustomCode	  on
 	  SimParseCustomCode	  on
 	  SimAnalyzeCustomCode	  off
 	  SimGenImportedTypeDefs  off
@@ -625,7 +595,7 @@ Library {
 	  MATLABDynamicMemAllocThreshold 65536
 	  CustomCodeFunctionArrayLayout	[]
 	  DefaultCustomCodeFunctionArrayLayout "NotSpecified"
-	  CustomCodeUndefinedFunction "UseInterfaceOnly"
+	  CustomCodeUndefinedFunction "FilterOut"
 	  CustomCodeGlobalsAsFunctionIO	off
 	  SimTargetLang		  "C"
 	  GPUAcceleration	  off
@@ -639,7 +609,7 @@ Library {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  20
+	  $ObjectID		  17
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -654,12 +624,12 @@ Library {
 	    Cell		    "GenerateWebview"
 	    Cell		    "GenerateCodeMetricsReport"
 	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateMissedCodeReplacementReport"
 	    Cell		    "GenerateErtSFunction"
 	    Cell		    "CreateSILPILBlock"
 	    Cell		    "CodeExecutionProfiling"
 	    Cell		    "CodeProfilingSaveOptions"
 	    Cell		    "CodeProfilingInstrumentation"
-	    Cell		    "GenerateMissedCodeReplacementReport"
 	    PropName		    "DisabledProps"
 	  }
 	  Description		  ""
@@ -683,7 +653,7 @@ Library {
 	  TLCDebug		  off
 	  TLCCoverage		  off
 	  TLCAssert		  off
-	  RTWUseLocalCustomCode	  off
+	  RTWUseLocalCustomCode	  on
 	  RTWUseSimCustomCode	  off
 	  CustomSourceCode	  ""
 	  CustomHeaderCode	  ""
@@ -745,13 +715,14 @@ Library {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      21
+	      $ObjectID		      18
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
 		Dimension		28
 		Cell			"IgnoreCustomStorageClasses"
 		Cell			"IgnoreTestpoints"
+		Cell			"BlockCommentType"
 		Cell			"InsertBlockDesc"
 		Cell			"InsertPolySpaceComments"
 		Cell			"SFDataObjDesc"
@@ -767,17 +738,16 @@ Library {
 		Cell			"CustomSymbolStrType"
 		Cell			"CustomSymbolStrField"
 		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrModelFcn"
 		Cell			"CustomSymbolStrFcnArg"
 		Cell			"CustomSymbolStrBlkIO"
 		Cell			"CustomSymbolStrTmpVar"
 		Cell			"CustomSymbolStrMacro"
-		Cell			"ReqsInCode"
-		Cell			"CustomSymbolStrModelFcn"
 		Cell			"CustomSymbolStrUtil"
-		Cell			"CustomUserTokenString"
 		Cell			"CustomSymbolStrEmxType"
 		Cell			"CustomSymbolStrEmxFcn"
-		Cell			"BlockCommentType"
+		Cell			"CustomUserTokenString"
+		Cell			"ReqsInCode"
 		PropName		"DisabledProps"
 	      }
 	      Description	      ""
@@ -822,7 +792,7 @@ Library {
 	      InsertPolySpaceComments off
 	      SimulinkBlockComments   on
 	      BlockCommentType	      "BlockPathComment"
-	      StateflowObjectComments on
+	      StateflowObjectComments off
 	      MATLABSourceComments    off
 	      EnableCustomComments    off
 	      InternalIdentifierFile  ""
@@ -835,28 +805,26 @@ Library {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      22
+	      $ObjectID		      19
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
-		Dimension		18
-		Cell			"GeneratePreprocessorConditionals"
+		Dimension		16
 		Cell			"IncludeMdlTerminateFcn"
-		Cell			"RemoveResetFunc"
 		Cell			"SuppressErrorStatus"
 		Cell			"ERTCustomFileBanners"
 		Cell			"GenerateSampleERTMain"
+		Cell			"ExistingSharedCode"
 		Cell			"GenerateTestInterfaces"
 		Cell			"ModelStepFunctionPrototypeControlCompliant"
-		Cell			"CPPClassGenCompliant"
 		Cell			"GenerateAllocFcn"
 		Cell			"PurelyIntegerCode"
 		Cell			"SupportComplex"
 		Cell			"SupportAbsoluteTime"
 		Cell			"SupportContinuousTime"
 		Cell			"SupportNonInlinedSFcns"
-		Cell			"ExistingSharedCode"
 		Cell			"RemoveDisableFunc"
+		Cell			"RemoveResetFunc"
 		Cell			"PreserveStateflowLocalDataDimensions"
 		PropName		"DisabledProps"
 	      }
@@ -866,7 +834,7 @@ Library {
 	      TargetLibSuffix	      ""
 	      TargetPreCompLibLocation ""
 	      GenFloatMathFcnCalls    "NOT IN USE"
-	      TargetLangStandard      "C89/C90 (ANSI)"
+	      TargetLangStandard      "C99 (ISO)"
 	      CodeReplacementLibrary  "None"
 	      UtilityFuncGeneration   "Auto"
 	      MultiwordTypeDef	      "System defined"
@@ -941,7 +909,7 @@ Library {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  23
+	  $ObjectID		  20
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -954,14 +922,14 @@ Library {
 	  CovPath		  "/"
 	  CovSaveName		  "covdata"
 	  CovCompData		  ""
-	  CovMetricSettings	  "dw"
+	  CovMetricSettings	  "dwe"
 	  CovFilter		  ""
 	  CovHTMLOptions	  ""
 	  CovNameIncrementing	  off
 	  CovForceBlockReductionOff on
 	  CovEnableCumulative	  on
-	  CovSaveCumulativeToWorkspaceVar on
-	  CovSaveSingleToWorkspaceVar on
+	  CovSaveCumulativeToWorkspaceVar off
+	  CovSaveSingleToWorkspaceVar off
 	  CovCumulativeVarName	  "covCumulativeData"
 	  CovCumulativeReport	  off
 	  CovSaveOutputData	  on
@@ -970,7 +938,7 @@ Library {
 	  CovReportOnPause	  on
 	  CovModelRefEnable	  "off"
 	  CovModelRefExcluded	  ""
-	  CovExternalEMLEnable	  off
+	  CovExternalEMLEnable	  on
 	  CovSFcnEnable		  on
 	  CovBoundaryAbsTol	  1e-05
 	  CovBoundaryRelTol	  0.01
@@ -979,26 +947,11 @@ Library {
 	  CovStopTime		  0
 	  CovMcdcMode		  "Masking"
 	}
-	hdlcoderui.hdlcc {
-	  $ObjectID		  24
-	  Version		  "20.1.0"
-	  DisabledProps		  []
-	  Description		  "HDL Coder custom configuration component"
-	  Components		  []
-	  Name			  "HDL Coder"
-	  Array {
-	    Type		    "Cell"
-	    Dimension		    1
-	    Cell		    " "
-	    PropName		    "HDLConfigFile"
-	  }
-	  HDLCActiveTab		  "0"
-	}
 	PropName		"Components"
       }
       Name		      "Configuration"
       CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition    [ 430, 225, 1490, 855 ]
+      ConfigPrmDlgPosition    [ 0, 0, 0, 0 ]
       ExtraOptions	      ""
     }
     PropName		    "ConfigurationSets"
@@ -1019,8 +972,8 @@ Library {
     BlockMirror		    off
   }
   AnnotationDefaults {
-    HorizontalAlignment	    "center"
-    VerticalAlignment	    "middle"
+    HorizontalAlignment	    "left"
+    VerticalAlignment	    "top"
     ForegroundColor	    "black"
     BackgroundColor	    "white"
     DropShadow		    off
@@ -1062,39 +1015,7 @@ Library {
   }
   BlockParameterDefaults {
     Block {
-      BlockType		      BusCreator
-      DisplayOption	      "none"
-      OutDataTypeStr	      "Inherit: auto"
-      NonVirtualBus	      off
-    }
-    Block {
-      BlockType		      BusSelector
-      OutputAsBus	      off
-    }
-    Block {
-      BlockType		      Constant
-      Value		      "1"
-      VectorParams1D	      on
-      SamplingMode	      "Sample based"
-      OutMin		      "[]"
-      OutMax		      "[]"
-      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
-      LockScale		      off
-      SampleTime	      "inf"
-      FramePeriod	      "inf"
-      PreserveConstantTs      off
-    }
-    Block {
-      BlockType		      From
-      GotoTag		      "A"
-      IconDisplay	      "Tag"
-      TagVisibility	      "local"
-    }
-    Block {
-      BlockType		      Goto
-      GotoTag		      "A"
-      IconDisplay	      "Tag"
-      TagVisibility	      "local"
+      BlockType		      Ground
     }
     Block {
       BlockType		      Inport
@@ -1141,6 +1062,25 @@ Library {
       VectorParamsAs1DForOutWhenUnconnected on
     }
     Block {
+      BlockType		      Quantizer
+      QuantizationInterval    "0.5"
+      LinearizeAsGain	      on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Saturate
+      UpperLimit	      "0.5"
+      LowerLimit	      "-0.5"
+      LinearizeAsGain	      on
+      ZeroCross		      on
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as input"
+      LockScale		      off
+      RndMeth		      "Floor"
+    }
+    Block {
       BlockType		      SubSystem
       ShowPortLabels	      "FromPortIcon"
       Permissions	      "ReadWrite"
@@ -1181,10 +1121,41 @@ Library {
       AutoFrameSizeCalculation off
       IsWebBlockPanel	      off
     }
+    Block {
+      BlockType		      Sum
+      IconShape		      "round"
+      Inputs		      "++"
+      CollapseMode	      "All dimensions"
+      CollapseDim	      "1"
+      InputSameDT	      off
+      AccumDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Switch
+      Criteria		      "u2 >= Threshold"
+      Threshold		      "0"
+      InputSameDT	      on
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      ZeroCross		      on
+      SampleTime	      "-1"
+      AllowDiffInputSizes     off
+    }
   }
   System {
-    Name		    "RWSW"
-    Location		    [697, 25, 1915, 1186]
+    Name		    "SEN_MTM"
+    Location		    [108, 233, 1102, 986]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
     Open		    off
     PortBlocksUseCompactNotation off
@@ -1200,21 +1171,22 @@ Library {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "150"
+    ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "154"
+    SIDHighWatermark	    "24"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
-      Name		      "RWSW"
+      Name		      "SEN_MTM"
       SID		      "1"
-      Ports		      [9, 1]
-      Position		      [445, -703, 755, 93]
+      Ports		      [2, 4]
+      Position		      [175, 170, 570, 385]
       ZOrder		      1
       RequestExecContextInheritance off
+      ContentPreviewEnabled   on
       System {
-	Name			"RWSW"
-	Location		[697, 25, 1915, 1186]
+	Name			"SEN_MTM"
+	Location		[-1344, 312, -350, 1065]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			on
 	PortBlocksUseCompactNotation off
@@ -1230,864 +1202,206 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"40"
+	ZoomFactor		"100"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
-	  Name			  "magcurrentcmd_MTR"
-	  SID			  "2"
-	  Position		  [-175, 93, -145, 107]
-	  ZOrder		  -1
-	  BackgroundColor	  "magenta"
-	  PortDimensions	  "10"
-	  Port {
-	    PortNumber		    1
-	    Name		    "magcurrentcmd_MTR"
-	  }
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "MTRenableflgs"
-	  SID			  "111"
-	  Position		  [-175, 153, -145, 167]
-	  ZOrder		  433
-	  BackgroundColor	  "magenta"
-	  Port			  "2"
-	  PortDimensions	  "10"
-	  Port {
-	    PortNumber		    1
-	    Name		    "MTRenableflgs"
-	  }
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "SSSenableflgs"
-	  SID			  "118"
-	  Position		  [-175, 213, -145, 227]
-	  ZOrder		  441
-	  BackgroundColor	  "magenta"
-	  Port			  "3"
-	  PortDimensions	  "10"
-	  Port {
-	    PortNumber		    1
-	    Name		    "SSSenableflgs"
-	  }
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "SOLenableflgs"
-	  SID			  "145"
-	  Position		  [-175, 273, -145, 287]
-	  ZOrder		  2952
-	  BackgroundColor	  "magenta"
-	  Port			  "4"
-	  PortDimensions	  "10"
-	  Port {
-	    PortNumber		    1
-	    Name		    "SOLenableflgs"
-	  }
+	  Name			  "magfld_BOF"
+	  SID			  "9"
+	  Position		  [-30, 313, 0, 327]
+	  ZOrder		  2989
 	}
 	Block {
 	  BlockType		  Inport
 	  Name			  "MTMenableflg"
-	  SID			  "119"
-	  Position		  [-175, 333, -145, 347]
-	  ZOrder		  442
-	  BackgroundColor	  "magenta"
-	  Port			  "5"
-	  PortDimensions	  "1"
-	  Port {
-	    PortNumber		    1
-	    Name		    "MTMenableflg"
-	  }
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "GYRenableflg"
-	  SID			  "120"
-	  Position		  [-175, 393, -145, 407]
-	  ZOrder		  443
-	  BackgroundColor	  "magenta"
-	  Port			  "6"
-	  PortDimensions	  "1"
-	  Port {
-	    PortNumber		    1
-	    Name		    "GYRenableflg"
-	  }
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "GPSenableflg"
-	  SID			  "121"
-	  Position		  [-175, 453, -145, 467]
-	  ZOrder		  444
-	  BackgroundColor	  "magenta"
-	  Port			  "7"
-	  PortDimensions	  "1"
-	  Port {
-	    PortNumber		    1
-	    Name		    "GPSenableflg"
-	  }
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "extor_BOF_sys"
-	  SID			  "33"
-	  Position		  [-175, 513, -145, 527]
-	  ZOrder		  355
-	  BackgroundColor	  "magenta"
-	  Port			  "8"
-	  PortDimensions	  "3"
-	  Port {
-	    PortNumber		    1
-	    Name		    "exttorcmd_BOF"
-	  }
-	}
-	Block {
-	  BlockType		  Inport
-	  Name			  "extfor_ECI_sys"
-	  SID			  "34"
-	  Position		  [-175, 573, -145, 587]
-	  ZOrder		  356
-	  BackgroundColor	  "magenta"
-	  Port			  "9"
-	  PortDimensions	  "3"
-	  Port {
-	    PortNumber		    1
-	    Name		    "extforcmd_ECI"
-	  }
+	  SID			  "8"
+	  Position		  [430, 328, 460, 342]
+	  ZOrder		  2988
+	  Port			  "2"
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "ACT"
-	  SID			  "25"
-	  Ports			  [2, 1]
-	  Position		  [310, 61, 515, 619]
-	  ZOrder		  16
-	  LibraryVersion	  "1.3"
-	  SourceBlock		  "ACT/ACT"
-	  SourceType		  "SubSystem"
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
+	  Name			  "Band-Limited\nWhite Noise"
+	  SID			  "17"
+	  Ports			  [0, 1]
+	  Position		  [50, 245, 80, 275]
+	  ZOrder		  2998
+	  LibraryVersion	  "1.476"
+	  SourceBlock		  "simulink/Sources/Band-Limited\nWhite Noise"
+	  SourceType		  "Band-Limited White Noise."
+	  SourceProductBaseCode	  "SL"
 	  RTWMemSecFuncInitTerm	  "Inherit from model"
 	  RTWMemSecFuncExecute	  "Inherit from model"
 	  RTWMemSecDataConstants  "Inherit from model"
 	  RTWMemSecDataInternal	  "Inherit from model"
 	  RTWMemSecDataParameters "Inherit from model"
-	  VariantActivationTime	  "update diagram"
-	  AllowZeroVariantControls off
-	  PropagateVariantConditions off
-	  ContentPreviewEnabled	  off
-	  Latency		  "0"
-	  AutoFrameSizeCalculation off
-	}
-	Block {
-	  BlockType		  BusCreator
-	  Name			  "Bus\nCreator"
-	  SID			  "153"
-	  Ports			  [3, 1]
-	  Position		  [1955, 253, 1960, 447]
-	  ZOrder		  2961
-	  Inputs		  "3"
-	  DisplayOption		  "bar"
-	  InheritFromInputs	  on
-	}
-	Block {
-	  BlockType		  BusCreator
-	  Name			  "Bus\nCreator1"
-	  SID			  "32"
-	  Ports			  [9, 1]
-	  Position		  [-25, 60, -15, 620]
-	  ZOrder		  2953
-	  ShowName		  off
-	  Inputs		  "9"
-	  DisplayOption		  "bar"
-	  InheritFromInputs	  on
-	}
-	Block {
-	  BlockType		  BusSelector
-	  Name			  "Bus\nSelector"
-	  SID			  "36"
-	  Ports			  [1, 2]
-	  Position		  [205, 61, 210, 619]
-	  ZOrder		  358
-	  ShowName		  off
-	  OutputSignals		  "magcurrentcmd_MTR,MTRenableflgs"
-	  Port {
-	    PortNumber		    1
-	    Name		    "<magcurrentcmd_MTR>"
-	  }
-	  Port {
-	    PortNumber		    2
-	    Name		    "<MTRenableflgs>"
-	  }
-	}
-	Block {
-	  BlockType		  BusSelector
-	  Name			  "Bus\nSelector1"
-	  SID			  "42"
-	  Ports			  [1, 1]
-	  Position		  [685, 58, 690, 122]
-	  ZOrder		  364
-	  ShowName		  off
-	  OutputSignals		  "magmomapp_BOF"
-	  Port {
-	    PortNumber		    1
-	    Name		    "<magmomapp_BOF>"
-	  }
-	}
-	Block {
-	  BlockType		  BusSelector
-	  Name			  "Bus\nSelector2"
-	  SID			  "44"
-	  Ports			  [1, 2]
-	  Position		  [720, 423, 725, 612]
-	  ZOrder		  366
-	  ShowName		  off
-	  OutputSignals		  "exttorcmd_BOF,extforcmd_ECI"
-	  Port {
-	    PortNumber		    1
-	    Name		    "<exttorcmd_BOF>"
-	  }
-	  Port {
-	    PortNumber		    2
-	    Name		    "<extforcmd_ECI>"
-	  }
-	}
-	Block {
-	  BlockType		  BusSelector
-	  Name			  "Bus\nSelector3"
-	  SID			  "45"
-	  Ports			  [1, 10]
-	  Position		  [1355, 260, 1360, 640]
-	  ZOrder		  367
-	  ShowName		  off
-	  OutputSignals		  "time_relJDepoch_TAI_days,magfld_BOF,SUNpos_ECI,BOFq_ECI,eclipseflg,BOFw_relECI_BOF,pos_ECI,vel_EC"
-	  "I,SCsolarflux,TERq_ECI"
-	  Port {
-	    PortNumber		    1
-	    Name		    "<time_relJDepoch_TAI_days>"
-	  }
-	  Port {
-	    PortNumber		    2
-	    Name		    "<magfld_BOF>"
-	  }
-	  Port {
-	    PortNumber		    3
-	    Name		    "<SUNpos_ECI>"
-	  }
-	  Port {
-	    PortNumber		    4
-	    Name		    "<BOFq_ECI>"
-	  }
-	  Port {
-	    PortNumber		    5
-	    Name		    "<eclipseflg>"
-	  }
-	  Port {
-	    PortNumber		    6
-	    Name		    "<BOFw_relECI_BOF>"
-	  }
-	  Port {
-	    PortNumber		    7
-	    Name		    "<pos_ECI>"
-	  }
-	  Port {
-	    PortNumber		    8
-	    Name		    "<vel_ECI>"
-	  }
-	  Port {
-	    PortNumber		    9
-	    Name		    "<SCsolarflux>"
-	  }
-	  Port {
-	    PortNumber		    10
-	    Name		    "<TERq_ECI>"
-	  }
-	}
-	Block {
-	  BlockType		  BusSelector
-	  Name			  "Bus\nSelector6"
-	  SID			  "113"
-	  Ports			  [1, 5]
-	  Position		  [1355, 51, 1360, 249]
-	  ZOrder		  436
-	  ShowName		  off
-	  OutputSignals		  "SSSenableflgs,SOLenableflgs,MTMenableflg,GYRenableflg,GPSenableflg"
-	  Port {
-	    PortNumber		    1
-	    Name		    "<SSSenableflgs>"
-	  }
-	  Port {
-	    PortNumber		    2
-	    Name		    "<SOLenableflgs>"
-	  }
-	  Port {
-	    PortNumber		    3
-	    Name		    "<MTMenableflg>"
-	  }
-	  Port {
-	    PortNumber		    4
-	    Name		    "<GYRenableflg>"
-	  }
-	  Port {
-	    PortNumber		    5
-	    Name		    "<GPSenableflg>"
-	  }
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "Constant1"
-	  SID			  "15"
-	  Position		  [695, 360, 745, 390]
-	  ZOrder		  7
-	  Value			  "zeros(3,3)"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "Constant2"
-	  SID			  "40"
-	  Position		  [695, 265, 745, 295]
-	  ZOrder		  362
-	  Value			  "0"
-	}
-	Block {
-	  BlockType		  Constant
-	  Name			  "Constant3"
-	  SID			  "41"
-	  Position		  [695, 170, 745, 200]
-	  ZOrder		  363
-	  Value			  "[0;0;0]"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "DYN"
-	  SID			  "30"
-	  Ports			  [6, 1]
-	  Position		  [810, 37, 1045, 618]
-	  ZOrder		  19
-	  LibraryVersion	  "5.1"
-	  SourceBlock		  "DYN/DYN"
-	  SourceType		  "SubSystem"
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  VariantActivationTime	  "update diagram"
-	  AllowZeroVariantControls off
-	  PropagateVariantConditions off
-	  ContentPreviewEnabled	  off
-	  Latency		  "0"
-	  AutoFrameSizeCalculation off
-	}
-	Block {
-	  BlockType		  From
-	  Name			  "From"
-	  SID			  "43"
-	  Position		  [605, 508, 700, 532]
-	  ZOrder		  365
-	  BackgroundColor	  "magenta"
-	  GotoTag		  "INPUTS"
-	}
-	Block {
-	  BlockType		  From
-	  Name			  "From1"
-	  SID			  "47"
-	  Position		  [1860, 271, 1900, 299]
-	  ZOrder		  369
-	  GotoTag		  "ACT"
-	  Port {
-	    PortNumber		    1
-	    Name		    "ACT"
-	  }
-	}
-	Block {
-	  BlockType		  From
-	  Name			  "From2"
-	  SID			  "51"
-	  Position		  [1860, 336, 1900, 364]
-	  ZOrder		  373
-	  GotoTag		  "DYN"
-	  Port {
-	    PortNumber		    1
-	    Name		    "DYN"
-	  }
-	}
-	Block {
-	  BlockType		  From
-	  Name			  "From3"
-	  SID			  "114"
-	  Position		  [1205, 138, 1300, 162]
-	  ZOrder		  437
-	  BackgroundColor	  "magenta"
-	  GotoTag		  "INPUTS"
-	}
-	Block {
-	  BlockType		  From
-	  Name			  "From4"
-	  SID			  "124"
-	  Position		  [1860, 401, 1900, 429]
-	  ZOrder		  447
-	  GotoTag		  "SEN"
-	  Port {
-	    PortNumber		    1
-	    Name		    "SEN"
-	  }
-	}
-	Block {
-	  BlockType		  Goto
-	  Name			  "Goto"
-	  SID			  "35"
-	  Position		  [50, 395, 160, 425]
-	  ZOrder		  357
-	  BackgroundColor	  "magenta"
-	  GotoTag		  "INPUTS"
-	}
-	Block {
-	  BlockType		  Goto
-	  Name			  "Goto1"
-	  SID			  "37"
-	  Position		  [635, 330, 695, 350]
-	  ZOrder		  359
-	  GotoTag		  "ACT"
-	}
-	Block {
-	  BlockType		  Goto
-	  Name			  "Goto2"
-	  SID			  "38"
-	  Position		  [1140, 320, 1200, 340]
-	  ZOrder		  360
-	  GotoTag		  "DYN"
-	}
-	Block {
-	  BlockType		  Goto
-	  Name			  "Goto3"
-	  SID			  "123"
-	  Position		  [1730, 340, 1790, 360]
-	  ZOrder		  446
-	  GotoTag		  "SEN"
-	}
-	Block {
-	  BlockType		  Reference
-	  Name			  "SEN"
-	  SID			  "151"
-	  Ports			  [15, 1]
-	  Position		  [1495, 42, 1675, 658]
-	  ZOrder		  2959
-	  LibraryVersion	  "1.13"
-	  SourceBlock		  "SEN/SEN"
-	  SourceType		  "SubSystem"
-	  ShowPortLabels	  "FromPortIcon"
-	  SystemSampleTime	  "-1"
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  VariantActivationTime	  "update diagram"
-	  AllowZeroVariantControls off
-	  PropagateVariantConditions off
 	  ContentPreviewEnabled	  on
-	  Latency		  "0"
-	  AutoFrameSizeCalculation off
+	  Cov			  "SEN_MTM_par.noise_power"
+	  Ts			  "1/SEN_MTM_par.sample_rate"
+	  seed			  "randi([1 243453])"
+	  VectorParams1D	  on
+	}
+	Block {
+	  BlockType		  Ground
+	  Name			  "Ground"
+	  SID			  "18"
+	  Position		  [465, 365, 485, 385]
+	  ZOrder		  3002
+	}
+	Block {
+	  BlockType		  Quantizer
+	  Name			  "Quantizer"
+	  SID			  "19"
+	  Position		  [260, 300, 300, 340]
+	  ZOrder		  3000
+	  QuantizationInterval	  "SEN_MTM_par.sensitivity"
+	  LinearizeAsGain	  off
+	}
+	Block {
+	  BlockType		  Saturate
+	  Name			  "Saturation"
+	  SID			  "20"
+	  Position		  [360, 305, 390, 335]
+	  ZOrder		  3001
+	  UpperLimit		  "SEN_MTM_par.full_scale_range"
+	  LowerLimit		  "-SEN_MTM_par.full_scale_range"
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Sum"
+	  SID			  "21"
+	  Ports			  [2, 1]
+	  Position		  [145, 310, 165, 330]
+	  ZOrder		  2999
+	  Inputs		  "++|"
+	}
+	Block {
+	  BlockType		  Switch
+	  Name			  "Switch"
+	  SID			  "24"
+	  Position		  [525, 315, 575, 355]
+	  ZOrder		  3004
+	  Criteria		  "u2 ~= 0"
+	  InputSameDT		  off
+	  SaturateOnIntegerOverflow off
 	}
 	Block {
 	  BlockType		  Outport
-	  Name			  "RWSW"
-	  SID			  "154"
-	  Position		  [2015, 343, 2045, 357]
-	  ZOrder		  2962
-	  BackgroundColor	  "orange"
+	  Name			  "magfld_MTM_mes"
+	  SID			  "4"
+	  Position		  [640, 328, 670, 342]
+	  ZOrder		  2982
+	  VectorParamsAs1DForOutWhenUnconnected	off
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magfld_MTM_corrupted"
+	  SID			  "5"
+	  Position		  [640, 368, 670, 382]
+	  ZOrder		  2983
+	  Port			  "2"
+	  VectorParamsAs1DForOutWhenUnconnected	off
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magfld_MTM"
+	  SID			  "6"
+	  Position		  [640, 438, 670, 452]
+	  ZOrder		  2984
+	  Port			  "3"
+	  VectorParamsAs1DForOutWhenUnconnected	off
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "magfld_MTM_saturationflag"
+	  SID			  "7"
+	  Position		  [640, 398, 670, 412]
+	  ZOrder		  2985
+	  Port			  "4"
+	  VectorParamsAs1DForOutWhenUnconnected	off
 	}
 	Line {
-	  Name			  "magcurrentcmd_MTR"
-	  ZOrder		  577
-	  Labels		  [-1, 0]
-	  SrcBlock		  "magcurrentcmd_MTR"
+	  ZOrder		  13
+	  SrcBlock		  "Band-Limited\nWhite Noise"
 	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator1"
+	  Points		  [70, 0]
+	  DstBlock		  "Sum"
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  23
-	  SrcBlock		  "Constant1"
+	  ZOrder		  14
+	  SrcBlock		  "Sum"
 	  SrcPort		  1
-	  DstBlock		  "DYN"
-	  DstPort		  4
-	}
-	Line {
-	  Name			  "exttorcmd_BOF"
-	  ZOrder		  569
-	  Labels		  [1, 0]
-	  SrcBlock		  "extor_BOF_sys"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  8
-	}
-	Line {
-	  Name			  "extforcmd_ECI"
-	  ZOrder		  568
-	  Labels		  [1, 0]
-	  SrcBlock		  "extfor_ECI_sys"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  9
-	}
-	Line {
-	  ZOrder		  572
-	  SrcBlock		  "Bus\nCreator1"
-	  SrcPort		  1
-	  Points		  [47, 0]
-	  Branch {
-	    ZOrder		    19
-	    DstBlock		    "Bus\nSelector"
-	    DstPort		    1
-	  }
-	  Branch {
-	    ZOrder		    18
-	    Points		    [0, 70]
-	    DstBlock		    "Goto"
-	    DstPort		    1
-	  }
-	}
-	Line {
-	  Name			  "<magcurrentcmd_MTR>"
-	  ZOrder		  21
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  1
-	  DstBlock		  "ACT"
+	  DstBlock		  "Quantizer"
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  987
-	  SrcBlock		  "ACT"
+	  ZOrder		  19
+	  SrcBlock		  "Ground"
 	  SrcPort		  1
-	  Points		  [79, 0]
+	  Points		  [9, 0]
 	  Branch {
-	    ZOrder		    28
-	    Points		    [0, -250]
-	    DstBlock		    "Bus\nSelector1"
+	    ZOrder		    48
+	    DstBlock		    "magfld_MTM_corrupted"
 	    DstPort		    1
 	  }
 	  Branch {
-	    ZOrder		    27
-	    DstBlock		    "Goto1"
+	    ZOrder		    46
+	    Points		    [0, 30]
+	    DstBlock		    "magfld_MTM_saturationflag"
 	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    37
+	    Points		    [0, -25]
+	    DstBlock		    "Switch"
+	    DstPort		    3
 	  }
 	}
 	Line {
-	  ZOrder		  24
-	  SrcBlock		  "Constant2"
+	  ZOrder		  20
+	  SrcBlock		  "Quantizer"
 	  SrcPort		  1
-	  DstBlock		  "DYN"
-	  DstPort		  3
-	}
-	Line {
-	  ZOrder		  25
-	  SrcBlock		  "Constant3"
-	  SrcPort		  1
-	  DstBlock		  "DYN"
-	  DstPort		  2
-	}
-	Line {
-	  Name			  "<magmomapp_BOF>"
-	  ZOrder		  26
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector1"
-	  SrcPort		  1
-	  DstBlock		  "DYN"
+	  DstBlock		  "Saturation"
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  29
-	  SrcBlock		  "From"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nSelector2"
-	  DstPort		  1
-	}
-	Line {
-	  Name			  "<exttorcmd_BOF>"
-	  ZOrder		  30
+	  ZOrder		  28
 	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector2"
+	  SrcBlock		  "magfld_BOF"
 	  SrcPort		  1
-	  DstBlock		  "DYN"
-	  DstPort		  5
-	}
-	Line {
-	  Name			  "<extforcmd_ECI>"
-	  ZOrder		  31
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector2"
-	  SrcPort		  2
-	  DstBlock		  "DYN"
-	  DstPort		  6
-	}
-	Line {
-	  ZOrder		  955
-	  SrcBlock		  "DYN"
-	  SrcPort		  1
-	  Points		  [60, 0]
+	  Points		  [81, 0]
 	  Branch {
-	    ZOrder		    957
-	    DstBlock		    "Goto2"
+	    ZOrder		    35
+	    Points		    [0, 125]
+	    DstBlock		    "magfld_MTM"
 	    DstPort		    1
 	  }
 	  Branch {
-	    ZOrder		    802
-	    Points		    [0, 120]
-	    DstBlock		    "Bus\nSelector3"
-	    DstPort		    1
+	    ZOrder		    34
+	    DstBlock		    "Sum"
+	    DstPort		    2
 	  }
 	}
 	Line {
-	  Name			  "MTRenableflgs"
-	  ZOrder		  576
-	  Labels		  [1, 0]
-	  SrcBlock		  "MTRenableflgs"
+	  ZOrder		  40
+	  SrcBlock		  "Saturation"
 	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  2
-	}
-	Line {
-	  Name			  "<MTRenableflgs>"
-	  ZOrder		  160
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  2
-	  DstBlock		  "ACT"
-	  DstPort		  2
-	}
-	Line {
-	  ZOrder		  295
-	  SrcBlock		  "From3"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nSelector6"
+	  DstBlock		  "Switch"
 	  DstPort		  1
 	}
 	Line {
-	  Name			  "MTMenableflg"
-	  ZOrder		  573
-	  Labels		  [1, 0]
+	  ZOrder		  39
 	  SrcBlock		  "MTMenableflg"
 	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  5
-	}
-	Line {
-	  Name			  "SSSenableflgs"
-	  ZOrder		  574
-	  Labels		  [0, 0]
-	  SrcBlock		  "SSSenableflgs"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  3
-	}
-	Line {
-	  Name			  "GYRenableflg"
-	  ZOrder		  571
-	  Labels		  [1, 0]
-	  SrcBlock		  "GYRenableflg"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  6
-	}
-	Line {
-	  Name			  "GPSenableflg"
-	  ZOrder		  570
-	  Labels		  [1, 0]
-	  SrcBlock		  "GPSenableflg"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  7
-	}
-	Line {
-	  Name			  "SOLenableflgs"
-	  ZOrder		  575
-	  Labels		  [1, 1]
-	  SrcBlock		  "SOLenableflgs"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  4
-	}
-	Line {
-	  Name			  "<SOLenableflgs>"
-	  ZOrder		  789
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector6"
-	  SrcPort		  2
-	  DstBlock		  "SEN"
+	  DstBlock		  "Switch"
 	  DstPort		  2
 	}
 	Line {
-	  Name			  "<GYRenableflg>"
-	  ZOrder		  786
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector6"
-	  SrcPort		  4
-	  DstBlock		  "SEN"
-	  DstPort		  4
-	}
-	Line {
-	  Name			  "<SSSenableflgs>"
-	  ZOrder		  799
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector6"
+	  ZOrder		  41
+	  SrcBlock		  "Switch"
 	  SrcPort		  1
-	  DstBlock		  "SEN"
-	  DstPort		  1
-	}
-	Line {
-	  Name			  "<MTMenableflg>"
-	  ZOrder		  798
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector6"
-	  SrcPort		  3
-	  DstBlock		  "SEN"
-	  DstPort		  3
-	}
-	Line {
-	  Name			  "<GPSenableflg>"
-	  ZOrder		  793
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector6"
-	  SrcPort		  5
-	  DstBlock		  "SEN"
-	  DstPort		  5
-	}
-	Line {
-	  Name			  "<BOFw_relECI_BOF>"
-	  ZOrder		  791
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector3"
-	  SrcPort		  6
-	  DstBlock		  "SEN"
-	  DstPort		  11
-	}
-	Line {
-	  Name			  "<eclipseflg>"
-	  ZOrder		  787
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector3"
-	  SrcPort		  5
-	  DstBlock		  "SEN"
-	  DstPort		  10
-	}
-	Line {
-	  Name			  "<pos_ECI>"
-	  ZOrder		  788
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector3"
-	  SrcPort		  7
-	  DstBlock		  "SEN"
-	  DstPort		  12
-	}
-	Line {
-	  Name			  "<BOFq_ECI>"
-	  ZOrder		  796
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector3"
-	  SrcPort		  4
-	  DstBlock		  "SEN"
-	  DstPort		  9
-	}
-	Line {
-	  Name			  "<vel_ECI>"
-	  ZOrder		  797
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector3"
-	  SrcPort		  8
-	  DstBlock		  "SEN"
-	  DstPort		  13
-	}
-	Line {
-	  Name			  "<SCsolarflux>"
-	  ZOrder		  792
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector3"
-	  SrcPort		  9
-	  DstBlock		  "SEN"
-	  DstPort		  14
-	}
-	Line {
-	  Name			  "<SUNpos_ECI>"
-	  ZOrder		  800
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector3"
-	  SrcPort		  3
-	  DstBlock		  "SEN"
-	  DstPort		  8
-	}
-	Line {
-	  Name			  "<magfld_BOF>"
-	  ZOrder		  794
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector3"
-	  SrcPort		  2
-	  DstBlock		  "SEN"
-	  DstPort		  7
-	}
-	Line {
-	  Name			  "<time_relJDepoch_TAI_days>"
-	  ZOrder		  795
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector3"
-	  SrcPort		  1
-	  DstBlock		  "SEN"
-	  DstPort		  6
-	}
-	Line {
-	  Name			  "<TERq_ECI>"
-	  ZOrder		  790
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector3"
-	  SrcPort		  10
-	  DstBlock		  "SEN"
-	  DstPort		  15
-	}
-	Line {
-	  ZOrder		  954
-	  SrcBlock		  "SEN"
-	  SrcPort		  1
-	  DstBlock		  "Goto3"
-	  DstPort		  1
-	}
-	Line {
-	  Name			  "DYN"
-	  ZOrder		  958
-	  Labels		  [1, 1]
-	  SrcBlock		  "From2"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  2
-	}
-	Line {
-	  Name			  "ACT"
-	  ZOrder		  959
-	  Labels		  [1, 1]
-	  SrcBlock		  "From1"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  1
-	}
-	Line {
-	  Name			  "SEN"
-	  ZOrder		  960
-	  Labels		  [1, 1]
-	  SrcBlock		  "From4"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator"
-	  DstPort		  3
-	}
-	Line {
-	  ZOrder		  963
-	  SrcBlock		  "Bus\nCreator"
-	  SrcPort		  1
-	  DstBlock		  "RWSW"
+	  DstBlock		  "magfld_MTM_mes"
 	  DstPort		  1
 	}
       }
