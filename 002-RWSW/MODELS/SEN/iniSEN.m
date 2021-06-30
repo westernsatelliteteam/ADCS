@@ -18,7 +18,7 @@ addpath(fullfile(SENrootdir,'PARAMETERS'))
 % Intialize parameters at this level  
 % run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_init.m'))
 % run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_OBT_init.m'))
-run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_SSS_init.m'))
+run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_SPC_init.m'))
 % run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_SOL_init.m'))
 run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_MTM_init.m'))
 run(fullfile(SENrootdir, 'PARAMETERS', 'SEN_GYR_init.m'))

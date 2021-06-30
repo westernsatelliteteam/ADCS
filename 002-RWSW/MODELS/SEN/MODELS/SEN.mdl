@@ -52,23 +52,23 @@ Library {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2"
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
 	  Extents		  [1178.0, 956.0]
-	  ZoomFactor		  [0.6]
-	  Offset		  [-178.48123188405839, -481.11534420289877]
-	  SceneRectInView	  [-178.48123188405839, -481.11534420289877, 1963.3333333333335, 1593.3333333333335]
+	  ZoomFactor		  [1.329512893982808]
+	  Offset		  [-83.019396551724128, 142.46982758620692]
+	  SceneRectInView	  [-83.019396551724128, 142.46982758620692, 886.03879310344826, 719.06034482758616]
 	}
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [0]
 	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2"
 	  Extents		  [1178.0, 956.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [-284.5798850574713, 39.86206896551721]
-	  SceneRectInView	  [-284.5798850574713, 39.86206896551721, 1178.0, 956.0]
+	  Offset		  [171.60448240165545, 78.94417960662463]
+	  SceneRectInView	  [171.60448240165545, 78.94417960662463, 1178.0, 956.0]
 	}
 	Object {
 	  $ObjectID		  7
@@ -153,7 +153,7 @@ Library {
       }
       WindowUuid	      "660b5ccd-9dfc-4b34-a1cd-a4a238d68a7d"
     }
-    BDUuid		    "485ff6ac-e51f-462c-a2db-e12408086494"
+    BDUuid		    "f7edc510-3419-4393-aaf5-6d3c535c7e49"
   }
   HideAutomaticNames	  on
   SequenceViewerTimePrecision 3
@@ -164,9 +164,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "dbell44"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Jun 28 22:03:21 2021"
-  RTWModifiedTimeStamp	  546395204
-  ModelVersionFormat	  "%<AutoIncrement:1.13>"
+  LastModifiedDate	  "Tue Jun 29 22:56:05 2021"
+  RTWModifiedTimeStamp	  546908147
+  ModelVersionFormat	  "%<AutoIncrement:1.16>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -1157,9 +1157,9 @@ Library {
   }
   System {
     Name		    "SEN"
-    Location		    [76, 25, 1368, 1186]
+    Location		    [75, 25, 1367, 1186]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -1173,9 +1173,9 @@ Library {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "100"
+    ZoomFactor		    "133"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "84"
+    SIDHighWatermark	    "85"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
@@ -1192,7 +1192,7 @@ Library {
 	Name			"SEN"
 	Location		[75, 25, 1367, 1186]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -1206,18 +1206,18 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"60"
+	ZoomFactor		"100"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
-	  Name			  "SSSenableflgs"
+	  Name			  "SPCenableflgs"
 	  SID			  "5"
 	  Position		  [195, 123, 225, 137]
 	  ZOrder		  1
 	  BackgroundColor	  "magenta"
 	  Port {
 	    PortNumber		    1
-	    Name		    "SSSenableflgs"
+	    Name		    "SPCenableflgs"
 	  }
 	}
 	Block {
@@ -1503,10 +1503,10 @@ Library {
 	  Ports			  [1, 1]
 	  Position		  [595, 401, 600, 439]
 	  ZOrder		  3008
-	  OutputSignals		  "SSSenableflgs"
+	  OutputSignals		  "SPCenableflgs"
 	  Port {
 	    PortNumber		    1
-	    Name		    "<SSSenableflgs>"
+	    Name		    "<SPCenableflgs>"
 	  }
 	}
 	Block {
@@ -1714,13 +1714,13 @@ Library {
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "SEN_SSS"
-	  SID			  "75"
+	  Name			  "SEN_SPC"
+	  SID			  "85"
 	  Ports			  [6, 4]
-	  Position		  [700, 254, 920, 436]
-	  ZOrder		  3006
-	  LibraryVersion	  "1.4"
-	  SourceBlock		  "SEN_SSS/SEN_SSS"
+	  Position		  [695, 251, 920, 439]
+	  ZOrder		  3033
+	  LibraryVersion	  "1.8"
+	  SourceBlock		  "SEN_SPC/SEN_SPC"
 	  SourceType		  "SubSystem"
 	  ShowPortLabels	  "FromPortIcon"
 	  SystemSampleTime	  "-1"
@@ -1737,21 +1737,19 @@ Library {
 	  AutoFrameSizeCalculation off
 	  Port {
 	    PortNumber		    1
-	    Name		    "SSSvisflg_array"
+	    Name		    "SPCvisflg_array"
 	  }
 	  Port {
 	    PortNumber		    2
-	    Name		    "SSScurrent_mes"
-	    PropagatedSignals	    "current"
+	    Name		    "SPCcurrent_mes"
 	  }
 	  Port {
 	    PortNumber		    3
-	    Name		    "SSScurrent"
-	    PropagatedSignals	    "current"
+	    Name		    "SPCcurrent"
 	  }
 	  Port {
 	    PortNumber		    4
-	    Name		    "SSS_angle_array"
+	    Name		    "SPC_angle_array"
 	  }
 	}
 	Block {
@@ -1860,10 +1858,10 @@ Library {
 	  DstPort		  1
 	}
 	Line {
-	  Name			  "SSSenableflgs"
+	  Name			  "SPCenableflgs"
 	  ZOrder		  58
 	  Labels		  [1, 1]
-	  SrcBlock		  "SSSenableflgs"
+	  SrcBlock		  "SPCenableflgs"
 	  SrcPort		  1
 	  DstBlock		  "Bus\nCreator1"
 	  DstPort		  1
@@ -2055,12 +2053,12 @@ Library {
 	  DstPort		  1
 	}
 	Line {
-	  Name			  "<SSSenableflgs>"
-	  ZOrder		  116
+	  Name			  "<SPCenableflgs>"
+	  ZOrder		  190
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector2"
 	  SrcPort		  1
-	  DstBlock		  "SEN_SSS"
+	  DstBlock		  "SEN_SPC"
 	  DstPort		  6
 	}
 	Line {
@@ -2072,81 +2070,81 @@ Library {
 	}
 	Line {
 	  Name			  "<SUNpos_ECI>"
-	  ZOrder		  118
+	  ZOrder		  195
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector5"
 	  SrcPort		  1
-	  DstBlock		  "SEN_SSS"
+	  DstBlock		  "SEN_SPC"
 	  DstPort		  1
 	}
 	Line {
 	  Name			  "<pos_ECI>"
-	  ZOrder		  119
+	  ZOrder		  193
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector5"
 	  SrcPort		  2
-	  DstBlock		  "SEN_SSS"
+	  DstBlock		  "SEN_SPC"
 	  DstPort		  2
 	}
 	Line {
 	  Name			  "<BOFq_ECI>"
-	  ZOrder		  120
+	  ZOrder		  194
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector5"
 	  SrcPort		  3
-	  DstBlock		  "SEN_SSS"
+	  DstBlock		  "SEN_SPC"
 	  DstPort		  3
 	}
 	Line {
 	  Name			  "<eclipseflg>"
-	  ZOrder		  121
+	  ZOrder		  191
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector5"
 	  SrcPort		  4
-	  DstBlock		  "SEN_SSS"
+	  DstBlock		  "SEN_SPC"
 	  DstPort		  4
 	}
 	Line {
 	  Name			  "<SCsolarflux>"
-	  ZOrder		  122
+	  ZOrder		  192
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector5"
 	  SrcPort		  5
-	  DstBlock		  "SEN_SSS"
+	  DstBlock		  "SEN_SPC"
 	  DstPort		  5
 	}
 	Line {
-	  Name			  "SSSvisflg_array"
-	  ZOrder		  151
+	  Name			  "SPCvisflg_array"
+	  ZOrder		  196
 	  Labels		  [0, 0]
-	  SrcBlock		  "SEN_SSS"
+	  SrcBlock		  "SEN_SPC"
 	  SrcPort		  1
 	  DstBlock		  "Bus\nCreator2"
 	  DstPort		  1
 	}
 	Line {
-	  Name			  "SSScurrent_mes"
-	  ZOrder		  152
+	  Name			  "SPCcurrent_mes"
+	  ZOrder		  199
 	  Labels		  [0, 0]
-	  SrcBlock		  "SEN_SSS"
+	  SrcBlock		  "SEN_SPC"
 	  SrcPort		  2
 	  DstBlock		  "Bus\nCreator2"
 	  DstPort		  2
 	}
 	Line {
-	  Name			  "SSS_angle_array"
-	  ZOrder		  154
+	  Name			  "SPC_angle_array"
+	  ZOrder		  197
 	  Labels		  [0, 0]
-	  SrcBlock		  "SEN_SSS"
+	  SrcBlock		  "SEN_SPC"
 	  SrcPort		  4
 	  DstBlock		  "Bus\nCreator2"
 	  DstPort		  4
 	}
 	Line {
-	  Name			  "SSScurrent"
-	  ZOrder		  153
+	  Name			  "SPCcurrent"
+	  ZOrder		  198
 	  Labels		  [0, 0]
-	  SrcBlock		  "SEN_SSS"
+	  SrcBlock		  "SEN_SPC"
 	  SrcPort		  3
 	  DstBlock		  "Bus\nCreator2"
 	  DstPort		  3

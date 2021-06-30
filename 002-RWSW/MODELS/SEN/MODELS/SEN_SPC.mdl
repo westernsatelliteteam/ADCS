@@ -1,5 +1,5 @@
 Library {
-  Name			  "SEN_SSS"
+  Name			  "SEN_SPC"
   Version		  10.2
   SavedCharacterEncoding  "UTF-8"
   ModelUUID		  "47b90891-b64f-4344-91e1-a0e2c2451b00"
@@ -27,7 +27,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-1332.0, 107.0, 1133.0, 976.0]
+      Location		      [0.0, 107.0, 1133.0, 976.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -52,23 +52,23 @@ Library {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1"
-	  Extents		  [1019.0, 771.0]
-	  ZoomFactor		  [0.8]
-	  Offset		  [1083.3566925243867, -256.091524238983]
-	  SceneRectInView	  [1083.3566925243867, -256.091524238983, 1273.75, 963.75]
-	}
-	Object {
-	  $ObjectID		  6
-	  IsActive		  [0]
-	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
 	  Extents		  [1019.0, 771.0]
 	  ZoomFactor		  [2.0]
 	  Offset		  [230.71659939455077, 145.12645475950217]
 	  SceneRectInView	  [230.71659939455077, 145.12645475950217, 509.5, 385.5]
+	}
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1"
+	  Extents		  [1019.0, 771.0]
+	  ZoomFactor		  [1.5]
+	  Offset		  [1507.2352639529563, 22.358244513118962]
+	  SceneRectInView	  [1507.2352639529563, 22.358244513118962, 679.33333333333337, 514.0]
 	}
 	Object {
 	  $ObjectID		  7
@@ -142,9 +142,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "dbell44"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Jun 28 21:45:20 2021"
-  RTWModifiedTimeStamp	  546817236
-  ModelVersionFormat	  "%<AutoIncrement:1.4>"
+  LastModifiedDate	  "Tue Jun 29 22:55:16 2021"
+  RTWModifiedTimeStamp	  546908112
+  ModelVersionFormat	  "%<AutoIncrement:1.8>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -1187,10 +1187,10 @@ Library {
     }
   }
   System {
-    Name		    "SEN_SSS"
-    Location		    [170, 183, 1303, 1159]
+    Name		    "SEN_SPC"
+    Location		    [0, 107, 1133, 1083]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -1210,7 +1210,7 @@ Library {
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
-      Name		      "SEN_SSS"
+      Name		      "SEN_SPC"
       SID		      "1"
       Ports		      [6, 4]
       Position		      [290, 222, 625, 423]
@@ -1218,10 +1218,10 @@ Library {
       RequestExecContextInheritance off
       ContentPreviewEnabled   on
       System {
-	Name			"SEN_SSS"
-	Location		[-1332, 107, -199, 1083]
+	Name			"SEN_SPC"
+	Location		[0, 107, 1133, 1083]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -1235,7 +1235,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"80"
+	ZoomFactor		"150"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -1298,7 +1298,7 @@ Library {
 	}
 	Block {
 	  BlockType		  Inport
-	  Name			  "SSSenableflgs"
+	  Name			  "SPCenableflgs"
 	  SID			  "12"
 	  Position		  [1045, 298, 1075, 312]
 	  ZOrder		  2974
@@ -1325,8 +1325,8 @@ Library {
 	  RTWMemSecDataInternal	  "Inherit from model"
 	  RTWMemSecDataParameters "Inherit from model"
 	  ContentPreviewEnabled	  on
-	  Cov			  "SEN_SSS_par.noise_power"
-	  Ts			  "1/SEN_SSS_par.sample_rate"
+	  Cov			  "SEN_SPC_par.noise_power"
+	  Ts			  "1/SEN_SPC_par.sample_rate"
 	  seed			  "randi([1 243453])"
 	  VectorParams1D	  on
 	}
@@ -1452,7 +1452,7 @@ Library {
 	  SID			  "39"
 	  Position		  [1720, 175, 1760, 215]
 	  ZOrder		  3001
-	  QuantizationInterval	  "SEN_SSS_par.sensitivity"
+	  QuantizationInterval	  "SEN_SPC_par.sensitivity"
 	  LinearizeAsGain	  off
 	}
 	Block {
@@ -1478,8 +1478,8 @@ Library {
 	  SID			  "40"
 	  Position		  [1840, 180, 1870, 210]
 	  ZOrder		  3002
-	  UpperLimit		  "SEN_SSS_par.full_scale_range"
-	  LowerLimit		  "-SEN_SSS_par.full_scale_range"
+	  UpperLimit		  "SEN_SPC_par.full_scale_range"
+	  LowerLimit		  "-SEN_SPC_par.full_scale_range"
 	}
 	Block {
 	  BlockType		  Sum
@@ -1540,7 +1540,7 @@ Library {
 	}
 	Block {
 	  BlockType		  Outport
-	  Name			  "SSSvisflg_array"
+	  Name			  "SPCvisflg_array"
 	  SID			  "4"
 	  Position		  [1970, 123, 2000, 137]
 	  ZOrder		  2966
@@ -1548,7 +1548,7 @@ Library {
 	}
 	Block {
 	  BlockType		  Outport
-	  Name			  "SSScurrent_mes"
+	  Name			  "SPCcurrent_mes"
 	  SID			  "5"
 	  Position		  [1970, 188, 2000, 202]
 	  ZOrder		  2967
@@ -1557,7 +1557,7 @@ Library {
 	}
 	Block {
 	  BlockType		  Outport
-	  Name			  "SSScurrent"
+	  Name			  "SPCcurrent"
 	  SID			  "6"
 	  Position		  [1970, 253, 2000, 267]
 	  ZOrder		  2968
@@ -1566,7 +1566,7 @@ Library {
 	}
 	Block {
 	  BlockType		  Outport
-	  Name			  "SSS_angle_array"
+	  Name			  "SPC_angle_array"
 	  SID			  "7"
 	  Position		  [1970, 88, 2000, 102]
 	  ZOrder		  2969
@@ -1671,7 +1671,7 @@ Library {
 	  Name			  "SSSenableflgs"
 	  ZOrder		  37
 	  Labels		  [0, 0]
-	  SrcBlock		  "SSSenableflgs"
+	  SrcBlock		  "SPCenableflgs"
 	  SrcPort		  1
 	  DstBlock		  "Logical\nOperator"
 	  DstPort		  2
@@ -1684,7 +1684,7 @@ Library {
 	  Branch {
 	    ZOrder		    46
 	    Points		    [0, -60]
-	    DstBlock		    "SSS_angle_array"
+	    DstBlock		    "SPC_angle_array"
 	    DstPort		    1
 	  }
 	  Branch {
@@ -1735,7 +1735,7 @@ Library {
 	  Branch {
 	    ZOrder		    61
 	    Points		    [0, 65]
-	    DstBlock		    "SSScurrent"
+	    DstBlock		    "SPCcurrent"
 	    DstPort		    1
 	  }
 	  Branch {
@@ -1763,7 +1763,7 @@ Library {
 	  ZOrder		  54
 	  SrcBlock		  "Switch1"
 	  SrcPort		  1
-	  DstBlock		  "SSSvisflg_array"
+	  DstBlock		  "SPCvisflg_array"
 	  DstPort		  1
 	}
 	Line {
@@ -1792,7 +1792,7 @@ Library {
 	  ZOrder		  60
 	  SrcBlock		  "Saturation1"
 	  SrcPort		  1
-	  DstBlock		  "SSScurrent_mes"
+	  DstBlock		  "SPCcurrent_mes"
 	  DstPort		  1
 	}
       }
