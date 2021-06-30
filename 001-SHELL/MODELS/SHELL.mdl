@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.47"
+    ComputedModelVersion    "1.52"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -73,7 +73,7 @@ Model {
       $ObjectID		      3
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [332.0, 45.0, 1457.0, 1031.0]
+      Location		      [115.0, 63.0, 1457.0, 1031.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		4
@@ -98,26 +98,103 @@ Model {
 	  $ObjectID		  6
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "47:151"
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
 	  Extents		  [1419.0, 826.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [7.03125, 86.5]
-	  SceneRectInView	  [7.03125, 86.5, 1419.0, 826.0]
+	  ZoomFactor		  [1.6290041288261148]
+	  Offset		  [552.51295145872132, 68.535947250704936]
+	  SceneRectInView	  [552.51295145872132, 68.535947250704936, 871.08434833897752, 507.05826055531742]
 	}
 	Object {
 	  $ObjectID		  7
 	  IsActive		  [0]
 	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "13"
 	  Extents		  [1419.0, 826.0]
-	  ZoomFactor		  [1.6281014246504566]
-	  Offset		  [552.31307309811791, 68.2595728338415]
-	  SceneRectInView	  [552.31307309811791, 68.2595728338415, 871.56732284332384, 507.33940004833369]
+	  ZoomFactor		  [0.5]
+	  Offset		  [-982.17297307667764, -911.06654940072087]
+	  SceneRectInView	  [-982.17297307667764, -911.06654940072087, 2838.0, 1652.0]
 	}
 	Object {
 	  $ObjectID		  8
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "18"
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [0.5]
+	  Offset		  [-1467.6926962441905, -74.999999999999886]
+	  SceneRectInView	  [-1467.6926962441905, -74.999999999999886, 2838.0, 1652.0]
+	}
+	Object {
+	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "8"
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-402.86844063283189, 70.175062656641614]
+	  SceneRectInView	  [-402.86844063283189, 70.175062656641614, 1135.2, 660.8]
+	}
+	Object {
+	  $ObjectID		  10
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "47"
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [0.54302959323408939]
+	  Offset		  [-235.054721198778, -449.54786911394683]
+	  SceneRectInView	  [-235.054721198778, -449.54786911394683, 2613.117254897556, 1521.0957382278937]
+	}
+	Object {
+	  $ObjectID		  11
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "155"
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [1.5299999999999998]
+	  Offset		  [377.58896049945389, 107.22650065675987]
+	  SceneRectInView	  [377.58896049945389, 107.22650065675987, 927.450980392157, 539.86928104575168]
+	}
+	Object {
+	  $ObjectID		  12
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "151"
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [1.0800209205020921]
+	  Offset		  [-360.00046912832926, -330.4]
+	  SceneRectInView	  [-360.00046912832926, -330.4, 1313.8634382566586, 764.8]
+	}
+	Object {
+	  $ObjectID		  13
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "148"
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-412.96875, -376.0]
+	  SceneRectInView	  [-412.96875, -376.0, 1419.0, 826.0]
+	}
+	Object {
+	  $ObjectID		  14
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "116"
+	  Extents		  [1419.0, 826.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-340.46875, -371.0]
+	  SceneRectInView	  [-340.46875, -371.0, 1419.0, 826.0]
+	}
+	Object {
+	  $ObjectID		  15
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -128,7 +205,7 @@ Model {
 	  SceneRectInView	  [-98.802083333333485, -97.166666666666572, 946.0, 550.66666666666663]
 	}
 	Object {
-	  $ObjectID		  9
+	  $ObjectID		  16
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -139,40 +216,18 @@ Model {
 	  SceneRectInView	  [-293.0, -109.0, 1419.0, 826.0]
 	}
 	Object {
-	  $ObjectID		  10
+	  $ObjectID		  17
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "47"
+	  LoadSaveID		  "47:151"
 	  Extents		  [1419.0, 826.0]
 	  ZoomFactor		  [1.0]
-	  Offset		  [647.10724431818221, 35.082794987546833]
-	  SceneRectInView	  [647.10724431818221, 35.082794987546833, 1419.0, 826.0]
+	  Offset		  [7.03125, 86.5]
+	  SceneRectInView	  [7.03125, 86.5, 1419.0, 826.0]
 	}
 	Object {
-	  $ObjectID		  11
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "13"
-	  Extents		  [1419.0, 826.0]
-	  ZoomFactor		  [0.67512690355329952]
-	  Offset		  [-521.19869008458636, -401.73684210526312]
-	  SceneRectInView	  [-521.19869008458636, -401.73684210526312, 2101.8270676691727, 1223.4736842105262]
-	}
-	Object {
-	  $ObjectID		  12
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "8"
-	  Extents		  [1419.0, 826.0]
-	  ZoomFactor		  [0.8]
-	  Offset		  [-507.43279071296786, -88.75]
-	  SceneRectInView	  [-507.43279071296786, -88.75, 1773.75, 1032.5]
-	}
-	Object {
-	  $ObjectID		  13
+	  $ObjectID		  18
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -183,7 +238,7 @@ Model {
 	  SceneRectInView	  [-340.46875, -353.5, 1419.0, 826.0]
 	}
 	Object {
-	  $ObjectID		  14
+	  $ObjectID		  19
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -194,29 +249,7 @@ Model {
 	  SceneRectInView	  [-34.758759469697452, -476.63636363636374, 2365.0000000000005, 1376.666666666667]
 	}
 	Object {
-	  $ObjectID		  15
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "18"
-	  Extents		  [1419.0, 826.0]
-	  ZoomFactor		  [0.51841004184100414]
-	  Offset		  [-683.202825380591, 18.828304597700935]
-	  SceneRectInView	  [-683.202825380591, 18.828304597700935, 2737.2154963680391, 1593.3333333333335]
-	}
-	Object {
-	  $ObjectID		  16
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "155"
-	  Extents		  [1419.0, 826.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [258.52229383278734, 40.491860133884018]
-	  SceneRectInView	  [258.52229383278734, 40.491860133884018, 1135.2, 660.8]
-	}
-	Object {
-	  $ObjectID		  17
+	  $ObjectID		  20
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -227,7 +260,7 @@ Model {
 	  SceneRectInView	  [-661.42826704545462, -136.95454545454544, 1290.0, 750.90909090909088]
 	}
 	Object {
-	  $ObjectID		  18
+	  $ObjectID		  21
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -236,39 +269,6 @@ Model {
 	  ZoomFactor		  [0.82]
 	  Offset		  [-59.101086128048792, -375.21138211382117]
 	  SceneRectInView	  [-59.101086128048792, -375.21138211382117, 1730.4878048780488, 1007.3170731707318]
-	}
-	Object {
-	  $ObjectID		  19
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "116"
-	  Extents		  [867.0, 956.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-63.96875, -436.0]
-	  SceneRectInView	  [-63.96875, -436.0, 867.0, 956.0]
-	}
-	Object {
-	  $ObjectID		  20
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "148"
-	  Extents		  [867.0, 956.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-88.209226190476386, -545.41428571428548]
-	  SceneRectInView	  [-88.209226190476386, -545.41428571428548, 867.0, 956.0]
-	}
-	Object {
-	  $ObjectID		  21
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "151"
-	  Extents		  [867.0, 956.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-49.868749999999977, -330.4]
-	  SceneRectInView	  [-49.868749999999977, -330.4, 693.6, 764.8]
 	}
 	Object {
 	  $ObjectID		  22
@@ -350,9 +350,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "dbell44"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Jun 29 23:07:18 2021"
-  RTWModifiedTimeStamp	  546907805
-  ModelVersionFormat	  "%<AutoIncrement:1.47>"
+  LastModifiedDate	  "Wed Jun 30 00:53:37 2021"
+  RTWModifiedTimeStamp	  546914528
+  ModelVersionFormat	  "%<AutoIncrement:1.52>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -1437,9 +1437,9 @@ Model {
   }
   System {
     Name		    "SHELL"
-    Location		    [332, 45, 1789, 1076]
+    Location		    [115, 63, 1572, 1094]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -1455,7 +1455,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "163"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "160"
+    SIDHighWatermark	    "162"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      From
@@ -1518,7 +1518,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"OBSW"
-	Location		[332, 45, 1789, 1076]
+	Location		[0, 169, 1457, 1200]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -1534,7 +1534,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"52"
+	ZoomFactor		"50"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -1757,7 +1757,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"RWSW"
-	Location		[332, 45, 1789, 1076]
+	Location		[0, 169, 1457, 1200]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -1773,7 +1773,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"80"
+	ZoomFactor		"125"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -1787,11 +1787,11 @@ Model {
 	  Name			  "Bus\nSelector"
 	  SID			  "145"
 	  Ports			  [1, 8]
-	  Position		  [85, -48, 90, 828]
+	  Position		  [75, -48, 80, 828]
 	  ZOrder		  23
 	  ShowName		  off
-	  OutputSignals		  "SYSACT.magcurrentcmd_MTR_sys,SYSCMD.MTRenableflgs,SYSCMD.MTMenableflg,SYSCMD.SPCenableflgs,SYSCMD"
-	  ".GYRenableflg,SYSCMD.GPSenableflg,SYSCMD.exttor_BOF_sys,SYSCMD.extfor_ECI_sys"
+	  OutputSignals		  "SYSACT.magcurrentcmd_MTR_sys,SYSCMD.MTRenableflgs,SYSCMD.SPCenableflgs,SYSCMD.SUNenableflgs,SYSCM"
+	  "D.MTMenableflg,SYSCMD.GYRenableflg,SYSCMD.exttor_BOF_sys,SYSCMD.extfor_ECI_sys"
 	  Port {
 	    PortNumber		    1
 	    Name		    "<magcurrentcmd_MTR_sys>"
@@ -1802,19 +1802,19 @@ Model {
 	  }
 	  Port {
 	    PortNumber		    3
-	    Name		    "<MTMenableflg>"
-	  }
-	  Port {
-	    PortNumber		    4
 	    Name		    "<SPCenableflgs>"
 	  }
 	  Port {
+	    PortNumber		    4
+	    Name		    "<SUNenableflgs>"
+	  }
+	  Port {
 	    PortNumber		    5
-	    Name		    "<GYRenableflg>"
+	    Name		    "<MTMenableflg>"
 	  }
 	  Port {
 	    PortNumber		    6
-	    Name		    "<GPSenableflg>"
+	    Name		    "<GYRenableflg>"
 	  }
 	  Port {
 	    PortNumber		    7
@@ -1829,10 +1829,10 @@ Model {
 	  BlockType		  Reference
 	  Name			  "RWSW"
 	  SID			  "47"
-	  Ports			  [9, 1]
-	  Position		  [270, -55, 415, 945]
+	  Ports			  [8, 1]
+	  Position		  [225, -48, 335, 828]
 	  ZOrder		  10
-	  LibraryVersion	  "5.4"
+	  LibraryVersion	  "5.8"
 	  LinkData {
 	    BlockName		    "SEN/SEN_SSS"
 	    DialogParameters {
@@ -1859,7 +1859,7 @@ Model {
 	  BlockType		  Outport
 	  Name			  "RWSW OUT"
 	  SID			  "11"
-	  Position		  [475, 438, 505, 452]
+	  Position		  [480, 383, 510, 397]
 	  ZOrder		  6
 	}
 	Line {
@@ -1892,8 +1892,7 @@ Model {
 	  ZOrder		  164
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  3
-	  Points		  [114, 0; 0, 220]
+	  SrcPort		  5
 	  DstBlock		  "RWSW"
 	  DstPort		  5
 	}
@@ -1902,8 +1901,7 @@ Model {
 	  ZOrder		  165
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  4
-	  Points		  [130, 0; 0, -110]
+	  SrcPort		  3
 	  DstBlock		  "RWSW"
 	  DstPort		  3
 	}
@@ -1912,40 +1910,36 @@ Model {
 	  ZOrder		  163
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  5
-	  Points		  [105, 0; 0, 110]
+	  SrcPort		  6
 	  DstBlock		  "RWSW"
 	  DstPort		  6
 	}
 	Line {
-	  Name			  "<GPSenableflg>"
-	  ZOrder		  162
+	  Name			  "<SUNenableflgs>"
+	  ZOrder		  171
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  6
-	  Points		  [92, 0; 0, 110]
+	  SrcPort		  4
+	  DstBlock		  "RWSW"
+	  DstPort		  4
+	}
+	Line {
+	  Name			  "<exttor_BOF_sys>"
+	  ZOrder		  172
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector"
+	  SrcPort		  7
 	  DstBlock		  "RWSW"
 	  DstPort		  7
 	}
 	Line {
-	  Name			  "<exttor_BOF_sys>"
-	  ZOrder		  161
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  7
-	  Points		  [67, 0; 0, 110]
-	  DstBlock		  "RWSW"
-	  DstPort		  8
-	}
-	Line {
 	  Name			  "<extfor_ECI_sys>"
-	  ZOrder		  160
+	  ZOrder		  173
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
 	  SrcPort		  8
-	  Points		  [30, 0; 0, 110]
 	  DstBlock		  "RWSW"
-	  DstPort		  9
+	  DstPort		  8
 	}
 	Line {
 	  ZOrder		  159
@@ -1966,7 +1960,7 @@ Model {
       RequestExecContextInheritance off
       System {
 	Name			"SYSTEM"
-	Location		[332, 45, 1789, 1076]
+	Location		[0, 169, 1457, 1200]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 	Open			off
 	PortBlocksUseCompactNotation off
@@ -1982,7 +1976,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"68"
+	ZoomFactor		"50"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -2038,7 +2032,7 @@ Model {
 	  Name			  "Bus\nCreator2"
 	  SID			  "95"
 	  Ports			  [3, 1]
-	  Position		  [895, 94, 900, 316]
+	  Position		  [975, 94, 980, 316]
 	  ZOrder		  35
 	  ShowName		  off
 	  Inputs		  "3"
@@ -2069,7 +2063,7 @@ Model {
 	  Position		  [75, 565, 80, 790]
 	  ZOrder		  36
 	  ShowName		  off
-	  OutputSignals		  "SEN.SEN_MTM.magfld_MTM_mes,SEN.SEN_SSS.SSSvisflg_array,SEN.SEN_SSS.SSScurrent_mes,SEN.SEN_GYR.GYR"
+	  OutputSignals		  "SEN.SEN_MTM.magfld_MTM_mes,SEN.SEN_SPC.SPCvisflg_array,SEN.SEN_SPC.SPCcurrent_mes,SEN.SEN_GYR.GYR"
 	  "w_relECI_GYR_mes"
 	  Port {
 	    PortNumber		    1
@@ -2077,11 +2071,11 @@ Model {
 	  }
 	  Port {
 	    PortNumber		    2
-	    Name		    "<SSSvisflg_array>"
+	    Name		    "<SPCvisflg_array>"
 	  }
 	  Port {
 	    PortNumber		    3
-	    Name		    "<SSScurrent_mes>"
+	    Name		    "<SPCcurrent_mes>"
 	  }
 	  Port {
 	    PortNumber		    4
@@ -2111,7 +2105,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  System {
 	    Name		    "SYSACT"
-	    Location		    [1013, 25, 1918, 1186]
+	    Location		    [0, 169, 1457, 1200]
 	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -2127,7 +2121,7 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "125"
+	    ZoomFactor		    "108"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      Inport
@@ -2146,7 +2140,7 @@ Model {
 	      RequestExecContextInheritance off
 	      System {
 		Name			"SYSACT_MTR"
-		Location		[1013, 25, 1918, 1186]
+		Location		[0, 169, 1457, 1200]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -2275,12 +2269,13 @@ Model {
 	    Block {
 	      BlockType		      Constant
 	      Name		      "Constant2"
-	      SID		      "69"
-	      Position		      [90, 380, 120, 410]
-	      ZOrder		      24
+	      SID		      "161"
+	      Position		      [30, 382, 120, 408]
+	      ZOrder		      37
+	      Value		      "ones(4,1)"
 	      Port {
 		PortNumber		1
-		Name			"GPSenableflg"
+		Name			"SUNenableflgs"
 	      }
 	    }
 	    Block {
@@ -2313,7 +2308,7 @@ Model {
 	      SID		      "72"
 	      Position		      [30, 202, 120, 228]
 	      ZOrder		      27
-	      Value		      "ones(10,1)"
+	      Value		      "ones(4,1)"
 	      Port {
 		PortNumber		1
 		Name			"SPCenableflgs"
@@ -2336,7 +2331,7 @@ Model {
 	      SID		      "75"
 	      Position		      [20, 22, 110, 48]
 	      ZOrder		      29
-	      Value		      "ones(10,1)"
+	      Value		      "ones(3,1)"
 	      Port {
 		PortNumber		1
 		Name			"MTRenableflgs"
@@ -2379,7 +2374,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "GPSenableflg"
+	      Name		      "SUNenableflgs"
 	      SID		      "90"
 	      Position		      [420, 388, 450, 402]
 	      ZOrder		      34
@@ -2423,12 +2418,12 @@ Model {
 	      DstPort		      1
 	    }
 	    Line {
-	      Name		      "GPSenableflg"
-	      ZOrder		      31
+	      Name		      "SUNenableflgs"
+	      ZOrder		      39
 	      Labels		      [0, 0]
 	      SrcBlock		      "Constant2"
 	      SrcPort		      1
-	      DstBlock		      "GPSenableflg"
+	      DstBlock		      "SUNenableflgs"
 	      DstPort		      1
 	    }
 	    Line {
@@ -2536,7 +2531,7 @@ Model {
 	      ZOrder		      1
 	      Port {
 		PortNumber		1
-		PropagatedSignals	"SSSvisflg_array"
+		PropagatedSignals	"magfld_MTM_mes"
 		ShowPropagatedSignals	"on"
 	      }
 	    }
@@ -2549,7 +2544,7 @@ Model {
 	      Port		      "2"
 	      Port {
 		PortNumber		1
-		PropagatedSignals	"SSScurrent_mes"
+		PropagatedSignals	"SPCvisflg_array"
 		ShowPropagatedSignals	"on"
 	      }
 	    }
@@ -2562,7 +2557,7 @@ Model {
 	      Port		      "3"
 	      Port {
 		PortNumber		1
-		PropagatedSignals	"magfld_MTM_mes"
+		PropagatedSignals	"SPCcurrent_mes"
 		ShowPropagatedSignals	"on"
 	      }
 	    }
@@ -2668,7 +2663,7 @@ Model {
 	      RequestExecContextInheritance off
 	      System {
 		Name			"SYSSEN_MTM"
-		Location		[1013, 25, 1918, 1186]
+		Location		[332, 45, 1789, 1076]
 		SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -2694,7 +2689,7 @@ Model {
 		  ZOrder		  46
 		  Port {
 		    PortNumber		    1
-		    PropagatedSignals	    "SSSvisflg_array"
+		    PropagatedSignals	    "magfld_MTM_mes"
 		    ShowPropagatedSignals   "on"
 		  }
 		}
@@ -2773,7 +2768,7 @@ Model {
 		  ZOrder		  56
 		  Port {
 		    PortNumber		    1
-		    PropagatedSignals	    "SSScurrent_mes"
+		    PropagatedSignals	    "SPCvisflg_array"
 		    ShowPropagatedSignals   "on"
 		  }
 		}
@@ -2786,7 +2781,7 @@ Model {
 		  Port			  "2"
 		  Port {
 		    PortNumber		    1
-		    PropagatedSignals	    "magfld_MTM_mes"
+		    PropagatedSignals	    "SPCcurrent_mes"
 		    ShowPropagatedSignals   "on"
 		  }
 		}
@@ -2965,7 +2960,7 @@ Model {
 	  BackgroundColor	  "orange"
 	}
 	Line {
-	  ZOrder		  1
+	  ZOrder		  166
 	  SrcBlock		  "From RWSW"
 	  SrcPort		  1
 	  DstBlock		  "Bus\nSelector"
@@ -2973,7 +2968,7 @@ Model {
 	}
 	Line {
 	  Name			  "SYSCMD"
-	  ZOrder		  46
+	  ZOrder		  168
 	  Labels		  [-1, 0]
 	  SrcBlock		  "Bus\nCreator"
 	  SrcPort		  1
@@ -3038,11 +3033,11 @@ Model {
 	}
 	Line {
 	  Name			  "SYSACT"
-	  ZOrder		  47
+	  ZOrder		  169
 	  Labels		  [-1, 0]
 	  SrcBlock		  "Bus\nCreator1"
 	  SrcPort		  1
-	  Points		  [88, 0; 0, 400]
+	  Points		  [155, 0; 0, 400]
 	  DstBlock		  "Bus\nCreator2"
 	  DstPort		  1
 	}
@@ -3055,16 +3050,16 @@ Model {
 	}
 	Line {
 	  Name			  "SYSSEN"
-	  ZOrder		  58
+	  ZOrder		  167
 	  Labels		  [-1, 0]
 	  SrcBlock		  "Bus\nCreator3"
 	  SrcPort		  1
-	  Points		  [120, 0; 0, -400]
+	  Points		  [155, 0; 0, -400]
 	  DstBlock		  "Bus\nCreator2"
 	  DstPort		  3
 	}
 	Line {
-	  Name			  "<SSSvisflg_array>"
+	  Name			  "<SPCvisflg_array>"
 	  ZOrder		  115
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"
@@ -3073,7 +3068,7 @@ Model {
 	  DstPort		  2
 	}
 	Line {
-	  Name			  "<SSScurrent_mes>"
+	  Name			  "<SPCcurrent_mes>"
 	  ZOrder		  117
 	  Labels		  [0, 0]
 	  SrcBlock		  "Bus\nSelector"

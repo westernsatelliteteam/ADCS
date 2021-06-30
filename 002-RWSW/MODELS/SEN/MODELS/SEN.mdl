@@ -27,7 +27,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [75.0, 25.0, 1292.0, 1161.0]
+      Location		      [-1448.0, 25.0, 1292.0, 1161.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -52,23 +52,23 @@ Library {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2"
 	  Extents		  [1178.0, 956.0]
-	  ZoomFactor		  [1.329512893982808]
-	  Offset		  [-83.019396551724128, 142.46982758620692]
-	  SceneRectInView	  [-83.019396551724128, 142.46982758620692, 886.03879310344826, 719.06034482758616]
+	  ZoomFactor		  [0.94112833103166083]
+	  Offset		  [133.18673913043483, -69.400978260869522]
+	  SceneRectInView	  [133.18673913043483, -69.400978260869522, 1251.6890217391303, 1015.801956521739]
 	}
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [0]
 	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2"
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
 	  Extents		  [1178.0, 956.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [171.60448240165545, 78.94417960662463]
-	  SceneRectInView	  [171.60448240165545, 78.94417960662463, 1178.0, 956.0]
+	  ZoomFactor		  [1.329512893982808]
+	  Offset		  [-83.050646551724128, 142.46982758620692]
+	  SceneRectInView	  [-83.050646551724128, 142.46982758620692, 886.03879310344826, 719.06034482758616]
 	}
 	Object {
 	  $ObjectID		  7
@@ -164,9 +164,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "dbell44"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Jun 29 22:56:05 2021"
-  RTWModifiedTimeStamp	  546908147
-  ModelVersionFormat	  "%<AutoIncrement:1.16>"
+  LastModifiedDate	  "Wed Jun 30 00:51:41 2021"
+  RTWModifiedTimeStamp	  546915097
+  ModelVersionFormat	  "%<AutoIncrement:1.19>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -1157,9 +1157,9 @@ Library {
   }
   System {
     Name		    "SEN"
-    Location		    [75, 25, 1367, 1186]
+    Location		    [-1448, 25, -156, 1186]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    on
+    Open		    off
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -1175,13 +1175,13 @@ Library {
     ShowPageBoundaries	    off
     ZoomFactor		    "133"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "85"
+    SIDHighWatermark	    "111"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
       Name		      "SEN"
       SID		      "2"
-      Ports		      [15, 1]
+      Ports		      [14, 1]
       Position		      [240, 153, 480, 837]
       ZOrder		      437
       ForegroundColor	      "blue"
@@ -1190,9 +1190,9 @@ Library {
       ContentPreviewEnabled   on
       System {
 	Name			"SEN"
-	Location		[75, 25, 1367, 1186]
+	Location		[-1448, 25, -156, 1186]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
+	Open			on
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -1206,13 +1206,13 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"94"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
 	  Name			  "SPCenableflgs"
 	  SID			  "5"
-	  Position		  [195, 123, 225, 137]
+	  Position		  [195, 148, 225, 162]
 	  ZOrder		  1
 	  BackgroundColor	  "magenta"
 	  Port {
@@ -1222,22 +1222,22 @@ Library {
 	}
 	Block {
 	  BlockType		  Inport
-	  Name			  "SOLenableflgs"
+	  Name			  "SUNenableflgs"
 	  SID			  "6"
-	  Position		  [195, 173, 225, 187]
+	  Position		  [195, 198, 225, 212]
 	  ZOrder		  2
 	  BackgroundColor	  "magenta"
 	  Port			  "2"
 	  Port {
 	    PortNumber		    1
-	    Name		    "SOLenableflgs"
+	    Name		    "SUNenableflgs"
 	  }
 	}
 	Block {
 	  BlockType		  Inport
 	  Name			  "MTMenableflg"
 	  SID			  "7"
-	  Position		  [195, 223, 225, 237]
+	  Position		  [195, 248, 225, 262]
 	  ZOrder		  3
 	  BackgroundColor	  "magenta"
 	  Port			  "3"
@@ -1250,7 +1250,7 @@ Library {
 	  BlockType		  Inport
 	  Name			  "GYRenableflg"
 	  SID			  "8"
-	  Position		  [195, 273, 225, 287]
+	  Position		  [195, 298, 225, 312]
 	  ZOrder		  4
 	  BackgroundColor	  "magenta"
 	  Port			  "4"
@@ -1261,24 +1261,11 @@ Library {
 	}
 	Block {
 	  BlockType		  Inport
-	  Name			  "GPSenableflg"
-	  SID			  "9"
-	  Position		  [195, 323, 225, 337]
-	  ZOrder		  5
-	  BackgroundColor	  "magenta"
-	  Port			  "5"
-	  Port {
-	    PortNumber		    1
-	    Name		    "GPSenableflg"
-	  }
-	}
-	Block {
-	  BlockType		  Inport
 	  Name			  "time_relJDepoch_TAI_days"
 	  SID			  "10"
 	  Position		  [195, 413, 225, 427]
 	  ZOrder		  6
-	  Port			  "6"
+	  Port			  "5"
 	  Port {
 	    PortNumber		    1
 	    Name		    "time_relJDepoch_TAI_days"
@@ -1290,7 +1277,7 @@ Library {
 	  SID			  "11"
 	  Position		  [195, 463, 225, 477]
 	  ZOrder		  7
-	  Port			  "7"
+	  Port			  "6"
 	  Port {
 	    PortNumber		    1
 	    Name		    "magfld_BOF"
@@ -1302,7 +1289,7 @@ Library {
 	  SID			  "12"
 	  Position		  [195, 513, 225, 527]
 	  ZOrder		  8
-	  Port			  "8"
+	  Port			  "7"
 	  Port {
 	    PortNumber		    1
 	    Name		    "SUNpos_ECI"
@@ -1314,7 +1301,7 @@ Library {
 	  SID			  "13"
 	  Position		  [195, 563, 225, 577]
 	  ZOrder		  9
-	  Port			  "9"
+	  Port			  "8"
 	  Port {
 	    PortNumber		    1
 	    Name		    "BOFq_ECI"
@@ -1326,7 +1313,7 @@ Library {
 	  SID			  "14"
 	  Position		  [195, 613, 225, 627]
 	  ZOrder		  10
-	  Port			  "10"
+	  Port			  "9"
 	  Port {
 	    PortNumber		    1
 	    Name		    "eclipseflg"
@@ -1338,7 +1325,7 @@ Library {
 	  SID			  "15"
 	  Position		  [195, 663, 225, 677]
 	  ZOrder		  11
-	  Port			  "11"
+	  Port			  "10"
 	  Port {
 	    PortNumber		    1
 	    Name		    "BOFw_relECI_BOF"
@@ -1350,7 +1337,7 @@ Library {
 	  SID			  "16"
 	  Position		  [195, 713, 225, 727]
 	  ZOrder		  12
-	  Port			  "12"
+	  Port			  "11"
 	  Port {
 	    PortNumber		    1
 	    Name		    "pos_ECI"
@@ -1362,7 +1349,7 @@ Library {
 	  SID			  "17"
 	  Position		  [195, 763, 225, 777]
 	  ZOrder		  13
-	  Port			  "13"
+	  Port			  "12"
 	  Port {
 	    PortNumber		    1
 	    Name		    "vel_ECI"
@@ -1374,7 +1361,7 @@ Library {
 	  SID			  "18"
 	  Position		  [195, 813, 225, 827]
 	  ZOrder		  14
-	  Port			  "14"
+	  Port			  "13"
 	  Port {
 	    PortNumber		    1
 	    Name		    "SCsolarflux"
@@ -1386,7 +1373,7 @@ Library {
 	  SID			  "19"
 	  Position		  [195, 863, 225, 877]
 	  ZOrder		  15
-	  Port			  "15"
+	  Port			  "14"
 	  Port {
 	    PortNumber		    1
 	    Name		    "TERq_ECI"
@@ -1407,35 +1394,35 @@ Library {
 	  BlockType		  BusCreator
 	  Name			  "Bus\nCreator1"
 	  SID			  "52"
-	  Ports			  [5, 1]
-	  Position		  [380, 100, 385, 360]
+	  Ports			  [4, 1]
+	  Position		  [380, 129, 385, 331]
 	  ZOrder		  2985
-	  Inputs		  "5"
+	  Inputs		  "4"
 	  DisplayOption		  "bar"
 	  InheritFromInputs	  on
 	}
 	Block {
 	  BlockType		  BusCreator
 	  Name			  "Bus\nCreator2"
-	  SID			  "80"
+	  SID			  "106"
 	  Ports			  [4, 1]
-	  Position		  [1070, 258, 1075, 437]
-	  ZOrder		  3028
+	  Position		  [1085, 230, 1090, 405]
+	  ZOrder		  3054
 	  Inputs		  "4"
 	  DisplayOption		  "bar"
 	  InheritFromInputs	  on
 	  Port {
 	    PortNumber		    1
-	    Name		    "SEN_SSS"
+	    Name		    "SEN_SPC"
 	  }
 	}
 	Block {
 	  BlockType		  BusCreator
 	  Name			  "Bus\nCreator3"
-	  SID			  "81"
+	  SID			  "107"
 	  Ports			  [4, 1]
-	  Position		  [1070, 485, 1075, 630]
-	  ZOrder		  3029
+	  Position		  [1085, 474, 1090, 611]
+	  ZOrder		  3055
 	  Inputs		  "4"
 	  DisplayOption		  "bar"
 	  InheritFromInputs	  on
@@ -1447,10 +1434,10 @@ Library {
 	Block {
 	  BlockType		  BusCreator
 	  Name			  "Bus\nCreator4"
-	  SID			  "82"
+	  SID			  "108"
 	  Ports			  [4, 1]
-	  Position		  [1070, 695, 1075, 840]
-	  ZOrder		  3030
+	  Position		  [1085, 695, 1090, 840]
+	  ZOrder		  3056
 	  Inputs		  "4"
 	  DisplayOption		  "bar"
 	  InheritFromInputs	  on
@@ -1462,13 +1449,28 @@ Library {
 	Block {
 	  BlockType		  BusCreator
 	  Name			  "Bus\nCreator5"
-	  SID			  "83"
+	  SID			  "109"
+	  Ports			  [4, 1]
+	  Position		  [1255, -22, 1260, 887]
+	  ZOrder		  3057
+	  Inputs		  "4"
+	  DisplayOption		  "bar"
+	  InheritFromInputs	  on
+	}
+	Block {
+	  BlockType		  BusCreator
+	  Name			  "Bus\nCreator6"
+	  SID			  "110"
 	  Ports			  [3, 1]
-	  Position		  [1185, 241, 1190, 879]
-	  ZOrder		  3031
+	  Position		  [1085, 4, 1090, 186]
+	  ZOrder		  3058
 	  Inputs		  "3"
 	  DisplayOption		  "bar"
 	  InheritFromInputs	  on
+	  Port {
+	    PortNumber		    1
+	    Name		    "SEN_SUN"
+	  }
 	}
 	Block {
 	  BlockType		  BusSelector
@@ -1501,7 +1503,7 @@ Library {
 	  Name			  "Bus\nSelector2"
 	  SID			  "76"
 	  Ports			  [1, 1]
-	  Position		  [595, 401, 600, 439]
+	  Position		  [595, 371, 600, 409]
 	  ZOrder		  3008
 	  OutputSignals		  "SPCenableflgs"
 	  Port {
@@ -1514,7 +1516,7 @@ Library {
 	  Name			  "Bus\nSelector3"
 	  SID			  "67"
 	  Ports			  [1, 1]
-	  Position		  [595, 576, 600, 614]
+	  Position		  [595, 561, 600, 599]
 	  ZOrder		  2999
 	  OutputSignals		  "MTMenableflg"
 	  Port {
@@ -1527,7 +1529,7 @@ Library {
 	  Name			  "Bus\nSelector4"
 	  SID			  "68"
 	  Ports			  [1, 1]
-	  Position		  [565, 506, 570, 544]
+	  Position		  [565, 491, 570, 529]
 	  ZOrder		  3001
 	  OutputSignals		  "magfld_BOF"
 	  Port {
@@ -1540,7 +1542,7 @@ Library {
 	  Name			  "Bus\nSelector5"
 	  SID			  "78"
 	  Ports			  [1, 5]
-	  Position		  [565, 256, 570, 404]
+	  Position		  [565, 226, 570, 374]
 	  ZOrder		  3010
 	  OutputSignals		  "SUNpos_ECI,pos_ECI,BOFq_ECI,eclipseflg,SCsolarflux"
 	  Port {
@@ -1565,6 +1567,44 @@ Library {
 	  }
 	}
 	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector6"
+	  SID			  "87"
+	  Ports			  [1, 1]
+	  Position		  [600, 146, 605, 184]
+	  ZOrder		  3036
+	  OutputSignals		  "SUNenableflgs"
+	  Port {
+	    PortNumber		    1
+	    Name		    "<SUNenableflgs>"
+	  }
+	}
+	Block {
+	  BlockType		  BusSelector
+	  Name			  "Bus\nSelector7"
+	  SID			  "88"
+	  Ports			  [1, 4]
+	  Position		  [570, 3, 575, 152]
+	  ZOrder		  3038
+	  OutputSignals		  "SUNpos_ECI,pos_ECI,BOFq_ECI,eclipseflg"
+	  Port {
+	    PortNumber		    1
+	    Name		    "<SUNpos_ECI>"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "<pos_ECI>"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "<BOFq_ECI>"
+	  }
+	  Port {
+	    PortNumber		    4
+	    Name		    "<eclipseflg>"
+	  }
+	}
+	Block {
 	  BlockType		  From
 	  Name			  "From"
 	  SID			  "54"
@@ -1585,7 +1625,7 @@ Library {
 	  BlockType		  From
 	  Name			  "From2"
 	  SID			  "77"
-	  Position		  [485, 406, 540, 434]
+	  Position		  [485, 376, 540, 404]
 	  ZOrder		  3007
 	  BackgroundColor	  "magenta"
 	  GotoTag		  "INPUT"
@@ -1594,7 +1634,7 @@ Library {
 	  BlockType		  From
 	  Name			  "From3"
 	  SID			  "69"
-	  Position		  [485, 581, 540, 609]
+	  Position		  [485, 566, 540, 594]
 	  ZOrder		  2998
 	  BackgroundColor	  "magenta"
 	  GotoTag		  "INPUT"
@@ -1603,7 +1643,7 @@ Library {
 	  BlockType		  From
 	  Name			  "From4"
 	  SID			  "70"
-	  Position		  [485, 511, 540, 539]
+	  Position		  [485, 496, 540, 524]
 	  ZOrder		  3000
 	  GotoTag		  "DYN"
 	}
@@ -1611,8 +1651,25 @@ Library {
 	  BlockType		  From
 	  Name			  "From5"
 	  SID			  "79"
-	  Position		  [485, 316, 540, 344]
+	  Position		  [485, 286, 540, 314]
 	  ZOrder		  3009
+	  GotoTag		  "DYN"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From6"
+	  SID			  "89"
+	  Position		  [485, 151, 540, 179]
+	  ZOrder		  3035
+	  BackgroundColor	  "magenta"
+	  GotoTag		  "INPUT"
+	}
+	Block {
+	  BlockType		  From
+	  Name			  "From7"
+	  SID			  "90"
+	  Position		  [485, 66, 540, 94]
+	  ZOrder		  3037
 	  GotoTag		  "DYN"
 	}
 	Block {
@@ -1677,7 +1734,7 @@ Library {
 	  Name			  "SEN_MTM"
 	  SID			  "66"
 	  Ports			  [2, 4]
-	  Position		  [690, 487, 930, 628]
+	  Position		  [690, 472, 930, 613]
 	  ZOrder		  2997
 	  LibraryVersion	  "1.3"
 	  SourceBlock		  "SEN_MTM/SEN_MTM"
@@ -1717,7 +1774,7 @@ Library {
 	  Name			  "SEN_SPC"
 	  SID			  "85"
 	  Ports			  [6, 4]
-	  Position		  [695, 251, 920, 439]
+	  Position		  [695, 221, 920, 409]
 	  ZOrder		  3033
 	  LibraryVersion	  "1.8"
 	  SourceBlock		  "SEN_SPC/SEN_SPC"
@@ -1753,11 +1810,47 @@ Library {
 	  }
 	}
 	Block {
+	  BlockType		  Reference
+	  Name			  "SEN_SUN"
+	  SID			  "86"
+	  Ports			  [5, 3]
+	  Position		  [710, 3, 910, 187]
+	  ZOrder		  3034
+	  LibraryVersion	  "1.10"
+	  SourceBlock		  "SEN_SUN/SEN_SUN"
+	  SourceType		  "SubSystem"
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  VariantActivationTime	  "update diagram"
+	  AllowZeroVariantControls off
+	  PropagateVariantConditions off
+	  ContentPreviewEnabled	  on
+	  Latency		  "0"
+	  AutoFrameSizeCalculation off
+	  Port {
+	    PortNumber		    1
+	    Name		    "SUN_vector_array_mes"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "SUNvisflg_array"
+	  }
+	  Port {
+	    PortNumber		    3
+	    Name		    "SUN_vector_array"
+	  }
+	}
+	Block {
 	  BlockType		  Outport
 	  Name			  "SEN"
-	  SID			  "84"
-	  Position		  [1255, 553, 1285, 567]
-	  ZOrder		  3032
+	  SID			  "111"
+	  Position		  [1340, 428, 1370, 442]
+	  ZOrder		  3059
 	  BackgroundColor	  "orange"
 	}
 	Line {
@@ -1867,10 +1960,10 @@ Library {
 	  DstPort		  1
 	}
 	Line {
-	  Name			  "SOLenableflgs"
+	  Name			  "SUNenableflgs"
 	  ZOrder		  59
 	  Labels		  [1, 1]
-	  SrcBlock		  "SOLenableflgs"
+	  SrcBlock		  "SUNenableflgs"
 	  SrcPort		  1
 	  DstBlock		  "Bus\nCreator1"
 	  DstPort		  2
@@ -1892,15 +1985,6 @@ Library {
 	  SrcPort		  1
 	  DstBlock		  "Bus\nCreator1"
 	  DstPort		  4
-	}
-	Line {
-	  Name			  "GPSenableflg"
-	  ZOrder		  62
-	  Labels		  [1, 1]
-	  SrcBlock		  "GPSenableflg"
-	  SrcPort		  1
-	  DstBlock		  "Bus\nCreator1"
-	  DstPort		  5
 	}
 	Line {
 	  ZOrder		  63
@@ -1943,7 +2027,7 @@ Library {
 	}
 	Line {
 	  Name			  "GYRw_relECI_GYR_mes"
-	  ZOrder		  162
+	  ZOrder		  300
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_GYR"
 	  SrcPort		  1
@@ -1952,7 +2036,7 @@ Library {
 	}
 	Line {
 	  Name			  "GYRnoiseandbias"
-	  ZOrder		  161
+	  ZOrder		  298
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_GYR"
 	  SrcPort		  2
@@ -1961,7 +2045,7 @@ Library {
 	}
 	Line {
 	  Name			  "GYRbias"
-	  ZOrder		  159
+	  ZOrder		  297
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_GYR"
 	  SrcPort		  3
@@ -1970,7 +2054,7 @@ Library {
 	}
 	Line {
 	  Name			  "GYRw_relECI_GYR"
-	  ZOrder		  160
+	  ZOrder		  299
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_GYR"
 	  SrcPort		  4
@@ -2011,7 +2095,7 @@ Library {
 	}
 	Line {
 	  Name			  "magfld_MTM_corrupted"
-	  ZOrder		  156
+	  ZOrder		  296
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_MTM"
 	  SrcPort		  2
@@ -2020,7 +2104,7 @@ Library {
 	}
 	Line {
 	  Name			  "magfld_MTM"
-	  ZOrder		  157
+	  ZOrder		  294
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_MTM"
 	  SrcPort		  3
@@ -2029,7 +2113,7 @@ Library {
 	}
 	Line {
 	  Name			  "magfld_MTM_saturationflag"
-	  ZOrder		  158
+	  ZOrder		  293
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_MTM"
 	  SrcPort		  4
@@ -2038,7 +2122,7 @@ Library {
 	}
 	Line {
 	  Name			  "magfld_MTM_mes"
-	  ZOrder		  155
+	  ZOrder		  295
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_MTM"
 	  SrcPort		  1
@@ -2115,7 +2199,7 @@ Library {
 	}
 	Line {
 	  Name			  "SPCvisflg_array"
-	  ZOrder		  196
+	  ZOrder		  290
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_SPC"
 	  SrcPort		  1
@@ -2124,7 +2208,7 @@ Library {
 	}
 	Line {
 	  Name			  "SPCcurrent_mes"
-	  ZOrder		  199
+	  ZOrder		  292
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_SPC"
 	  SrcPort		  2
@@ -2133,7 +2217,7 @@ Library {
 	}
 	Line {
 	  Name			  "SPC_angle_array"
-	  ZOrder		  197
+	  ZOrder		  289
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_SPC"
 	  SrcPort		  4
@@ -2142,7 +2226,7 @@ Library {
 	}
 	Line {
 	  Name			  "SPCcurrent"
-	  ZOrder		  198
+	  ZOrder		  291
 	  Labels		  [0, 0]
 	  SrcBlock		  "SEN_SPC"
 	  SrcPort		  3
@@ -2150,38 +2234,133 @@ Library {
 	  DstPort		  3
 	}
 	Line {
-	  Name			  "SEN_SSS"
-	  ZOrder		  163
+	  Name			  "<SUNpos_ECI>"
+	  ZOrder		  217
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  1
+	  DstBlock		  "SEN_SUN"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<pos_ECI>"
+	  ZOrder		  216
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  2
+	  DstBlock		  "SEN_SUN"
+	  DstPort		  2
+	}
+	Line {
+	  Name			  "<eclipseflg>"
+	  ZOrder		  220
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  4
+	  DstBlock		  "SEN_SUN"
+	  DstPort		  4
+	}
+	Line {
+	  Name			  "<SUNenableflgs>"
+	  ZOrder		  218
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector6"
+	  SrcPort		  1
+	  DstBlock		  "SEN_SUN"
+	  DstPort		  5
+	}
+	Line {
+	  ZOrder		  213
+	  SrcBlock		  "From6"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nSelector6"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  214
+	  SrcBlock		  "From7"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nSelector7"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "<BOFq_ECI>"
+	  ZOrder		  222
+	  Labels		  [0, 0]
+	  SrcBlock		  "Bus\nSelector7"
+	  SrcPort		  3
+	  DstBlock		  "SEN_SUN"
+	  DstPort		  3
+	}
+	Line {
+	  Name			  "SUNvisflg_array"
+	  ZOrder		  288
+	  Labels		  [0, 0]
+	  SrcBlock		  "SEN_SUN"
+	  SrcPort		  2
+	  DstBlock		  "Bus\nCreator6"
+	  DstPort		  2
+	}
+	Line {
+	  Name			  "SUN_vector_array"
+	  ZOrder		  287
+	  Labels		  [0, 0]
+	  SrcBlock		  "SEN_SUN"
+	  SrcPort		  3
+	  DstBlock		  "Bus\nCreator6"
+	  DstPort		  3
+	}
+	Line {
+	  Name			  "SUN_vector_array_mes"
+	  ZOrder		  286
+	  Labels		  [0, 0]
+	  SrcBlock		  "SEN_SUN"
+	  SrcPort		  1
+	  DstBlock		  "Bus\nCreator6"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  301
+	  SrcBlock		  "Bus\nCreator5"
+	  SrcPort		  1
+	  DstBlock		  "SEN"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "SEN_SUN"
+	  ZOrder		  282
 	  Labels		  [1, 1]
-	  SrcBlock		  "Bus\nCreator2"
+	  SrcBlock		  "Bus\nCreator6"
 	  SrcPort		  1
 	  DstBlock		  "Bus\nCreator5"
 	  DstPort		  1
 	}
 	Line {
-	  Name			  "SEN_MTM"
-	  ZOrder		  164
+	  Name			  "SEN_SPC"
+	  ZOrder		  283
 	  Labels		  [1, 1]
-	  SrcBlock		  "Bus\nCreator3"
+	  SrcBlock		  "Bus\nCreator2"
 	  SrcPort		  1
 	  DstBlock		  "Bus\nCreator5"
 	  DstPort		  2
 	}
 	Line {
 	  Name			  "SEN_GYR"
-	  ZOrder		  165
+	  ZOrder		  284
 	  Labels		  [1, 1]
 	  SrcBlock		  "Bus\nCreator4"
 	  SrcPort		  1
 	  DstBlock		  "Bus\nCreator5"
-	  DstPort		  3
+	  DstPort		  4
 	}
 	Line {
-	  ZOrder		  167
-	  SrcBlock		  "Bus\nCreator5"
+	  Name			  "SEN_MTM"
+	  ZOrder		  285
+	  Labels		  [1, 1]
+	  SrcBlock		  "Bus\nCreator3"
 	  SrcPort		  1
-	  DstBlock		  "SEN"
-	  DstPort		  1
+	  DstBlock		  "Bus\nCreator5"
+	  DstPort		  3
 	}
       }
     }

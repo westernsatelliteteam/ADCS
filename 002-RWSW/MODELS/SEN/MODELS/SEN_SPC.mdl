@@ -66,9 +66,9 @@ Library {
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "1"
 	  Extents		  [1019.0, 771.0]
-	  ZoomFactor		  [1.5]
-	  Offset		  [1507.2352639529563, 22.358244513118962]
-	  SceneRectInView	  [1507.2352639529563, 22.358244513118962, 679.33333333333337, 514.0]
+	  ZoomFactor		  [0.551757736039461]
+	  Offset		  [203.9390451564077, -491.67620301463171]
+	  SceneRectInView	  [203.9390451564077, -491.67620301463171, 1846.8250346871846, 1397.3524060292634]
 	}
 	Object {
 	  $ObjectID		  7
@@ -142,9 +142,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "dbell44"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Jun 29 22:55:16 2021"
-  RTWModifiedTimeStamp	  546908112
-  ModelVersionFormat	  "%<AutoIncrement:1.8>"
+  LastModifiedDate	  "Wed Jun 30 00:55:19 2021"
+  RTWModifiedTimeStamp	  546915314
+  ModelVersionFormat	  "%<AutoIncrement:1.9>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -1235,7 +1235,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"150"
+	ZoomFactor		"55"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -1305,7 +1305,7 @@ Library {
 	  Port			  "6"
 	  Port {
 	    PortNumber		    1
-	    Name		    "SSSenableflgs"
+	    Name		    "SPC  enableflgs"
 	  }
 	}
 	Block {
@@ -1457,7 +1457,7 @@ Library {
 	}
 	Block {
 	  BlockType		  Constant
-	  Name			  "SSS_orientation_array"
+	  Name			  "SP_orientation_array"
 	  SID			  "16"
 	  Position		  [515, 270, 665, 300]
 	  ZOrder		  2978
@@ -1620,7 +1620,7 @@ Library {
 	}
 	Line {
 	  ZOrder		  12
-	  SrcBlock		  "SSS_orientation_array"
+	  SrcBlock		  "SP_orientation_array"
 	  SrcPort		  1
 	  Points		  [55, 0; 0, -80]
 	  DstBlock		  "LIB_ROT_VECANGDIFF"
@@ -1668,7 +1668,7 @@ Library {
 	  DstPort		  1
 	}
 	Line {
-	  Name			  "SSSenableflgs"
+	  Name			  "SPC  enableflgs"
 	  ZOrder		  37
 	  Labels		  [0, 0]
 	  SrcBlock		  "SPCenableflgs"
