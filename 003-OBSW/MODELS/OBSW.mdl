@@ -153,9 +153,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "dbell44"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Jun 29 00:05:06 2021"
-  RTWModifiedTimeStamp	  546825904
-  ModelVersionFormat	  "%<AutoIncrement:1.8>"
+  LastModifiedDate	  "Wed Jul 14 19:00:38 2021"
+  RTWModifiedTimeStamp	  548190036
+  ModelVersionFormat	  "%<AutoIncrement:1.9>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -1077,6 +1077,9 @@ Library {
       SampleTime	      "-1"
     }
     Block {
+      BlockType		      Ground
+    }
+    Block {
       BlockType		      Inport
       Port		      "1"
       IconDisplay	      "Port number"
@@ -1245,7 +1248,7 @@ Library {
     ShowPageBoundaries	    off
     ZoomFactor		    "80"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "53"
+    SIDHighWatermark	    "55"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
@@ -1426,6 +1429,13 @@ Library {
 	      }
 	    }
 	    Block {
+	      BlockType		      Ground
+	      Name		      "Ground"
+	      SID		      "54"
+	      Position		      [975, 135, 995, 155]
+	      ZOrder		      764
+	    }
+	    Block {
 	      BlockType		      Math
 	      Name		      "Math\nFunction"
 	      SID		      "18"
@@ -1465,6 +1475,13 @@ Library {
 		PortNumber		1
 		Name			"current_cmd"
 	      }
+	    }
+	    Block {
+	      BlockType		      Terminator
+	      Name		      "Terminator"
+	      SID		      "55"
+	      Position		      [960, 95, 980, 115]
+	      ZOrder		      765
 	    }
 	    Block {
 	      BlockType		      SubSystem
@@ -1684,11 +1701,12 @@ Library {
 	    }
 	    Line {
 	      Name		      "current_cmd"
-	      ZOrder		      4
+	      ZOrder		      20
 	      Labels		      [0, 0]
 	      SrcBlock		      "Saturation"
 	      SrcPort		      1
-	      DstBlock		      "currentCmd"
+	      Points		      [15, 0; 0, -40]
+	      DstBlock		      "Terminator"
 	      DstPort		      1
 	    }
 	    Line {
@@ -1781,6 +1799,13 @@ Library {
 	      SrcPort		      1
 	      DstBlock		      "Add"
 	      DstPort		      3
+	    }
+	    Line {
+	      ZOrder		      19
+	      SrcBlock		      "Ground"
+	      SrcPort		      1
+	      DstBlock		      "currentCmd"
+	      DstPort		      1
 	    }
 	    Annotation {
 	      SID		      "43"

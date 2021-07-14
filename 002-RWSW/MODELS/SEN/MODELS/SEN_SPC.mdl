@@ -47,17 +47,17 @@ Library {
       }
       Array {
 	Type			"Simulink.EditorInfo"
-	Dimension		3
+	Dimension		5
 	Object {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "46"
 	  Extents		  [1019.0, 771.0]
-	  ZoomFactor		  [2.0]
-	  Offset		  [230.71659939455077, 145.12645475950217]
-	  SceneRectInView	  [230.71659939455077, 145.12645475950217, 509.5, 385.5]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-296.5, -314.0]
+	  SceneRectInView	  [-296.5, -314.0, 1019.0, 771.0]
 	}
 	Object {
 	  $ObjectID		  6
@@ -66,12 +66,34 @@ Library {
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "1"
 	  Extents		  [1019.0, 771.0]
-	  ZoomFactor		  [0.551757736039461]
-	  Offset		  [203.9390451564077, -491.67620301463171]
-	  SceneRectInView	  [203.9390451564077, -491.67620301463171, 1846.8250346871846, 1397.3524060292634]
+	  ZoomFactor		  [1.25]
+	  Offset		  [257.49016923936711, 2.0738162059735146]
+	  SceneRectInView	  [257.49016923936711, 2.0738162059735146, 815.2, 616.8]
 	}
 	Object {
 	  $ObjectID		  7
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1019.0, 771.0]
+	  ZoomFactor		  [2.0]
+	  Offset		  [230.71659939455077, 145.12645475950217]
+	  SceneRectInView	  [230.71659939455077, 145.12645475950217, 509.5, 385.5]
+	}
+	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "45"
+	  Extents		  [1019.0, 771.0]
+	  ZoomFactor		  [2.0]
+	  Offset		  [-20.899479166666737, -49.699999999999847]
+	  SceneRectInView	  [-20.899479166666737, -49.699999999999847, 509.5, 385.5]
+	}
+	Object {
+	  $ObjectID		  9
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -87,7 +109,7 @@ Library {
 	Type			"Simulink.DockComponentInfo"
 	Dimension		2
 	Object {
-	  $ObjectID		  8
+	  $ObjectID		  10
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
 	  Visible		  [1]
@@ -100,7 +122,7 @@ Library {
 	  Minimized		  "On"
 	}
 	Object {
-	  $ObjectID		  9
+	  $ObjectID		  11
 	  Type			  "Simulink:Editor:ReferencedFiles"
 	  ID			  "Referenced Files"
 	  Visible		  [0]
@@ -142,9 +164,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "dbell44"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Jun 30 00:55:19 2021"
-  RTWModifiedTimeStamp	  546915314
-  ModelVersionFormat	  "%<AutoIncrement:1.9>"
+  LastModifiedDate	  "Wed Jul 14 18:56:53 2021"
+  RTWModifiedTimeStamp	  548189807
+  ModelVersionFormat	  "%<AutoIncrement:1.12>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -217,7 +239,7 @@ Library {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
-      $ObjectID		      10
+      $ObjectID		      12
       Version		      "20.1.0"
       DisabledProps	      []
       Description	      ""
@@ -225,7 +247,7 @@ Library {
 	Type			"Handle"
 	Dimension		9
 	Simulink.SolverCC {
-	  $ObjectID		  11
+	  $ObjectID		  13
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -267,7 +289,7 @@ Library {
 	  ODENIntegrationMethod	  "ode3"
 	}
 	Simulink.DataIOCC {
-	  $ObjectID		  12
+	  $ObjectID		  14
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -309,7 +331,7 @@ Library {
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
-	  $ObjectID		  13
+	  $ObjectID		  15
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -383,7 +405,7 @@ Library {
 	  EfficientTunableParamExpr off
 	}
 	Simulink.DebuggingCC {
-	  $ObjectID		  14
+	  $ObjectID		  16
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -506,7 +528,7 @@ Library {
 	  VariantConditionMismatch "none"
 	}
 	Simulink.HardwareCC {
-	  $ObjectID		  15
+	  $ObjectID		  17
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -556,7 +578,7 @@ Library {
 	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
 	}
 	Simulink.ModelReferenceCC {
-	  $ObjectID		  16
+	  $ObjectID		  18
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -576,7 +598,7 @@ Library {
 	  SupportModelReferenceSimTargetCustomCode off
 	}
 	Simulink.SFSimCC {
-	  $ObjectID		  17
+	  $ObjectID		  19
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  ""
@@ -620,7 +642,7 @@ Library {
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
-	  $ObjectID		  18
+	  $ObjectID		  20
 	  Version		  "20.1.0"
 	  Array {
 	    Type		    "Cell"
@@ -726,7 +748,7 @@ Library {
 	    Type		    "Handle"
 	    Dimension		    2
 	    Simulink.CodeAppCC {
-	      $ObjectID		      19
+	      $ObjectID		      21
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
@@ -816,7 +838,7 @@ Library {
 	    }
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
-	      $ObjectID		      20
+	      $ObjectID		      22
 	      Version		      "20.1.0"
 	      Array {
 		Type			"Cell"
@@ -920,7 +942,7 @@ Library {
 	  }
 	}
 	SlCovCC.ConfigComp {
-	  $ObjectID		  21
+	  $ObjectID		  23
 	  Version		  "20.1.0"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
@@ -1037,6 +1059,23 @@ Library {
       SampleTime	      "inf"
       FramePeriod	      "inf"
       PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      ForEach
+      IterateSubsysMaskParameter "off"
+      SubsysMaskParameterIterationDimension "1"
+      SubsysMaskParameterIterationStepSize "1"
+      RequestParallelExec     on
+      IndexMode		      "Zero-based"
+      IterationIndexDataType  "int32"
+      ShowIterationIndex      off
+      StateHandling	      "Separate states for each iteration"
+      StateReset	      "held"
+      ShowResetFlag	      off
+      NeedActiveIterationSignal	off
+      ShowActiveIterationCount off
+      ShowActiveIterationFlag off
+      SpecifiedNumIters	      "-1"
     }
     Block {
       BlockType		      Ground
@@ -1190,7 +1229,7 @@ Library {
     Name		    "SEN_SPC"
     Location		    [0, 107, 1133, 1083]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    on
+    Open		    off
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -1206,7 +1245,7 @@ Library {
     ShowPageBoundaries	    off
     ZoomFactor		    "200"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "44"
+    SIDHighWatermark	    "52"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
@@ -1235,7 +1274,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"55"
+	ZoomFactor		"125"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -1276,7 +1315,7 @@ Library {
 	  BlockType		  Inport
 	  Name			  "eclipseflg"
 	  SID			  "10"
-	  Position		  [1045, 263, 1075, 277]
+	  Position		  [1045, 283, 1075, 297]
 	  ZOrder		  2972
 	  Port			  "4"
 	  Port {
@@ -1288,7 +1327,7 @@ Library {
 	  BlockType		  Inport
 	  Name			  "SCsolarflux"
 	  SID			  "11"
-	  Position		  [1045, 193, 1075, 207]
+	  Position		  [1045, 213, 1075, 227]
 	  ZOrder		  2973
 	  Port			  "5"
 	  Port {
@@ -1300,7 +1339,7 @@ Library {
 	  BlockType		  Inport
 	  Name			  "SPCenableflgs"
 	  SID			  "12"
-	  Position		  [1045, 298, 1075, 312]
+	  Position		  [1045, 318, 1075, 332]
 	  ZOrder		  2974
 	  Port			  "6"
 	  Port {
@@ -1313,7 +1352,7 @@ Library {
 	  Name			  "Band-Limited\nWhite Noise"
 	  SID			  "38"
 	  Ports			  [0, 1]
-	  Position		  [1580, 220, 1610, 250]
+	  Position		  [1580, 240, 1610, 270]
 	  ZOrder		  3000
 	  LibraryVersion	  "1.476"
 	  SourceBlock		  "simulink/Sources/Band-Limited\nWhite Noise"
@@ -1334,7 +1373,7 @@ Library {
 	  BlockType		  Constant
 	  Name			  "Constant"
 	  SID			  "23"
-	  Position		  [880, 110, 910, 140]
+	  Position		  [890, 130, 920, 160]
 	  ZOrder		  2985
 	  Value			  "pi/2"
 	}
@@ -1342,22 +1381,131 @@ Library {
 	  BlockType		  Constant
 	  Name			  "Constant1"
 	  SID			  "43"
-	  Position		  [1490, 100, 1520, 130]
+	  Position		  [1490, 120, 1520, 150]
 	  ZOrder		  3005
 	  Value			  "true"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "For Each\nSubsystem"
+	  SID			  "46"
+	  Ports			  [2, 1]
+	  Position		  [745, 164, 855, 231]
+	  ZOrder		  3021
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "For Each\nSubsystem"
+	    Location		    [0, 107, 1133, 1083]
+	    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+	    Open		    on
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  on
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    SimulinkSubDomain	    "Simulink"
+	    Block {
+	      BlockType		      Inport
+	      Name		      "sun_vector_BOF"
+	      SID		      "50"
+	      Position		      [110, 118, 140, 132]
+	      ZOrder		      1
+	    }
+	    Block {
+	      BlockType		      Inport
+	      Name		      "SP_orientation_array"
+	      SID		      "51"
+	      Position		      [110, 143, 140, 157]
+	      ZOrder		      2
+	      Port		      "2"
+	      Partition		      "on"
+	      PartitionDimension      "1"
+	      PartitionWidth	      "1"
+	      PartitionOffset	      "0"
+	    }
+	    Block {
+	      BlockType		      ForEach
+	      Name		      "For Each"
+	      SID		      "48"
+	      Ports		      []
+	      Position		      [40, 25, 94, 56]
+	      ZOrder		      -2
+	      DisableCoverage	      on
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "LIB_ROT_VECANGDIFF"
+	      SID		      "52"
+	      Ports		      [2, 2]
+	      Position		      [225, 112, 345, 163]
+	      ZOrder		      3009
+	      BackgroundColor	      "lightBlue"
+	      DropShadow	      on
+	      LibraryVersion	      "1.89"
+	      SourceBlock	      "LIB_ROT/LIB_ROT_VECANGDIFF"
+	      SourceType	      "Computes the angle between two vectors"
+	      RTWMemSecFuncInitTerm   "Inherit from model"
+	      RTWMemSecFuncExecute    "Inherit from model"
+	      RTWMemSecDataConstants  "Inherit from model"
+	      RTWMemSecDataInternal   "Inherit from model"
+	      RTWMemSecDataParameters "Inherit from model"
+	      ContentPreviewEnabled   off
+	      zero_tol		      "0"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "theta_array"
+	      SID		      "49"
+	      Position		      [490, 118, 520, 132]
+	      ZOrder		      -3
+	      ConcatenationDimension  "1"
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "LIB_ROT_VECANGDIFF"
+	      SrcPort		      1
+	      DstBlock		      "theta_array"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "SP_orientation_array"
+	      SrcPort		      1
+	      DstBlock		      "LIB_ROT_VECANGDIFF"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "sun_vector_BOF"
+	      SrcPort		      1
+	      DstBlock		      "LIB_ROT_VECANGDIFF"
+	      DstPort		      1
+	    }
+	  }
 	}
 	Block {
 	  BlockType		  Ground
 	  Name			  "Ground1"
 	  SID			  "42"
-	  Position		  [1545, 135, 1565, 155]
+	  Position		  [1545, 155, 1565, 175]
 	  ZOrder		  3004
 	}
 	Block {
 	  BlockType		  Ground
 	  Name			  "Ground2"
 	  SID			  "37"
-	  Position		  [1400, 200, 1420, 220]
+	  Position		  [1400, 220, 1420, 240]
 	  ZOrder		  2999
 	}
 	Block {
@@ -1385,33 +1533,13 @@ Library {
 	}
 	Block {
 	  BlockType		  Reference
-	  Name			  "LIB_ROT_VECANGDIFF"
-	  SID			  "20"
-	  Ports			  [2, 2]
-	  Position		  [770, 165, 885, 220]
-	  ZOrder		  2982
-	  BackgroundColor	  "lightBlue"
-	  DropShadow		  on
-	  LibraryVersion	  "1.89"
-	  SourceBlock		  "LIB_ROT/LIB_ROT_VECANGDIFF"
-	  SourceType		  "Computes the angle between two vectors"
-	  RTWMemSecFuncInitTerm	  "Inherit from model"
-	  RTWMemSecFuncExecute	  "Inherit from model"
-	  RTWMemSecDataConstants  "Inherit from model"
-	  RTWMemSecDataInternal	  "Inherit from model"
-	  RTWMemSecDataParameters "Inherit from model"
-	  ContentPreviewEnabled	  off
-	  zero_tol		  "0"
-	}
-	Block {
-	  BlockType		  Reference
 	  Name			  "LIB_SEN_SP_CURRENT"
 	  SID			  "29"
 	  Ports			  [2, 1]
-	  Position		  [1160, 131, 1325, 224]
+	  Position		  [1160, 151, 1325, 244]
 	  ZOrder		  2991
 	  BackgroundColor	  "lightBlue"
-	  LibraryVersion	  "16.6"
+	  LibraryVersion	  "16.7"
 	  SourceBlock		  "LIB_SEN/LIB_SEN_SP_CURRENT"
 	  SourceType		  "Panel Current"
 	  RTWMemSecFuncInitTerm	  "Inherit from model"
@@ -1429,7 +1557,7 @@ Library {
 	  Name			  "Logical\nOperator"
 	  SID			  "34"
 	  Ports			  [2, 1]
-	  Position		  [1210, 254, 1235, 321]
+	  Position		  [1210, 274, 1235, 341]
 	  ZOrder		  2996
 	  AllPortsSameDT	  off
 	  OutDataTypeStr	  "boolean"
@@ -1439,7 +1567,7 @@ Library {
 	  Name			  "NOT"
 	  SID			  "35"
 	  Ports			  [1, 1]
-	  Position		  [1135, 254, 1165, 286]
+	  Position		  [1135, 274, 1165, 306]
 	  ZOrder		  2997
 	  Operator		  "NOT"
 	  IconShape		  "distinctive"
@@ -1450,7 +1578,7 @@ Library {
 	  BlockType		  Quantizer
 	  Name			  "Quantizer"
 	  SID			  "39"
-	  Position		  [1720, 175, 1760, 215]
+	  Position		  [1720, 195, 1760, 235]
 	  ZOrder		  3001
 	  QuantizationInterval	  "SEN_SPC_par.sensitivity"
 	  LinearizeAsGain	  off
@@ -1459,15 +1587,19 @@ Library {
 	  BlockType		  Constant
 	  Name			  "SP_orientation_array"
 	  SID			  "16"
-	  Position		  [515, 270, 665, 300]
+	  Position		  [455, 250, 605, 280]
 	  ZOrder		  2978
 	  Value			  "[[1 0 0];[0 1 0];[-1 0 0];[0 -1 0]]"
+	  Port {
+	    PortNumber		    1
+	    Name		    "SP_orientation_array"
+	  }
 	}
 	Block {
 	  BlockType		  Saturate
 	  Name			  "Saturation"
 	  SID			  "25"
-	  Position		  [1085, 140, 1115, 170]
+	  Position		  [1085, 160, 1115, 190]
 	  ZOrder		  2987
 	  UpperLimit		  "inf"
 	  LowerLimit		  "0"
@@ -1476,7 +1608,7 @@ Library {
 	  BlockType		  Saturate
 	  Name			  "Saturation1"
 	  SID			  "40"
-	  Position		  [1840, 180, 1870, 210]
+	  Position		  [1840, 200, 1870, 230]
 	  ZOrder		  3002
 	  UpperLimit		  "SEN_SPC_par.full_scale_range"
 	  LowerLimit		  "-SEN_SPC_par.full_scale_range"
@@ -1500,7 +1632,7 @@ Library {
 	  Name			  "Subtract1"
 	  SID			  "21"
 	  Ports			  [2, 1]
-	  Position		  [940, 99, 955, 206]
+	  Position		  [950, 119, 965, 226]
 	  ZOrder		  2983
 	  IconShape		  "rectangular"
 	  Inputs		  "+-"
@@ -1514,7 +1646,7 @@ Library {
 	  Name			  "Sum"
 	  SID			  "44"
 	  Ports			  [2, 1]
-	  Position		  [1620, 185, 1640, 205]
+	  Position		  [1620, 205, 1640, 225]
 	  ZOrder		  3006
 	  Inputs		  "|++"
 	}
@@ -1522,7 +1654,7 @@ Library {
 	  BlockType		  Switch
 	  Name			  "Switch"
 	  SID			  "36"
-	  Position		  [1435, 175, 1485, 215]
+	  Position		  [1435, 195, 1485, 235]
 	  ZOrder		  2998
 	  Criteria		  "u2 ~= 0"
 	  InputSameDT		  off
@@ -1532,7 +1664,7 @@ Library {
 	  BlockType		  Switch
 	  Name			  "Switch1"
 	  SID			  "41"
-	  Position		  [1580, 110, 1630, 150]
+	  Position		  [1580, 130, 1630, 170]
 	  ZOrder		  3003
 	  Criteria		  "u2 > Threshold"
 	  InputSameDT		  off
@@ -1542,7 +1674,7 @@ Library {
 	  BlockType		  Outport
 	  Name			  "SPCvisflg_array"
 	  SID			  "4"
-	  Position		  [1970, 123, 2000, 137]
+	  Position		  [1970, 143, 2000, 157]
 	  ZOrder		  2966
 	  VectorParamsAs1DForOutWhenUnconnected	off
 	}
@@ -1550,7 +1682,7 @@ Library {
 	  BlockType		  Outport
 	  Name			  "SPCcurrent_mes"
 	  SID			  "5"
-	  Position		  [1970, 188, 2000, 202]
+	  Position		  [1970, 208, 2000, 222]
 	  ZOrder		  2967
 	  Port			  "2"
 	  VectorParamsAs1DForOutWhenUnconnected	off
@@ -1559,7 +1691,7 @@ Library {
 	  BlockType		  Outport
 	  Name			  "SPCcurrent"
 	  SID			  "6"
-	  Position		  [1970, 253, 2000, 267]
+	  Position		  [1970, 273, 2000, 287]
 	  ZOrder		  2968
 	  Port			  "3"
 	  VectorParamsAs1DForOutWhenUnconnected	off
@@ -1568,7 +1700,7 @@ Library {
 	  BlockType		  Outport
 	  Name			  "SPC_angle_array"
 	  SID			  "7"
-	  Position		  [1970, 88, 2000, 102]
+	  Position		  [1970, 108, 2000, 122]
 	  ZOrder		  2969
 	  Port			  "4"
 	  VectorParamsAs1DForOutWhenUnconnected	off
@@ -1611,24 +1743,26 @@ Library {
 	}
 	Line {
 	  Name			  "sun_vector_BOF"
-	  ZOrder		  11
+	  ZOrder		  99
 	  Labels		  [0, 0]
 	  SrcBlock		  "LIB_ROT_QVECPROD1"
 	  SrcPort		  1
-	  DstBlock		  "LIB_ROT_VECANGDIFF"
+	  DstBlock		  "For Each\nSubsystem"
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  12
+	  Name			  "SP_orientation_array"
+	  ZOrder		  100
+	  Labels		  [1, 1]
 	  SrcBlock		  "SP_orientation_array"
 	  SrcPort		  1
-	  Points		  [55, 0; 0, -80]
-	  DstBlock		  "LIB_ROT_VECANGDIFF"
+	  Points		  [100, 0; 0, -50]
+	  DstBlock		  "For Each\nSubsystem"
 	  DstPort		  2
 	}
 	Line {
-	  ZOrder		  15
-	  SrcBlock		  "LIB_ROT_VECANGDIFF"
+	  ZOrder		  102
+	  SrcBlock		  "For Each\nSubsystem"
 	  SrcPort		  1
 	  DstBlock		  "Subtract1"
 	  DstPort		  2

@@ -27,7 +27,7 @@ Library {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [130.0, 367.0, 994.0, 753.0]
+      Location		      [374.0, 220.0, 994.0, 753.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -52,23 +52,23 @@ Library {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2"
+	  Extents		  [880.0, 548.0]
+	  ZoomFactor		  [0.54068485998679827]
+	  Offset		  [275.8406137413009, -122.67193765396121]
+	  SceneRectInView	  [275.8406137413009, -122.67193765396121, 1627.5654547114316, 1013.5293967975732]
+	}
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
 	  Extents		  [880.0, 548.0]
 	  ZoomFactor		  [0.8]
 	  Offset		  [-221.42307692307691, 19.019230769230774]
 	  SceneRectInView	  [-221.42307692307691, 19.019230769230774, 1100.0, 685.0]
-	}
-	Object {
-	  $ObjectID		  6
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2"
-	  Extents		  [880.0, 548.0]
-	  ZoomFactor		  [0.7938157837271258]
-	  Offset		  [452.80116637323943, 79.831756161971839]
-	  SceneRectInView	  [452.80116637323943, 79.831756161971839, 1108.5695422535211, 690.33648767605632]
 	}
 	PropName		"EditorsInfo"
       }
@@ -131,9 +131,9 @@ Library {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "dbell44"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Jun 28 23:52:19 2021"
-  RTWModifiedTimeStamp	  546825061
-  ModelVersionFormat	  "%<AutoIncrement:1.3>"
+  LastModifiedDate	  "Sun Jul 11 12:51:09 2021"
+  RTWModifiedTimeStamp	  547674012
+  ModelVersionFormat	  "%<AutoIncrement:1.5>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -1135,7 +1135,7 @@ Library {
     Name		    "ACT_MTR"
     Location		    [130, 367, 1124, 1120]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    on
+    Open		    off
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -1151,7 +1151,7 @@ Library {
     ShowPageBoundaries	    off
     ZoomFactor		    "80"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "17"
+    SIDHighWatermark	    "22"
     SimulinkSubDomain	    "Simulink"
     Block {
       BlockType		      SubSystem
@@ -1164,9 +1164,9 @@ Library {
       ContentPreviewEnabled   on
       System {
 	Name			"ACT_MTR"
-	Location		[130, 367, 1124, 1120]
+	Location		[374, 220, 1368, 973]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			off
+	Open			on
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -1180,7 +1180,7 @@ Library {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"79"
+	ZoomFactor		"54"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  Inport
@@ -1231,11 +1231,12 @@ Library {
 	}
 	Block {
 	  BlockType		  Product
-	  Name			  "Product"
-	  SID			  "13"
+	  Name			  "Matrix Multiply"
+	  SID			  "22"
 	  Ports			  [2, 1]
-	  Position		  [1165, 494, 1200, 541]
-	  ZOrder		  45
+	  Position		  [1165, 494, 1205, 541]
+	  ZOrder		  255
+	  Multiplication	  "Matrix(*)"
 	}
 	Block {
 	  BlockType		  Product
@@ -1272,10 +1273,10 @@ Library {
 	  ZOrder		  43
 	}
 	Line {
-	  ZOrder		  2
+	  ZOrder		  31
 	  SrcBlock		  "orientation"
 	  SrcPort		  1
-	  DstBlock		  "Product"
+	  DstBlock		  "Matrix Multiply"
 	  DstPort		  2
 	}
 	Line {
@@ -1300,8 +1301,8 @@ Library {
 	  DstPort		  2
 	}
 	Line {
-	  ZOrder		  16
-	  SrcBlock		  "Product"
+	  ZOrder		  30
+	  SrcBlock		  "Matrix Multiply"
 	  SrcPort		  1
 	  DstBlock		  "magmomapp_BOF"
 	  DstPort		  1
@@ -1329,11 +1330,11 @@ Library {
 	  DstPort		  3
 	}
 	Line {
-	  ZOrder		  12
+	  ZOrder		  32
 	  SrcBlock		  "Sum"
 	  SrcPort		  1
-	  Points		  [75, 0; 0, 195]
-	  DstBlock		  "Product"
+	  Points		  [70, 0; 0, 195]
+	  DstBlock		  "Matrix Multiply"
 	  DstPort		  1
 	}
 	Line {
